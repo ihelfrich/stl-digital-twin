@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>St. Louis 3D World</title>
+    <link rel="icon" href="./public/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cesium.com/downloads/cesiumjs/releases/1.122/Build/Cesium/Widgets/widgets.css"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.122/Build/Cesium/Cesium.js"></script>
+  </head>
+  <body>
+    <div id="cesiumContainer" aria-label="St. Louis 3D map"></div>
+    <canvas id="weatherCanvas" aria-hidden="true"></canvas>
+
+    <aside class="control-surface" aria-label="3D world controls">
+      <header class="surface-header">
+        <div>
+          <p class="eyebrow">St. Louis, MO</p>
+          <h1>3D World Model</h1>
+        </div>
+        <div class="status-pill" id="renderStatus">Loading</div>
+      </header>
+
+      <section class="toolbar-row" aria-label="Camera presets">
+        <button data-fly="arch">Arch</button>
+        <button data-fly="downtown">Downtown</button>
+        <button data-fly="cortex">Cortex</button>
+        <button data-fly="airport">Airport</button>
+      </section>
+
+      <section class="layer-grid" aria-label="Layers">
+        <label>
+          <input type="checkbox" id="buildingsToggle" checked />
+          OSM buildings
+        </label>
+        <label>
+          <input type="checkbox" id="liveToggle" checked />
+          Live objects
+        </label>
+        <label>
+          <input type="checkbox" id="trafficToggle" checked />
+          Traffic
+        </label>
+        <label>
+          <input type="checkbox" id="aircraftToggle" checked />
+          Aircraft
+        </label>
+        <label>
+          <input type="checkbox" id="transitToggle" checked />
+          Transit
+        </label>
+        <label>
+          <input type="checkbox" id="weatherToggle" checked />
+          Weather
+        </label>
+        <label>
+          <input type="checkbox" id="sitesToggle" checked />
+          Sites
+        </label>
+        <label>
+          <input type="checkbox" id="shadowsToggle" />
+          Sun shadows
+        </label>
+      </section>
+
+      <section class="key-metrics" aria-label="Scene metrics">
+        <div>
+          <span id="buildingCount">0</span>
+          <small>buildings</small>
+        </div>
+        <div>
+          <span id="liveCount">0</span>
+          <small>live objects</small>
+        </div>
+        <div>
+          <span id="trafficCount">0</span>
+          <small>traffic</small>
+        </div>
+        <div>
+          <span id="aircraftCount">0</span>
+          <small>aircraft</small>
+        </div>
+        <div>
+          <span id="transitCount">0</span>
+          <small>transit</small>
+        </div>
+        <div>
+          <span id="weatherStatus">--</span>
+          <small>weather</small>
+        </div>
+      </section>
+
+      <section class="command-box" aria-label="Command input">
+        <input
+          id="commandInput"
+          autocomplete="off"
+          placeholder="fly arch, track river-1, hide buildings"
+        />
+        <button id="runCommand">Run</button>
+      </section>
+
+      <section class="google-box" aria-label="Photorealistic tiles">
+        <input id="googleKey" autocomplete="off" placeholder="Google 3D Tiles API key" />
+        <button id="enableGoogleTiles">3D tiles</button>
+      </section>
+    </aside>
+
+    <aside class="feed-surface" aria-label="Live feed">
+      <header>
+        <h2>Digital Twin Feeds</h2>
+        <span id="feedClock">--:--:--</span>
+      </header>
+      <ol id="liveFeed"></ol>
+    </aside>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

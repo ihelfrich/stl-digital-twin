@@ -1,0 +1,20 @@
+{
+  "name": "st-louis-3d-world",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-stl-data.mjs",
+    "fetch:city": "node scripts/fetch-stl-data.mjs --city",
+    "fetch:county": "node scripts/fetch-stl-data.mjs --county",
+    "build:render": "node scripts/build-render-dataset.mjs",
+    "feeds": "node scripts/fetch-live-feeds.mjs",
+    "feeds:watch": "node scripts/fetch-live-feeds.mjs --watch",
+    "model:aircraft": "node scripts/generate-aircraft-model.mjs",
+    "serve": "python3 -m http.server 5173 --bind 127.0.0.1",
+    "simulate": "node scripts/simulate-live-feed.mjs"
+  },
+  "dependencies": {
+    "gtfs-realtime-bindings": "^1.1.1"
+  }
+}
