@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-05-17T22:01:43.989Z",
+    "updatedAt": "2026-05-17T23:10:16.623Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 83
+    "featureCount": 81
   },
   "features": [
     {
@@ -173,6 +173,61 @@
     },
     {
       "type": "Feature",
+      "id": 266430619,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32423257599999,
+          38.521384444000034
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 12,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "55",
+        "DIRECTION": "N",
+        "DATA_ID": 1000597,
+        "STATIC_DTL_ID": 314857,
+        "TRANSACTION_ID": 67974239,
+        "ACTIVATION_DATE": 1779059410000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 55 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 198.266998,
+        "END_LOG": 198.766998,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779059410000,
+        "START_DATE": 1779058980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "DEBRIS ON ROADWAY",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "DEBRIS I-55 NB PAST I-255 LEFT LANE CLOSED EST. CLEARANCE TIME: 6:33 PM (-90321166,38523045)",
+        "ATMS_ID": 875218,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1779059410000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1779059411000,
+        "BEGIN_DESCRIPTION": ".441 mile(s) after RP IS270W TO IS55N N",
+        "END_DESCRIPTION": ".08 mile(s) before CST GREEN PARK RD E",
+        "OBJECT_ID": 266430619,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 266429631,
       "geometry": {
         "type": "Point",
@@ -276,61 +331,6 @@
         "BEGIN_DESCRIPTION": ".012 mile(s) before CST PERSHALL RD E",
         "END_DESCRIPTION": ".013 mile(s) after CST PERSHALL RD E",
         "OBJECT_ID": 266429261,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 266430539,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.52843353999998,
-          38.742831006000074
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "KIMBRS2",
-        "COUNTY_NAME": "ST. CHARLES",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 279557,
-        "DESIGNATION": "MO",
-        "TRAVELWAY_NAME": "364",
-        "DIRECTION": "E",
-        "DATA_ID": 1000580,
-        "STATIC_DTL_ID": 314853,
-        "TRANSACTION_ID": 67974212,
-        "ACTIVATION_DATE": 1779052847000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "MO 364 E",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 15.066,
-        "END_LOG": 15.0860004,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1779052847000,
-        "START_DATE": 1779052380000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH MO 364 EB AT ARENA PKWY 4 LEFT LANES CLOSED EST. CLEARANCE TIME: 5:13 PM (-90528963,38743165)",
-        "ATMS_ID": 875206,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1779052847000,
-        "LOC_LAST_CHANGED_USER": "KIMBRS2",
-        "LOC_LAST_CHANGED_DATE": 1779052847000,
-        "BEGIN_DESCRIPTION": ".087 mile(s) after CRD UPPER BOTTOM RD E",
-        "END_DESCRIPTION": ".107 mile(s) after CRD UPPER BOTTOM RD E",
-        "OBJECT_ID": 266430539,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -444,61 +444,6 @@
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 266430570,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.37745661499997,
-          38.63126817800003
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 0.5,
-        "LAST_CHANGED_USER": "STILLM1",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 904788,
-        "DESIGNATION": "RP",
-        "TRAVELWAY_NAME": "SOR40 TO IS64E",
-        "DIRECTION": "E",
-        "DATA_ID": 1000581,
-        "STATIC_DTL_ID": 314854,
-        "TRANSACTION_ID": 67974222,
-        "ACTIVATION_DATE": 1779055279000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "RP SOR40 TO IS64E E",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.0599999987,
-        "END_LOG": 0.0799999982,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1779055279000,
-        "START_DATE": 1779054960000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "OTHER",
-        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-64 EB ON RAMP FROM CLAYTON RD BE PREPARED TO STOP EST. CLEARANCE TIME: 5:26 PM (-90378126,38631336)",
-        "ATMS_ID": 875212,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1779055279000,
-        "LOC_LAST_CHANGED_USER": "STILLM1",
-        "LOC_LAST_CHANGED_DATE": 1779055279000,
-        "BEGIN_DESCRIPTION": ".06 mile(s) after OR 64 E",
-        "END_DESCRIPTION": ".08 mile(s) after OR 64 E",
-        "OBJECT_ID": 266430570,
-        "layerId": 25,
-        "layerName": "Incident Medium Point",
-        "severity": "medium"
       }
     },
     {
@@ -2706,6 +2651,83 @@
     },
     {
       "type": "Feature",
+      "id": 266430619,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.32850406699998,
+            38.52001368700007
+          ],
+          [
+            -90.32422605599999,
+            38.52138653600008
+          ],
+          [
+            -90.32307170899998,
+            38.521878868000044
+          ],
+          [
+            -90.32226875199996,
+            38.52232201400005
+          ],
+          [
+            -90.32134185799998,
+            38.52296446200006
+          ],
+          [
+            -90.32066168299997,
+            38.52361974200005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1000597,
+        "STATIC_DTL_ID": 314857,
+        "TRANSACTION_ID": 67974239,
+        "ACTIVATION_DATE": 1779059410000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 12,
+        "TRAVELWAY_NAME": "55",
+        "DESIGNATION": "IS",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "IS 55 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 198.266998,
+        "END_LOG": 198.766998,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779059410000,
+        "START_DATE": 1779058980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "DEBRIS ON ROADWAY",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "DEBRIS I-55 NB PAST I-255 LEFT LANE CLOSED EST. CLEARANCE TIME: 6:33 PM (-90321166,38523045)",
+        "ATMS_ID": 875218,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1779059410000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1779059411000,
+        "BEGIN_DESCRIPTION": ".441 mile(s) after RP IS270W TO IS55N N",
+        "END_DESCRIPTION": ".08 mile(s) before CST GREEN PARK RD E",
+        "OBJECT_ID": 266430619,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 266429631,
       "geometry": {
         "type": "LineString",
@@ -2844,67 +2866,6 @@
     },
     {
       "type": "Feature",
-      "id": 266430539,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.52856574699996,
-            38.742932293000024
-          ],
-          [
-            -90.52830133399999,
-            38.74272971800008
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1000580,
-        "STATIC_DTL_ID": 314853,
-        "TRANSACTION_ID": 67974212,
-        "ACTIVATION_DATE": 1779052847000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 279557,
-        "TRAVELWAY_NAME": "364",
-        "DESIGNATION": "MO",
-        "DIRECTION": "E",
-        "OFFSET": null,
-        "ROUTE": "MO 364 E",
-        "COUNTY_NAME": "ST. CHARLES",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 15.066,
-        "END_LOG": 15.0860004,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1779052847000,
-        "START_DATE": 1779052380000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH MO 364 EB AT ARENA PKWY 4 LEFT LANES CLOSED EST. CLEARANCE TIME: 5:13 PM (-90528963,38743165)",
-        "ATMS_ID": 875206,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "KIMBRS2",
-        "LAST_CHANGED_DATE": 1779052847000,
-        "LOC_LAST_CHANGED_USER": "KIMBRS2",
-        "LOC_LAST_CHANGED_DATE": 1779052847000,
-        "BEGIN_DESCRIPTION": ".087 mile(s) after CRD UPPER BOTTOM RD E",
-        "END_DESCRIPTION": ".107 mile(s) after CRD UPPER BOTTOM RD E",
-        "OBJECT_ID": 266430539,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 266397919,
       "geometry": {
         "type": "LineString",
@@ -3031,67 +2992,6 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 266430570,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.37764092499998,
-            38.63127179800006
-          ],
-          [
-            -90.37727230499996,
-            38.631264557000065
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1000581,
-        "STATIC_DTL_ID": 314854,
-        "TRANSACTION_ID": 67974222,
-        "ACTIVATION_DATE": 1779055279000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 904788,
-        "TRAVELWAY_NAME": "SOR40 TO IS64E",
-        "DESIGNATION": "RP",
-        "DIRECTION": "E",
-        "OFFSET": null,
-        "ROUTE": "RP SOR40 TO IS64E E",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.0599999987,
-        "END_LOG": 0.0799999982,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1779055279000,
-        "START_DATE": 1779054960000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 0.5,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "OTHER",
-        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-64 EB ON RAMP FROM CLAYTON RD BE PREPARED TO STOP EST. CLEARANCE TIME: 5:26 PM (-90378126,38631336)",
-        "ATMS_ID": 875212,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "STILLM1",
-        "LAST_CHANGED_DATE": 1779055279000,
-        "LOC_LAST_CHANGED_USER": "STILLM1",
-        "LOC_LAST_CHANGED_DATE": 1779055279000,
-        "BEGIN_DESCRIPTION": ".06 mile(s) after OR 64 E",
-        "END_DESCRIPTION": ".08 mile(s) after OR 64 E",
-        "OBJECT_ID": 266430570,
-        "layerId": 32,
-        "layerName": "Incident Medium Line",
-        "severity": "medium"
       }
     },
     {
