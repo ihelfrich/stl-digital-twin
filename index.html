@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>St. Louis 3D World</title>
+    <title>St. Louis · SimCity Digital Twin</title>
     <link rel="icon" href="./public/favicon.svg" />
     <link
       rel="stylesheet"
@@ -19,8 +19,8 @@
     <aside class="control-surface" aria-label="3D world controls">
       <header class="surface-header">
         <div>
-          <p class="eyebrow">St. Louis, MO</p>
-          <h1>3D World Model</h1>
+          <p class="eyebrow">St. Louis, MO · Digital Twin</p>
+          <h1>SimCity Live</h1>
         </div>
         <div class="status-pill" id="renderStatus">Loading</div>
       </header>
@@ -65,6 +65,10 @@
           <input type="checkbox" id="shadowsToggle" />
           Sun shadows
         </label>
+        <label>
+          <input type="checkbox" id="sohoToggle" checked />
+          Soho House
+        </label>
       </section>
 
       <section class="key-metrics" aria-label="Scene metrics">
@@ -98,7 +102,7 @@
         <input
           id="commandInput"
           autocomplete="off"
-          placeholder="fly arch, track river-1, hide buildings"
+          placeholder="fly arch · fly london · fly berlin · track river-1"
         />
         <button id="runCommand">Run</button>
       </section>
@@ -116,6 +120,9 @@
       </header>
       <ol id="liveFeed"></ol>
     </aside>
+
+    <!-- Soho House BIM modal -->
+    <div id="bimModal" role="presentation" aria-hidden="true"></div>
 
     <script type="module" src="./src/app.js"></script>
   </body>
