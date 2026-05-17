@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-05-17T17:40:01.639Z",
+    "updatedAt": "2026-05-17T18:44:48.540Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 81
+    "featureCount": 85
   },
   "features": [
     {
@@ -338,6 +338,61 @@
     },
     {
       "type": "Feature",
+      "id": 266430332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.38925512199995,
+          38.53654048200008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "KIMBRS2",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 14,
+        "DESIGNATION": "US",
+        "TRAVELWAY_NAME": "67",
+        "DIRECTION": "N",
+        "DATA_ID": 1000530,
+        "STATIC_DTL_ID": 314841,
+        "TRANSACTION_ID": 67974129,
+        "ACTIVATION_DATE": 1779043480000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "US 67 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 164.824005,
+        "END_LOG": 164.843994,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779043480000,
+        "START_DATE": 1779043200000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH US 67 NB PAST GRAVOIS RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 2:40 PM (-90385104,38533493)",
+        "ATMS_ID": 875192,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1779043480000,
+        "LOC_LAST_CHANGED_USER": "KIMBRS2",
+        "LOC_LAST_CHANGED_DATE": 1779043480000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) before CST DENNY RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CST DENNY RD E",
+        "OBJECT_ID": 266430332,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 266397919,
       "geometry": {
         "type": "Point",
@@ -444,6 +499,61 @@
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266430286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.71240535199996,
+          38.802637884000035
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "KIMBRS2",
+        "COUNTY_NAME": "ST. CHARLES",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3506,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "W",
+        "DATA_ID": 1000526,
+        "STATIC_DTL_ID": 314840,
+        "TRANSACTION_ID": 67974111,
+        "ACTIVATION_DATE": 1779042747000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 32.7949982,
+        "END_LOG": 33.0449982,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779043237000,
+        "START_DATE": 1779042480000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "POLICE EMERGENCY",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "EMERGENCY VEHICLES I-70 WB PAST ROUTE K/M CLEARED AT 1:37 PM  (-90714380,38802688)",
+        "ATMS_ID": 875191,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1779043237000,
+        "LOC_LAST_CHANGED_USER": "KIMBRS2",
+        "LOC_LAST_CHANGED_DATE": 1779043237000,
+        "BEGIN_DESCRIPTION": ".267 mile(s) after CST WOODLAWN AVE S",
+        "END_DESCRIPTION": ".517 mile(s) after CST WOODLAWN AVE S",
+        "OBJECT_ID": 266430286,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
       }
     },
     {
@@ -1519,7 +1629,7 @@
     },
     {
       "type": "Feature",
-      "id": 41,
+      "id": 1,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1574,7 +1684,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 41,
+        "ESRI_OID": 1,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1582,7 +1692,7 @@
     },
     {
       "type": "Feature",
-      "id": 42,
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1637,7 +1747,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 42,
+        "ESRI_OID": 2,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1645,7 +1755,7 @@
     },
     {
       "type": "Feature",
-      "id": 43,
+      "id": 3,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1700,7 +1810,7 @@
         "LAST_CHANGED_DATE": "04/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 43,
+        "ESRI_OID": 3,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1708,7 +1818,7 @@
     },
     {
       "type": "Feature",
-      "id": 44,
+      "id": 4,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1763,7 +1873,7 @@
         "LAST_CHANGED_DATE": "02/09/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 44,
+        "ESRI_OID": 4,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1771,7 +1881,7 @@
     },
     {
       "type": "Feature",
-      "id": 45,
+      "id": 5,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1826,7 +1936,7 @@
         "LAST_CHANGED_DATE": "04/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550491,
-        "ESRI_OID": 45,
+        "ESRI_OID": 5,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1834,7 +1944,7 @@
     },
     {
       "type": "Feature",
-      "id": 46,
+      "id": 6,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1889,7 +1999,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531980,
-        "ESRI_OID": 46,
+        "ESRI_OID": 6,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1897,7 +2007,7 @@
     },
     {
       "type": "Feature",
-      "id": 47,
+      "id": 7,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1952,7 +2062,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531981,
-        "ESRI_OID": 47,
+        "ESRI_OID": 7,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1960,7 +2070,7 @@
     },
     {
       "type": "Feature",
-      "id": 48,
+      "id": 8,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2015,7 +2125,7 @@
         "LAST_CHANGED_DATE": "04/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 48,
+        "ESRI_OID": 8,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2023,7 +2133,7 @@
     },
     {
       "type": "Feature",
-      "id": 49,
+      "id": 9,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2078,7 +2188,7 @@
         "LAST_CHANGED_DATE": "04/23/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550187,
-        "ESRI_OID": 49,
+        "ESRI_OID": 9,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2086,7 +2196,7 @@
     },
     {
       "type": "Feature",
-      "id": 50,
+      "id": 10,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2141,7 +2251,7 @@
         "LAST_CHANGED_DATE": "04/28/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550384,
-        "ESRI_OID": 50,
+        "ESRI_OID": 10,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2149,7 +2259,7 @@
     },
     {
       "type": "Feature",
-      "id": 51,
+      "id": 11,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2204,7 +2314,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 51,
+        "ESRI_OID": 11,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2212,7 +2322,7 @@
     },
     {
       "type": "Feature",
-      "id": 52,
+      "id": 12,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2267,7 +2377,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 52,
+        "ESRI_OID": 12,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2275,7 +2385,7 @@
     },
     {
       "type": "Feature",
-      "id": 53,
+      "id": 13,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2330,7 +2440,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 53,
+        "ESRI_OID": 13,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2338,7 +2448,7 @@
     },
     {
       "type": "Feature",
-      "id": 54,
+      "id": 14,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2393,7 +2503,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 54,
+        "ESRI_OID": 14,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2401,7 +2511,7 @@
     },
     {
       "type": "Feature",
-      "id": 55,
+      "id": 15,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2456,7 +2566,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 55,
+        "ESRI_OID": 15,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2850,6 +2960,71 @@
     },
     {
       "type": "Feature",
+      "id": 266430332,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.38910284499997,
+            38.53645860700004
+          ],
+          [
+            -90.38933126199998,
+            38.53658142100005
+          ],
+          [
+            -90.38941139199994,
+            38.536616851000076
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1000530,
+        "STATIC_DTL_ID": 314841,
+        "TRANSACTION_ID": 67974129,
+        "ACTIVATION_DATE": 1779043480000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 14,
+        "TRAVELWAY_NAME": "67",
+        "DESIGNATION": "US",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "US 67 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 164.824005,
+        "END_LOG": 164.843994,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779043480000,
+        "START_DATE": 1779043200000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH US 67 NB PAST GRAVOIS RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 2:40 PM (-90385104,38533493)",
+        "ATMS_ID": 875192,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "KIMBRS2",
+        "LAST_CHANGED_DATE": 1779043480000,
+        "LOC_LAST_CHANGED_USER": "KIMBRS2",
+        "LOC_LAST_CHANGED_DATE": 1779043480000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) before CST DENNY RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CST DENNY RD E",
+        "OBJECT_ID": 266430332,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 266397919,
       "geometry": {
         "type": "LineString",
@@ -2976,6 +3151,67 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266430286,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.71009050899994,
+            38.80258027700006
+          ],
+          [
+            -90.71472019899994,
+            38.80269544500004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1000526,
+        "STATIC_DTL_ID": 314840,
+        "TRANSACTION_ID": 67974111,
+        "ACTIVATION_DATE": 1779042747000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3506,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "COUNTY_NAME": "ST. CHARLES",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 32.7949982,
+        "END_LOG": 33.0449982,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1779043237000,
+        "START_DATE": 1779042480000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "POLICE EMERGENCY",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "EMERGENCY VEHICLES I-70 WB PAST ROUTE K/M CLEARED AT 1:37 PM  (-90714380,38802688)",
+        "ATMS_ID": 875191,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "KIMBRS2",
+        "LAST_CHANGED_DATE": 1779043237000,
+        "LOC_LAST_CHANGED_USER": "KIMBRS2",
+        "LOC_LAST_CHANGED_DATE": 1779043237000,
+        "BEGIN_DESCRIPTION": ".267 mile(s) after CST WOODLAWN AVE S",
+        "END_DESCRIPTION": ".517 mile(s) after CST WOODLAWN AVE S",
+        "OBJECT_ID": 266430286,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
       }
     },
     {
