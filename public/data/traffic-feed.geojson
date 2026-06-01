@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-06-01T13:03:06.201Z",
+    "updatedAt": "2026-06-01T18:48:52.351Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 67
+    "featureCount": 91
   },
   "features": [
     {
@@ -228,7 +228,667 @@
     },
     {
       "type": "Feature",
-      "id": 135,
+      "id": 266543164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.22274077699996,
+          38.72786290800008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 256013,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "H",
+        "DIRECTION": "N",
+        "DATA_ID": 1004689,
+        "STATIC_DTL_ID": 316065,
+        "TRANSACTION_ID": 68025270,
+        "ACTIVATION_DATE": 1780323274000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT H N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.96099997,
+        "END_LOG": 3.98099995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004688,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323274000,
+        "START_DATE": 1780323240000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780323274000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323274000,
+        "BEGIN_DESCRIPTION": ".017 mile(s) before CST HALL ST N",
+        "END_DESCRIPTION": ".003 mile(s) after CST HALL ST N",
+        "OBJECT_ID": 266543164,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543408,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.36598749099994,
+          38.52618647000003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3507,
+        "DESIGNATION": "US",
+        "TRAVELWAY_NAME": "50",
+        "DIRECTION": "E",
+        "DATA_ID": 1004696,
+        "STATIC_DTL_ID": 316072,
+        "TRANSACTION_ID": 68025338,
+        "ACTIVATION_DATE": 1780325045000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "US 50 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 255.975998,
+        "END_LOG": 256.028015,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004695,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780325045000,
+        "START_DATE": 1780324980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780325045000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780325045000,
+        "BEGIN_DESCRIPTION": ".021 mile(s) after PVT CARROLL WOOD WAY S",
+        "END_DESCRIPTION": ".024 mile(s) after PVT HACKBERRY DR S",
+        "OBJECT_ID": 266543408,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.22282317599996,
+          38.72791984000003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 256012,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "H",
+        "DIRECTION": "S",
+        "DATA_ID": 1004688,
+        "STATIC_DTL_ID": 316064,
+        "TRANSACTION_ID": 68025270,
+        "ACTIVATION_DATE": 1780323273000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT H S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.01499987,
+        "END_LOG": 4.03700018,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004689,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323273000,
+        "START_DATE": 1780323240000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780323273000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323273000,
+        "BEGIN_DESCRIPTION": ".01 mile(s) before CST HALL ST S",
+        "END_DESCRIPTION": ".012 mile(s) after CST HALL ST S",
+        "OBJECT_ID": 266543157,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.30890331399996,
+          38.751855017000025
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6154,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "N",
+        "DIRECTION": "N",
+        "DATA_ID": 1004692,
+        "STATIC_DTL_ID": 316068,
+        "TRANSACTION_ID": 68025301,
+        "ACTIVATION_DATE": 1780323851000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT N N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.56599998,
+        "END_LOG": 3.58699989,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004691,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323851000,
+        "START_DATE": 1780323780000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780323851000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323851000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CST JANUARY AVE E",
+        "END_DESCRIPTION": ".01 mile(s) after CST JANUARY AVE E",
+        "OBJECT_ID": 266543304,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32610198099997,
+          38.67114948200003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6142,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "340",
+        "DIRECTION": "W",
+        "DATA_ID": 1004693,
+        "STATIC_DTL_ID": 316069,
+        "TRANSACTION_ID": 68025316,
+        "ACTIVATION_DATE": 1780324394000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 340 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.947000027,
+        "END_LOG": 1.05799997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004694,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780324394000,
+        "START_DATE": 1780324320000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780324394000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780324394000,
+        "BEGIN_DESCRIPTION": ".019 mile(s) after CST WALDRON S",
+        "END_DESCRIPTION": ".055 mile(s) after CST MIDLAND BLVD E",
+        "OBJECT_ID": 266543327,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32610198099997,
+          38.67114948200003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6141,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "340",
+        "DIRECTION": "E",
+        "DATA_ID": 1004694,
+        "STATIC_DTL_ID": 316070,
+        "TRANSACTION_ID": 68025316,
+        "ACTIVATION_DATE": 1780324394000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 340 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 18.2150002,
+        "END_LOG": 18.3260002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004693,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780324394000,
+        "START_DATE": 1780324320000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780324394000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780324394000,
+        "BEGIN_DESCRIPTION": ".055 mile(s) before CST MIDLAND BLVD E",
+        "END_DESCRIPTION": ".019 mile(s) before CST WALDRON S",
+        "OBJECT_ID": 266543330,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.30890331499995,
+          38.75185502000005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6153,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "N",
+        "DIRECTION": "S",
+        "DATA_ID": 1004691,
+        "STATIC_DTL_ID": 316067,
+        "TRANSACTION_ID": 68025301,
+        "ACTIVATION_DATE": 1780323850000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT N S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.61800003,
+        "END_LOG": 1.63900006,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004692,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323850000,
+        "START_DATE": 1780323780000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780323850000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323850000,
+        "BEGIN_DESCRIPTION": ".01 mile(s) before CST JANUARY AVE E",
+        "END_DESCRIPTION": ".011 mile(s) after CST JANUARY AVE E",
+        "OBJECT_ID": 266543301,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.36598749099994,
+          38.52618646900004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3508,
+        "DESIGNATION": "US",
+        "TRAVELWAY_NAME": "50",
+        "DIRECTION": "W",
+        "DATA_ID": 1004695,
+        "STATIC_DTL_ID": 316071,
+        "TRANSACTION_ID": 68025338,
+        "ACTIVATION_DATE": 1780325042000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "US 50 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 5.83699989,
+        "END_LOG": 5.88899994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004696,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780325042000,
+        "START_DATE": 1780324980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780325042000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780325042000,
+        "BEGIN_DESCRIPTION": ".024 mile(s) before PVT HACKBERRY DR S",
+        "END_DESCRIPTION": ".021 mile(s) before PVT CARROLL WOOD WAY S",
+        "OBJECT_ID": 266543402,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.29259689099996,
+          38.70147249400003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6379,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "N",
+        "DATA_ID": 1004686,
+        "STATIC_DTL_ID": 316062,
+        "TRANSACTION_ID": 68025220,
+        "ACTIVATION_DATE": 1780322066000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.19799995,
+        "END_LOG": 6.23099995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004687,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780322066000,
+        "START_DATE": 1780321980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780322066000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780322066000,
+        "BEGIN_DESCRIPTION": ".019 mile(s) before RT U S",
+        "END_DESCRIPTION": ".014 mile(s) after RT U S",
+        "OBJECT_ID": 266542901,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542904,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.29259689099996,
+          38.70147249400003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6378,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "S",
+        "DATA_ID": 1004687,
+        "STATIC_DTL_ID": 316063,
+        "TRANSACTION_ID": 68025220,
+        "ACTIVATION_DATE": 1780322066000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.00400019,
+        "END_LOG": 4.03700018,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004686,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780322066000,
+        "START_DATE": 1780321980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780322066000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780322066000,
+        "BEGIN_DESCRIPTION": ".014 mile(s) before RT U S",
+        "END_DESCRIPTION": ".019 mile(s) after RT U S",
+        "OBJECT_ID": 266542904,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542736,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24886468199998,
+          38.675074136000035
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 216430,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "NATURAL BRIDGE AVE",
+        "DIRECTION": "W",
+        "DATA_ID": 1004682,
+        "STATIC_DTL_ID": 316058,
+        "TRANSACTION_ID": 68025176,
+        "ACTIVATION_DATE": 1780321511000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST NATURAL BRIDGE AVE W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 2.51999998,
+        "END_LOG": 2.57500005,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004683,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780321511000,
+        "START_DATE": 1780321440000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUES - USE CATUTION ",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780321641000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780321641000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CST EUCLID AVE S",
+        "END_DESCRIPTION": ".009 mile(s) after CST EUCLID AVE S",
+        "OBJECT_ID": 266542736,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542739,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24886468299997,
+          38.675074137000024
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "piercs1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 92544,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "NATURAL BRIDGE AVE",
+        "DIRECTION": "E",
+        "DATA_ID": 1004683,
+        "STATIC_DTL_ID": 316059,
+        "TRANSACTION_ID": 68025176,
+        "ACTIVATION_DATE": 1780321511000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST NATURAL BRIDGE AVE E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.89499998,
+        "END_LOG": 1.95000005,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004682,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780321511000,
+        "START_DATE": 1780321440000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUES - USE CATUTION ",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780321641000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780321641000,
+        "BEGIN_DESCRIPTION": ".009 mile(s) before CST EUCLID AVE S",
+        "END_DESCRIPTION": ".003 mile(s) after CST EUCLID AVE S",
+        "OBJECT_ID": 266542739,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -283,7 +943,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 135,
+        "ESRI_OID": 95,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -291,7 +951,7 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 134,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -346,7 +1006,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 1,
+        "ESRI_OID": 134,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -354,7 +1014,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 135,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -409,7 +1069,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 2,
+        "ESRI_OID": 135,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -417,7 +1077,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 165,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -472,7 +1132,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 5,
+        "ESRI_OID": 165,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -480,7 +1140,7 @@
     },
     {
       "type": "Feature",
-      "id": 189,
+      "id": 169,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -535,7 +1195,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 189,
+        "ESRI_OID": 169,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -543,7 +1203,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 173,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -598,7 +1258,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 6,
+        "ESRI_OID": 173,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -606,7 +1266,7 @@
     },
     {
       "type": "Feature",
-      "id": 200,
+      "id": 186,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -661,7 +1321,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 200,
+        "ESRI_OID": 186,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -669,7 +1329,7 @@
     },
     {
       "type": "Feature",
-      "id": 204,
+      "id": 191,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -724,7 +1384,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 204,
+        "ESRI_OID": 191,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -732,7 +1392,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 201,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -787,7 +1447,7 @@
         "LAST_CHANGED_DATE": "05/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 8,
+        "ESRI_OID": 201,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -795,7 +1455,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 218,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -850,7 +1510,7 @@
         "LAST_CHANGED_DATE": "05/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 7,
+        "ESRI_OID": 218,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -858,7 +1518,7 @@
     },
     {
       "type": "Feature",
-      "id": 231,
+      "id": 223,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -913,7 +1573,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 231,
+        "ESRI_OID": 223,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -921,7 +1581,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 229,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -976,7 +1636,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 3,
+        "ESRI_OID": 229,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -984,7 +1644,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 230,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1039,7 +1699,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 4,
+        "ESRI_OID": 230,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1047,7 +1707,7 @@
     },
     {
       "type": "Feature",
-      "id": 94,
+      "id": 21,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1102,7 +1762,7 @@
         "LAST_CHANGED_DATE": "05/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 94,
+        "ESRI_OID": 21,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1110,7 +1770,7 @@
     },
     {
       "type": "Feature",
-      "id": 31,
+      "id": 22,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1165,7 +1825,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 31,
+        "ESRI_OID": 22,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1173,7 +1833,7 @@
     },
     {
       "type": "Feature",
-      "id": 29,
+      "id": 25,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1228,7 +1888,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 29,
+        "ESRI_OID": 25,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1236,19 +1896,19 @@
     },
     {
       "type": "Feature",
-      "id": 28,
+      "id": 140,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.27681087899998,
-          38.532411754000066
+          -90.27721693099994,
+          38.52692327700004
         ]
       },
       "properties": {
-        "OBJECTID": 265833472,
+        "OBJECTID": 266543641,
         "TI_OSOW_ID": null,
         "TI_WZ_ID": 547276,
-        "LAST_CHANGED_USER": "COLEMP1",
+        "LAST_CHANGED_USER": "DIEBOJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6256,
@@ -1257,7 +1917,7 @@
         "DIRECTION": "S",
         "TW_CONTINUOUS_BEG_LOG": 0,
         "TW_COUNTY_BEG_LOG": 0,
-        "TW_CONTINUOUS_END_LOG": 1.12300003,
+        "TW_CONTINUOUS_END_LOG": 1.88600004,
         "TW_COUNTY_END_LOG": 0,
         "STATUS_DATE": null,
         "START_DATE": "16-MAR-2026",
@@ -1281,17 +1941,17 @@
         "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST BROADWAY ST S",
-        "END_REF_PT": "CRD RIPA AVE E",
+        "END_REF_PT": ".001 mile(s) before CRD SOUTHWARK LN E",
         "LEVEL_OF_IMPACT": "POSSIBLE DELAYS",
         "JOB_NUMBER": "j6S3631",
         "SPEED_LIMIT": "30",
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "03-MAR-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "04/27/2026",
+        "LAST_CHANGED_DATE": "06/01/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 28,
+        "ESRI_OID": 140,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1299,7 +1959,7 @@
     },
     {
       "type": "Feature",
-      "id": 67,
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1354,7 +2014,7 @@
         "LAST_CHANGED_DATE": "05/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 67,
+        "ESRI_OID": 2,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1362,7 +2022,7 @@
     },
     {
       "type": "Feature",
-      "id": 124,
+      "id": 62,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1417,7 +2077,7 @@
         "LAST_CHANGED_DATE": "05/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551479,
-        "ESRI_OID": 124,
+        "ESRI_OID": 62,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1425,7 +2085,7 @@
     },
     {
       "type": "Feature",
-      "id": 125,
+      "id": 63,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1480,7 +2140,7 @@
         "LAST_CHANGED_DATE": "05/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551478,
-        "ESRI_OID": 125,
+        "ESRI_OID": 63,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1488,7 +2148,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 3,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1543,7 +2203,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531980,
-        "ESRI_OID": 60,
+        "ESRI_OID": 3,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1551,7 +2211,7 @@
     },
     {
       "type": "Feature",
-      "id": 59,
+      "id": 4,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1606,7 +2266,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531981,
-        "ESRI_OID": 59,
+        "ESRI_OID": 4,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1614,7 +2274,7 @@
     },
     {
       "type": "Feature",
-      "id": 137,
+      "id": 5,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1669,7 +2329,7 @@
         "LAST_CHANGED_DATE": "05/28/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 137,
+        "ESRI_OID": 5,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1677,7 +2337,7 @@
     },
     {
       "type": "Feature",
-      "id": 63,
+      "id": 9,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1732,7 +2392,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 63,
+        "ESRI_OID": 9,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1740,7 +2400,7 @@
     },
     {
       "type": "Feature",
-      "id": 62,
+      "id": 10,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1795,7 +2455,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 62,
+        "ESRI_OID": 10,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1803,7 +2463,7 @@
     },
     {
       "type": "Feature",
-      "id": 66,
+      "id": 6,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1858,7 +2518,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 66,
+        "ESRI_OID": 6,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1866,7 +2526,7 @@
     },
     {
       "type": "Feature",
-      "id": 64,
+      "id": 7,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1921,7 +2581,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 64,
+        "ESRI_OID": 7,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1929,7 +2589,7 @@
     },
     {
       "type": "Feature",
-      "id": 65,
+      "id": 8,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1984,7 +2644,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 65,
+        "ESRI_OID": 8,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1992,7 +2652,7 @@
     },
     {
       "type": "Feature",
-      "id": 166,
+      "id": 112,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2047,7 +2707,7 @@
         "LAST_CHANGED_DATE": "05/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552046,
-        "ESRI_OID": 166,
+        "ESRI_OID": 112,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2311,6 +2971,814 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543164,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.22283049499998,
+            38.72773695400008
+          ],
+          [
+            -90.22267797499995,
+            38.72795107500008
+          ],
+          [
+            -90.22263606799999,
+            38.727979635000054
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004689,
+        "STATIC_DTL_ID": 316065,
+        "TRANSACTION_ID": 68025270,
+        "ACTIVATION_DATE": 1780323274000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 256013,
+        "TRAVELWAY_NAME": "H",
+        "DESIGNATION": "RT",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "RT H N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.96099997,
+        "END_LOG": 3.98099995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004688,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323274000,
+        "START_DATE": 1780323240000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780323274000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323274000,
+        "BEGIN_DESCRIPTION": ".017 mile(s) before CST HALL ST N",
+        "END_DESCRIPTION": ".003 mile(s) after CST HALL ST N",
+        "OBJECT_ID": 266543164,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543408,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.36644994399995,
+            38.526277219000065
+          ],
+          [
+            -90.36595191799995,
+            38.52617948900007
+          ],
+          [
+            -90.36552423899997,
+            38.52608807800004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004696,
+        "STATIC_DTL_ID": 316072,
+        "TRANSACTION_ID": 68025338,
+        "ACTIVATION_DATE": 1780325045000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3507,
+        "TRAVELWAY_NAME": "50",
+        "DESIGNATION": "US",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "US 50 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 255.975998,
+        "END_LOG": 256.028015,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004695,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780325045000,
+        "START_DATE": 1780324980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780325045000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780325045000,
+        "BEGIN_DESCRIPTION": ".021 mile(s) after PVT CARROLL WOOD WAY S",
+        "END_DESCRIPTION": ".024 mile(s) after PVT HACKBERRY DR S",
+        "OBJECT_ID": 266543408,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543157,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.22272056599996,
+            38.72805589200004
+          ],
+          [
+            -90.22276420899999,
+            38.72802139400005
+          ],
+          [
+            -90.22281574899995,
+            38.72793319200008
+          ],
+          [
+            -90.22290487599997,
+            38.727772972000025
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004688,
+        "STATIC_DTL_ID": 316064,
+        "TRANSACTION_ID": 68025270,
+        "ACTIVATION_DATE": 1780323273000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 256012,
+        "TRAVELWAY_NAME": "H",
+        "DESIGNATION": "RT",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "RT H S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.01499987,
+        "END_LOG": 4.03700018,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004689,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323273000,
+        "START_DATE": 1780323240000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780323273000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323273000,
+        "BEGIN_DESCRIPTION": ".01 mile(s) before CST HALL ST S",
+        "END_DESCRIPTION": ".012 mile(s) after CST HALL ST S",
+        "OBJECT_ID": 266543157,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543304,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.30886724099997,
+            38.751706402000025
+          ],
+          [
+            -90.30890503299997,
+            38.75186209700007
+          ],
+          [
+            -90.30891716899998,
+            38.75200635200008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004692,
+        "STATIC_DTL_ID": 316068,
+        "TRANSACTION_ID": 68025301,
+        "ACTIVATION_DATE": 1780323851000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6154,
+        "TRAVELWAY_NAME": "N",
+        "DESIGNATION": "RT",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "RT N N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.56599998,
+        "END_LOG": 3.58699989,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004691,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323851000,
+        "START_DATE": 1780323780000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780323851000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323851000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CST JANUARY AVE E",
+        "END_DESCRIPTION": ".01 mile(s) after CST JANUARY AVE E",
+        "OBJECT_ID": 266543304,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543327,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.32510849299996,
+            38.670987241000034
+          ],
+          [
+            -90.32547972199995,
+            38.671089738000035
+          ],
+          [
+            -90.32597005599996,
+            38.67114408200007
+          ],
+          [
+            -90.32611077599995,
+            38.671149842000034
+          ],
+          [
+            -90.32712612599994,
+            38.67121202200008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004693,
+        "STATIC_DTL_ID": 316069,
+        "TRANSACTION_ID": 68025316,
+        "ACTIVATION_DATE": 1780324394000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6142,
+        "TRAVELWAY_NAME": "340",
+        "DESIGNATION": "MO",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "MO 340 W",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.947000027,
+        "END_LOG": 1.05799997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004694,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780324394000,
+        "START_DATE": 1780324320000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780324394000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780324394000,
+        "BEGIN_DESCRIPTION": ".019 mile(s) after CST WALDRON S",
+        "END_DESCRIPTION": ".055 mile(s) after CST MIDLAND BLVD E",
+        "OBJECT_ID": 266543327,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543330,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.32712612699999,
+            38.67121202200008
+          ],
+          [
+            -90.32611077599995,
+            38.671149842000034
+          ],
+          [
+            -90.32597005599996,
+            38.67114408200007
+          ],
+          [
+            -90.32547972199995,
+            38.671089738000035
+          ],
+          [
+            -90.32510849299996,
+            38.670987241000034
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004694,
+        "STATIC_DTL_ID": 316070,
+        "TRANSACTION_ID": 68025316,
+        "ACTIVATION_DATE": 1780324394000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6141,
+        "TRAVELWAY_NAME": "340",
+        "DESIGNATION": "MO",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "MO 340 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 18.2150002,
+        "END_LOG": 18.3260002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004693,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780324394000,
+        "START_DATE": 1780324320000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780324394000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780324394000,
+        "BEGIN_DESCRIPTION": ".055 mile(s) before CST MIDLAND BLVD E",
+        "END_DESCRIPTION": ".019 mile(s) before CST WALDRON S",
+        "OBJECT_ID": 266543330,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543301,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.30891716899998,
+            38.75200635300007
+          ],
+          [
+            -90.30890503299997,
+            38.75186209700007
+          ],
+          [
+            -90.30886724099997,
+            38.75170640300007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004691,
+        "STATIC_DTL_ID": 316067,
+        "TRANSACTION_ID": 68025301,
+        "ACTIVATION_DATE": 1780323850000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6153,
+        "TRAVELWAY_NAME": "N",
+        "DESIGNATION": "RT",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "RT N S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.61800003,
+        "END_LOG": 1.63900006,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004692,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780323850000,
+        "START_DATE": 1780323780000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780323850000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780323850000,
+        "BEGIN_DESCRIPTION": ".01 mile(s) before CST JANUARY AVE E",
+        "END_DESCRIPTION": ".011 mile(s) after CST JANUARY AVE E",
+        "OBJECT_ID": 266543301,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266543402,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.36552423899997,
+            38.52608807900003
+          ],
+          [
+            -90.36595191799995,
+            38.52617948900007
+          ],
+          [
+            -90.36644994399995,
+            38.526277219000065
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004695,
+        "STATIC_DTL_ID": 316071,
+        "TRANSACTION_ID": 68025338,
+        "ACTIVATION_DATE": 1780325042000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3508,
+        "TRAVELWAY_NAME": "50",
+        "DESIGNATION": "US",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "US 50 W",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 5.83699989,
+        "END_LOG": 5.88899994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004696,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780325042000,
+        "START_DATE": 1780324980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780325042000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780325042000,
+        "BEGIN_DESCRIPTION": ".024 mile(s) before PVT HACKBERRY DR S",
+        "END_DESCRIPTION": ".021 mile(s) before PVT CARROLL WOOD WAY S",
+        "OBJECT_ID": 266543402,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542901,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.29236784699998,
+            38.70131474100003
+          ],
+          [
+            -90.29263159499999,
+            38.70149639600004
+          ],
+          [
+            -90.29282735299995,
+            38.70162982900007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004686,
+        "STATIC_DTL_ID": 316062,
+        "TRANSACTION_ID": 68025220,
+        "ACTIVATION_DATE": 1780322066000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6379,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.19799995,
+        "END_LOG": 6.23099995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004687,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780322066000,
+        "START_DATE": 1780321980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780322066000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780322066000,
+        "BEGIN_DESCRIPTION": ".019 mile(s) before RT U S",
+        "END_DESCRIPTION": ".014 mile(s) after RT U S",
+        "OBJECT_ID": 266542901,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542904,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.29282735299995,
+            38.70162982900007
+          ],
+          [
+            -90.29263159499999,
+            38.70149639600004
+          ],
+          [
+            -90.29236784699998,
+            38.70131474100003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004687,
+        "STATIC_DTL_ID": 316063,
+        "TRANSACTION_ID": 68025220,
+        "ACTIVATION_DATE": 1780322066000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6378,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.00400019,
+        "END_LOG": 4.03700018,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004686,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780322066000,
+        "START_DATE": 1780321980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUE - USE ALT ROUTE",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780322066000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780322066000,
+        "BEGIN_DESCRIPTION": ".014 mile(s) before RT U S",
+        "END_DESCRIPTION": ".019 mile(s) after RT U S",
+        "OBJECT_ID": 266542904,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542736,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24841823199995,
+            38.67488090000006
+          ],
+          [
+            -90.24846692099999,
+            38.67490196600005
+          ],
+          [
+            -90.24916503399999,
+            38.67520414200004
+          ],
+          [
+            -90.24931049599996,
+            38.675267967000025
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004682,
+        "STATIC_DTL_ID": 316058,
+        "TRANSACTION_ID": 68025176,
+        "ACTIVATION_DATE": 1780321511000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 216430,
+        "TRAVELWAY_NAME": "NATURAL BRIDGE AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "CST NATURAL BRIDGE AVE W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 2.51999998,
+        "END_LOG": 2.57500005,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004683,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780321511000,
+        "START_DATE": 1780321440000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUES - USE CATUTION ",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780321641000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780321641000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CST EUCLID AVE S",
+        "END_DESCRIPTION": ".009 mile(s) after CST EUCLID AVE S",
+        "OBJECT_ID": 266542736,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266542739,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24931049599996,
+            38.675267967000025
+          ],
+          [
+            -90.24916503399999,
+            38.67520414200004
+          ],
+          [
+            -90.24846692099999,
+            38.67490196600005
+          ],
+          [
+            -90.24841823199995,
+            38.67488090000006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1004683,
+        "STATIC_DTL_ID": 316059,
+        "TRANSACTION_ID": 68025176,
+        "ACTIVATION_DATE": 1780321511000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 92544,
+        "TRAVELWAY_NAME": "NATURAL BRIDGE AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "CST NATURAL BRIDGE AVE E",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.89499998,
+        "END_LOG": 1.95000005,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1004682,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780321511000,
+        "START_DATE": 1780321440000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "SIGNAL ISSUES - USE CATUTION ",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "piercs1",
+        "LAST_CHANGED_DATE": 1780321641000,
+        "LOC_LAST_CHANGED_USER": "piercs1",
+        "LOC_LAST_CHANGED_DATE": 1780321641000,
+        "BEGIN_DESCRIPTION": ".009 mile(s) before CST EUCLID AVE S",
+        "END_DESCRIPTION": ".003 mile(s) after CST EUCLID AVE S",
+        "OBJECT_ID": 266542739,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
       }
     },
     {
@@ -3910,7 +5378,7 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 16,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3985,7 +5453,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/21/2026",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 1,
+        "ESRI_OID": 16,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -3993,7 +5461,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 1,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4324,7 +5792,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 12,
+        "ESRI_OID": 1,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -4332,7 +5800,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 2,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4423,7 +5891,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 15,
+        "ESRI_OID": 2,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -4431,7 +5899,7 @@
     },
     {
       "type": "Feature",
-      "id": 19,
+      "id": 58,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4558,14 +6026,70 @@
           [
             -90.27727253399996,
             38.52431472000006
+          ],
+          [
+            -90.27730458399998,
+            38.52325785200003
+          ],
+          [
+            -90.27735971299995,
+            38.52295447300003
+          ],
+          [
+            -90.27751092199998,
+            38.522638319000066
+          ],
+          [
+            -90.27776440799994,
+            38.52233843300007
+          ],
+          [
+            -90.27781482099994,
+            38.52228940800006
+          ],
+          [
+            -90.27980897999998,
+            38.52020168100006
+          ],
+          [
+            -90.28081884699998,
+            38.51914420600008
+          ],
+          [
+            -90.28134401999995,
+            38.51859886400007
+          ],
+          [
+            -90.28186310099994,
+            38.51804862100005
+          ],
+          [
+            -90.28242714299995,
+            38.51744574300005
+          ],
+          [
+            -90.28298363199997,
+            38.51686549100003
+          ],
+          [
+            -90.28356007799994,
+            38.516266158000064
+          ],
+          [
+            -90.28411721899994,
+            38.51567371600004
+          ],
+          [
+            -90.28464317399994,
+            38.51512642700004
           ]
         ]
       },
       "properties": {
-        "OBJECTID": 265833472,
+        "OBJECTID": 266543641,
         "TI_OSOW_ID": null,
         "ID": 547276,
-        "LAST_CHANGED_USER": "COLEMP1",
+        "LAST_CHANGED_USER": "DIEBOJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6256,
@@ -4574,7 +6098,7 @@
         "DIRECTION": "S",
         "TW_CONTINUOUS_BEG_LOG": 0,
         "TW_COUNTY_BEG_LOG": 0,
-        "TW_CONTINUOUS_END_LOG": 1.12300003,
+        "TW_CONTINUOUS_END_LOG": 1.88600004,
         "TW_COUNTY_END_LOG": 0,
         "STATUS_DATE": null,
         "START_DATE": "16-MAR-2026",
@@ -4597,16 +6121,16 @@
         "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST BROADWAY ST S",
-        "END_REF_PT": "CRD RIPA AVE E",
+        "END_REF_PT": ".001 mile(s) before CRD SOUTHWARK LN E",
         "LEVEL_OF_IMPACT": "POSSIBLE DELAYS",
         "JOB_NUMBER": "j6S3631",
         "SPEED_LIMIT": "30",
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "03-MAR-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "04/27/2026",
+        "LAST_CHANGED_DATE": "06/01/2026",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 19,
+        "ESRI_OID": 58,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -4614,7 +6138,7 @@
     },
     {
       "type": "Feature",
-      "id": 20,
+      "id": 4,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5069,7 +6593,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/19/2026",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 20,
+        "ESRI_OID": 4,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5077,7 +6601,7 @@
     },
     {
       "type": "Feature",
-      "id": 39,
+      "id": 5,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5300,7 +6824,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/18/2026",
         "OPPOSING_TI_WZ_ID": 551479,
-        "ESRI_OID": 39,
+        "ESRI_OID": 5,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5308,7 +6832,7 @@
     },
     {
       "type": "Feature",
-      "id": 40,
+      "id": 6,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5523,7 +7047,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/18/2026",
         "OPPOSING_TI_WZ_ID": 551478,
-        "ESRI_OID": 40,
+        "ESRI_OID": 6,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5531,7 +7055,7 @@
     },
     {
       "type": "Feature",
-      "id": 41,
+      "id": 7,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5782,7 +7306,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/28/2025",
         "OPPOSING_TI_WZ_ID": 531980,
-        "ESRI_OID": 41,
+        "ESRI_OID": 7,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5790,7 +7314,7 @@
     },
     {
       "type": "Feature",
-      "id": 45,
+      "id": 8,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6053,7 +7577,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/28/2025",
         "OPPOSING_TI_WZ_ID": 531981,
-        "ESRI_OID": 45,
+        "ESRI_OID": 8,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6061,7 +7585,7 @@
     },
     {
       "type": "Feature",
-      "id": 50,
+      "id": 9,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6628,7 +8152,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/28/2026",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 50,
+        "ESRI_OID": 9,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6636,7 +8160,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 10,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6891,7 +8415,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 2,
+        "ESRI_OID": 10,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6899,7 +8423,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 11,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7162,7 +8686,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 3,
+        "ESRI_OID": 11,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7170,7 +8694,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 29,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8469,7 +9993,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/17/2026",
         "OPPOSING_TI_WZ_ID": 546406,
-        "ESRI_OID": 60,
+        "ESRI_OID": 29,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8477,7 +10001,7 @@
     },
     {
       "type": "Feature",
-      "id": 66,
+      "id": 12,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8564,7 +10088,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 66,
+        "ESRI_OID": 12,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8572,7 +10096,7 @@
     },
     {
       "type": "Feature",
-      "id": 67,
+      "id": 13,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8647,7 +10171,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 67,
+        "ESRI_OID": 13,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8655,7 +10179,7 @@
     },
     {
       "type": "Feature",
-      "id": 68,
+      "id": 14,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8734,7 +10258,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 68,
+        "ESRI_OID": 14,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8742,7 +10266,7 @@
     },
     {
       "type": "Feature",
-      "id": 71,
+      "id": 15,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9169,7 +10693,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/26/2026",
         "OPPOSING_TI_WZ_ID": 552046,
-        "ESRI_OID": 71,
+        "ESRI_OID": 15,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
