@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-06-03T12:16:11.400Z",
+    "updatedAt": "2026-06-03T17:23:05.457Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 71
+    "featureCount": 79
   },
   "features": [
     {
@@ -118,7 +118,172 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 266572297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.40458398899995,
+          38.74425323600008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "BRYANT2",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3506,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "W",
+        "DATA_ID": 1005266,
+        "STATIC_DTL_ID": 316263,
+        "TRANSACTION_ID": 68038967,
+        "ACTIVATION_DATE": 1780505122000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 15.1680002,
+        "END_LOG": 15.6680002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780505611000,
+        "START_DATE": 1780504620000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-70 WB BEFORE ST CHARLES ROCK RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 12:37 PM (-90408358,38744206)",
+        "ATMS_ID": 878011,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1780505611000,
+        "LOC_LAST_CHANGED_USER": "BRYANT2",
+        "LOC_LAST_CHANGED_DATE": 1780505611000,
+        "BEGIN_DESCRIPTION": "RP US67S TO IS70W W",
+        "END_DESCRIPTION": ".021 mile(s) after RP IS70W TO MO180E E",
+        "OBJECT_ID": 266572297,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266570835,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.28281689299996,
+          38.53791095200006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "simmoa1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6260,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "267",
+        "DIRECTION": "N",
+        "DATA_ID": 1005255,
+        "STATIC_DTL_ID": 316252,
+        "TRANSACTION_ID": 68038636,
+        "ACTIVATION_DATE": 1780496667000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 267 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.22799993,
+        "END_LOG": 3.25200009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1005256,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780496667000,
+        "START_DATE": 1780496640000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780496667000,
+        "LOC_LAST_CHANGED_USER": "simmoa1",
+        "LOC_LAST_CHANGED_DATE": 1780496667000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CRD HOFFMEISTER AVE E",
+        "END_DESCRIPTION": ".013 mile(s) after CRD HOFFMEISTER AVE E",
+        "OBJECT_ID": 266570835,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266570838,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.28281689299996,
+          38.53791095100007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "simmoa1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6261,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "267",
+        "DIRECTION": "S",
+        "DATA_ID": 1005256,
+        "STATIC_DTL_ID": 316253,
+        "TRANSACTION_ID": 68038636,
+        "ACTIVATION_DATE": 1780496668000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 267 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.774999976,
+        "END_LOG": 0.799000025,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1005255,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780496668000,
+        "START_DATE": 1780496640000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1780496668000,
+        "LOC_LAST_CHANGED_USER": "simmoa1",
+        "LOC_LAST_CHANGED_DATE": 1780496668000,
+        "BEGIN_DESCRIPTION": ".013 mile(s) before CRD HOFFMEISTER AVE E",
+        "END_DESCRIPTION": ".011 mile(s) after CRD HOFFMEISTER AVE E",
+        "OBJECT_ID": 266570838,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 252,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -130,7 +295,7 @@
         "OBJECTID": 266558863,
         "TI_OSOW_ID": null,
         "TI_WZ_ID": 552484,
-        "LAST_CHANGED_USER": "FERNAM1",
+        "LAST_CHANGED_USER": "CONNEJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6135,
@@ -156,7 +321,7 @@
         "COMPANY_PHONE": "2178838508",
         "OP_TYPE": "CONSTRUCTION CONTRACT",
         "ORG_CODE": "7FCB",
-        "STATUS": "PENDING DIST APPRVL",
+        "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
         "AADT": 100334,
         "NHS": "NHS",
@@ -170,10 +335,10 @@
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "02-JUN-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "06/02/2026",
+        "LAST_CHANGED_DATE": "06/03/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552485,
-        "ESRI_OID": 5,
+        "ESRI_OID": 252,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -181,7 +346,7 @@
     },
     {
       "type": "Feature",
-      "id": 43,
+      "id": 254,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -193,7 +358,7 @@
         "OBJECTID": 266558865,
         "TI_OSOW_ID": null,
         "TI_WZ_ID": 552485,
-        "LAST_CHANGED_USER": "FERNAM1",
+        "LAST_CHANGED_USER": "CONNEJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6136,
@@ -219,7 +384,7 @@
         "COMPANY_PHONE": "2178838508",
         "OP_TYPE": "CONSTRUCTION CONTRACT",
         "ORG_CODE": "7FCB",
-        "STATUS": "PENDING DIST APPRVL",
+        "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
         "AADT": 104456,
         "NHS": "NHS",
@@ -233,10 +398,10 @@
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "02-JUN-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "06/02/2026",
+        "LAST_CHANGED_DATE": "06/03/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552484,
-        "ESRI_OID": 43,
+        "ESRI_OID": 254,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -741,6 +906,69 @@
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
         "ESRI_OID": 204,
+        "layerId": 26,
+        "layerName": "Work Zone High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.75095583399997,
+          38.74618673000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 266570700,
+        "TI_OSOW_ID": null,
+        "TI_WZ_ID": 552536,
+        "LAST_CHANGED_USER": "HOLTZA1",
+        "COUNTY_NAME": "ST. CHARLES",
+        "DISTRICT_NUMBER": 5,
+        "TRAVELWAY_ID": 6372,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "64",
+        "DIRECTION": "E",
+        "TW_CONTINUOUS_BEG_LOG": 3.03699994,
+        "TW_COUNTY_BEG_LOG": 0,
+        "TW_CONTINUOUS_END_LOG": 10.0059996,
+        "TW_COUNTY_END_LOG": 0,
+        "STATUS_DATE": null,
+        "START_DATE": "01-JUN-2026",
+        "END_DATE": "12-JUN-2026",
+        "START_TIME": "12:00 AM",
+        "END_TIME": "12:00 AM",
+        "WORK_TYPE": "PAVEMENT REPAIR",
+        "NUMBER_LANES_CLOSED": "1",
+        "PROJECT_INSPECTOR": "Aidan Holtz",
+        "MODOT_USERID": "HOLTZA1 (AIDAN HOLTZ)",
+        "MODOT_PHONE": "3144819207",
+        "COMPANY_CONTACT": "24/7 JV Phone",
+        "COMPANY_WORKING": "Emery Sapp",
+        "COMPANY_PHONE": "5734458331",
+        "OP_TYPE": "CONSTRUCTION CONTRACT",
+        "ORG_CODE": "6I70",
+        "STATUS": "PENDING DIST APPRVL",
+        "WEEKEND": "BOTH",
+        "AADT": 40164,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
+        "DIVIDED_UNDIVIDED": "DIVIDED",
+        "BEG_REF_PT": ".001 mile(s) before CST LAKE ST LOUIS BLVD E",
+        "END_REF_PT": ".008 mile(s) after RT K N",
+        "LEVEL_OF_IMPACT": "EXPECT DELAYS",
+        "JOB_NUMBER": "J6I3033",
+        "SPEED_LIMIT": "55",
+        "PRIMARY_INDICATOR": "Y",
+        "ACTIVATION_DATE": "03-JUN-26",
+        "DEACTIVATION_DATE": null,
+        "LAST_CHANGED_DATE": "06/03/2026",
+        "EXTERNAL_COMMENT": " ",
+        "OPPOSING_TI_WZ_ID": 552537,
+        "ESRI_OID": 258,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2327,7 +2555,218 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 266572297,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.39997456499998,
+            38.74396349400007
+          ],
+          [
+            -90.40015766299996,
+            38.74397099300006
+          ],
+          [
+            -90.40411625299998,
+            38.74423071900003
+          ],
+          [
+            -90.40553424899997,
+            38.74429897600004
+          ],
+          [
+            -90.40678637399998,
+            38.74430936600004
+          ],
+          [
+            -90.40881639199995,
+            38.74421896400003
+          ],
+          [
+            -90.40920315399995,
+            38.74419534700007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1005266,
+        "STATIC_DTL_ID": 316263,
+        "TRANSACTION_ID": 68038967,
+        "ACTIVATION_DATE": 1780505122000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3506,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 15.1680002,
+        "END_LOG": 15.6680002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780505611000,
+        "START_DATE": 1780504620000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-70 WB BEFORE ST CHARLES ROCK RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 12:37 PM (-90408358,38744206)",
+        "ATMS_ID": 878011,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "BRYANT2",
+        "LAST_CHANGED_DATE": 1780505611000,
+        "LOC_LAST_CHANGED_USER": "BRYANT2",
+        "LOC_LAST_CHANGED_DATE": 1780505611000,
+        "BEGIN_DESCRIPTION": "RP US67S TO IS70W W",
+        "END_DESCRIPTION": ".021 mile(s) after RP IS70W TO MO180E E",
+        "OBJECT_ID": 266572297,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266570835,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.28295105799998,
+            38.53777254800008
+          ],
+          [
+            -90.28282789399998,
+            38.53789930500005
+          ],
+          [
+            -90.28268488299994,
+            38.538050706000035
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1005255,
+        "STATIC_DTL_ID": 316252,
+        "TRANSACTION_ID": 68038636,
+        "ACTIVATION_DATE": 1780496667000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6260,
+        "TRAVELWAY_NAME": "267",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 267 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.22799993,
+        "END_LOG": 3.25200009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1005256,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780496667000,
+        "START_DATE": 1780496640000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "simmoa1",
+        "LAST_CHANGED_DATE": 1780496667000,
+        "LOC_LAST_CHANGED_USER": "simmoa1",
+        "LOC_LAST_CHANGED_DATE": 1780496667000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CRD HOFFMEISTER AVE E",
+        "END_DESCRIPTION": ".013 mile(s) after CRD HOFFMEISTER AVE E",
+        "OBJECT_ID": 266570835,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266570838,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.28268488399999,
+            38.538050706000035
+          ],
+          [
+            -90.28282789399998,
+            38.53789930500005
+          ],
+          [
+            -90.28295105899997,
+            38.53777254700003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1005256,
+        "STATIC_DTL_ID": 316253,
+        "TRANSACTION_ID": 68038636,
+        "ACTIVATION_DATE": 1780496668000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6261,
+        "TRAVELWAY_NAME": "267",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 267 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.774999976,
+        "END_LOG": 0.799000025,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1005255,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1780496668000,
+        "START_DATE": 1780496640000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "simmoa1",
+        "LAST_CHANGED_DATE": 1780496668000,
+        "LOC_LAST_CHANGED_USER": "simmoa1",
+        "LOC_LAST_CHANGED_DATE": 1780496668000,
+        "BEGIN_DESCRIPTION": ".013 mile(s) before CRD HOFFMEISTER AVE E",
+        "END_DESCRIPTION": ".011 mile(s) after CRD HOFFMEISTER AVE E",
+        "OBJECT_ID": 266570838,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2421,7 +2860,7 @@
         "OBJECTID": 266558863,
         "TI_OSOW_ID": null,
         "ID": 552484,
-        "LAST_CHANGED_USER": "FERNAM1",
+        "LAST_CHANGED_USER": "CONNEJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6135,
@@ -2446,7 +2885,7 @@
         "COMPANY_PHONE": "2178838508",
         "OP_TYPE": "CONSTRUCTION CONTRACT",
         "ORG_CODE": "7FCB",
-        "STATUS": "PENDING DIST APPRVL",
+        "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
         "AADT": 100334,
         "NHS": "NHS",
@@ -2460,9 +2899,9 @@
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "02-JUN-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "06/02/2026",
+        "LAST_CHANGED_DATE": "06/03/2026",
         "OPPOSING_TI_WZ_ID": 552485,
-        "ESRI_OID": 1,
+        "ESRI_OID": 7,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2470,7 +2909,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 13,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2556,7 +2995,7 @@
         "OBJECTID": 266558865,
         "TI_OSOW_ID": null,
         "ID": 552485,
-        "LAST_CHANGED_USER": "FERNAM1",
+        "LAST_CHANGED_USER": "CONNEJ1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NUMBER": 5,
         "TRAVELWAY_ID": 6136,
@@ -2581,7 +3020,7 @@
         "COMPANY_PHONE": "2178838508",
         "OP_TYPE": "CONSTRUCTION CONTRACT",
         "ORG_CODE": "7FCB",
-        "STATUS": "PENDING DIST APPRVL",
+        "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
         "AADT": 104456,
         "NHS": "NHS",
@@ -2595,9 +3034,9 @@
         "PRIMARY_INDICATOR": "Y",
         "ACTIVATION_DATE": "02-JUN-26",
         "DEACTIVATION_DATE": null,
-        "LAST_CHANGED_DATE": "06/02/2026",
+        "LAST_CHANGED_DATE": "06/03/2026",
         "OPPOSING_TI_WZ_ID": 552484,
-        "ESRI_OID": 2,
+        "ESRI_OID": 13,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2605,7 +3044,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 19,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2720,7 +3159,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 3,
+        "ESRI_OID": 19,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2728,7 +3167,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 29,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2807,7 +3246,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 4,
+        "ESRI_OID": 29,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2815,7 +3254,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 30,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2898,7 +3337,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 5,
+        "ESRI_OID": 30,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2906,7 +3345,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 37,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3037,7 +3476,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 6,
+        "ESRI_OID": 37,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3045,7 +3484,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 38,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3324,7 +3763,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "09/04/2025",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 7,
+        "ESRI_OID": 38,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3332,7 +3771,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 39,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3459,7 +3898,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 8,
+        "ESRI_OID": 39,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3467,7 +3906,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 44,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3570,7 +4009,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 9,
+        "ESRI_OID": 44,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3578,7 +4017,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 46,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3681,7 +4120,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 10,
+        "ESRI_OID": 46,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3689,7 +4128,250 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 49,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.79606377699997,
+            38.781751876000044
+          ],
+          [
+            -90.79604917599994,
+            38.781742990000055
+          ],
+          [
+            -90.79540299199994,
+            38.78136473300003
+          ],
+          [
+            -90.79270339099997,
+            38.779728024000065
+          ],
+          [
+            -90.79082262499998,
+            38.778586336000046
+          ],
+          [
+            -90.78757116699995,
+            38.77662129500004
+          ],
+          [
+            -90.78305330299997,
+            38.77387102800003
+          ],
+          [
+            -90.78252943399997,
+            38.773572365000064
+          ],
+          [
+            -90.77854236599995,
+            38.77116089300006
+          ],
+          [
+            -90.77725477299998,
+            38.77036165100003
+          ],
+          [
+            -90.77712974399998,
+            38.77028683000003
+          ],
+          [
+            -90.77585485499998,
+            38.76950774900007
+          ],
+          [
+            -90.77284987199994,
+            38.767714856000055
+          ],
+          [
+            -90.77060036799998,
+            38.766174439000054
+          ],
+          [
+            -90.76910852699996,
+            38.765025114000025
+          ],
+          [
+            -90.76806591099995,
+            38.764146433000064
+          ],
+          [
+            -90.76711244199998,
+            38.76328047700008
+          ],
+          [
+            -90.76575689399994,
+            38.76191286400007
+          ],
+          [
+            -90.76342254299999,
+            38.75943600700003
+          ],
+          [
+            -90.75685586399999,
+            38.752449211000055
+          ],
+          [
+            -90.75607908599994,
+            38.75164622400007
+          ],
+          [
+            -90.75373304699997,
+            38.74914012800008
+          ],
+          [
+            -90.75359607899998,
+            38.748996850000026
+          ],
+          [
+            -90.75068688099998,
+            38.74590045700006
+          ],
+          [
+            -90.74836650999998,
+            38.74343375900003
+          ],
+          [
+            -90.73607546599999,
+            38.73039554300004
+          ],
+          [
+            -90.73504245999999,
+            38.72941904800007
+          ],
+          [
+            -90.73304380899998,
+            38.72766650400007
+          ],
+          [
+            -90.73106710399998,
+            38.72606895500007
+          ],
+          [
+            -90.73035519699994,
+            38.725520553000024
+          ],
+          [
+            -90.72735101499995,
+            38.72341557300007
+          ],
+          [
+            -90.72583567799995,
+            38.72246631000007
+          ],
+          [
+            -90.72335970699999,
+            38.721010904000025
+          ],
+          [
+            -90.72064866599999,
+            38.719587552000064
+          ],
+          [
+            -90.71854634099998,
+            38.718590051000035
+          ],
+          [
+            -90.71740372499994,
+            38.71812750400005
+          ],
+          [
+            -90.71597524699996,
+            38.71760956300005
+          ],
+          [
+            -90.71489056899998,
+            38.71718442100007
+          ],
+          [
+            -90.71239667299994,
+            38.71631419900007
+          ],
+          [
+            -90.71057357099994,
+            38.71573561300005
+          ],
+          [
+            -90.70839141699997,
+            38.71511269800004
+          ],
+          [
+            -90.70648943799995,
+            38.714615491000075
+          ],
+          [
+            -90.70400814599998,
+            38.71406785000005
+          ],
+          [
+            -90.70376702399994,
+            38.714019773000075
+          ],
+          [
+            -90.70366815199998,
+            38.71399349400008
+          ],
+          [
+            -90.70352371099995,
+            38.71396580000004
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 266570700,
+        "TI_OSOW_ID": null,
+        "ID": 552536,
+        "LAST_CHANGED_USER": "HOLTZA1",
+        "COUNTY_NAME": "ST. CHARLES",
+        "DISTRICT_NUMBER": 5,
+        "TRAVELWAY_ID": 6372,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "64",
+        "DIRECTION": "E",
+        "TW_CONTINUOUS_BEG_LOG": 3.03699994,
+        "TW_COUNTY_BEG_LOG": 0,
+        "TW_CONTINUOUS_END_LOG": 10.0059996,
+        "TW_COUNTY_END_LOG": 0,
+        "STATUS_DATE": null,
+        "START_DATE": "01-JUN-2026",
+        "END_DATE": "12-JUN-2026",
+        "START_TIME": "12:00 AM",
+        "END_TIME": "12:00 AM",
+        "WORK_TYPE": "PAVEMENT REPAIR",
+        "NUMBER_LANES_CLOSED": "1",
+        "MODOT_USERID": "HOLTZA1 (AIDAN HOLTZ)",
+        "MODOT_PHONE": "3144819207",
+        "COMPANY_CONTACT": "24/7 JV Phone",
+        "COMPANY_WORKING": "Emery Sapp",
+        "COMPANY_PHONE": "5734458331",
+        "OP_TYPE": "CONSTRUCTION CONTRACT",
+        "ORG_CODE": "6I70",
+        "STATUS": "PENDING DIST APPRVL",
+        "WEEKEND": "BOTH",
+        "AADT": 40164,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
+        "DIVIDED_UNDIVIDED": "DIVIDED",
+        "BEG_REF_PT": ".001 mile(s) before CST LAKE ST LOUIS BLVD E",
+        "END_REF_PT": ".008 mile(s) after RT K N",
+        "LEVEL_OF_IMPACT": "EXPECT DELAYS",
+        "JOB_NUMBER": "J6I3033",
+        "SPEED_LIMIT": "55",
+        "PRIMARY_INDICATOR": "Y",
+        "ACTIVATION_DATE": "03-JUN-26",
+        "DEACTIVATION_DATE": null,
+        "LAST_CHANGED_DATE": "06/03/2026",
+        "OPPOSING_TI_WZ_ID": 552537,
+        "ESRI_OID": 49,
+        "layerId": 33,
+        "layerName": "Work Zone High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3804,7 +4486,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/07/2026",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 11,
+        "ESRI_OID": 50,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3812,7 +4494,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 54,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3911,7 +4593,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/07/2026",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 12,
+        "ESRI_OID": 54,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3919,7 +4601,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 55,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3998,7 +4680,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 13,
+        "ESRI_OID": 55,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4006,7 +4688,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 57,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4097,7 +4779,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 14,
+        "ESRI_OID": 57,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4105,7 +4787,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 58,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4192,7 +4874,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 15,
+        "ESRI_OID": 58,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
