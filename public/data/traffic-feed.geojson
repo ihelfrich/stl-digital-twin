@@ -1,11 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-06-21T08:46:27.569Z",
+    "updatedAt": "2026-06-21T11:35:59.525Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 63
+    "featureCount": 65
   },
   "features": [
+    {
+      "type": "Feature",
+      "id": 267951059,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.45113011599994,
+          38.62399966900006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1.5,
+        "LAST_CHANGED_USER": "SANDEB1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6135,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "270",
+        "DIRECTION": "E",
+        "DATA_ID": 1010661,
+        "STATIC_DTL_ID": 317968,
+        "TRANSACTION_ID": 68523746,
+        "ACTIVATION_DATE": 1782039429000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 270 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.415,
+        "END_LOG": 11.915,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1782041011000,
+        "START_DATE": 1782038940000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-270 NB BEFORE I-64 RIGHT LANE CLOSED EST. CLEARANCE TIME: 7:19 AM (-90450904,38625670)",
+        "ATMS_ID": 881026,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1782041011000,
+        "LOC_LAST_CHANGED_USER": "SANDEB1",
+        "LOC_LAST_CHANGED_DATE": 1782041012000,
+        "BEGIN_DESCRIPTION": ".489 mile(s) before CST CLAYTON RD E",
+        "END_DESCRIPTION": ".011 mile(s) after CST CLAYTON RD E",
+        "OBJECT_ID": 267951059,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
     {
       "type": "Feature",
       "id": 267950705,
@@ -1063,7 +1118,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 82,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1118,7 +1173,7 @@
         "LAST_CHANGED_DATE": "05/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 13,
+        "ESRI_OID": 82,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1126,7 +1181,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 83,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1181,7 +1236,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 14,
+        "ESRI_OID": 83,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1189,7 +1244,7 @@
     },
     {
       "type": "Feature",
-      "id": 18,
+      "id": 85,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1244,7 +1299,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 18,
+        "ESRI_OID": 85,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1252,7 +1307,7 @@
     },
     {
       "type": "Feature",
-      "id": 25,
+      "id": 91,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1307,7 +1362,7 @@
         "LAST_CHANGED_DATE": "05/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 25,
+        "ESRI_OID": 91,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1315,7 +1370,7 @@
     },
     {
       "type": "Feature",
-      "id": 31,
+      "id": 97,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1370,7 +1425,7 @@
         "LAST_CHANGED_DATE": "06/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 31,
+        "ESRI_OID": 97,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1378,7 +1433,7 @@
     },
     {
       "type": "Feature",
-      "id": 58,
+      "id": 115,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1433,7 +1488,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531980,
-        "ESRI_OID": 58,
+        "ESRI_OID": 115,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1441,7 +1496,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 117,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1496,7 +1551,7 @@
         "LAST_CHANGED_DATE": "04/28/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 531981,
-        "ESRI_OID": 60,
+        "ESRI_OID": 117,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1504,7 +1559,7 @@
     },
     {
       "type": "Feature",
-      "id": 63,
+      "id": 119,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1559,7 +1614,7 @@
         "LAST_CHANGED_DATE": "05/28/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 63,
+        "ESRI_OID": 119,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1567,7 +1622,7 @@
     },
     {
       "type": "Feature",
-      "id": 78,
+      "id": 41,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1622,7 +1677,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 78,
+        "ESRI_OID": 41,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1630,7 +1685,7 @@
     },
     {
       "type": "Feature",
-      "id": 79,
+      "id": 42,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1685,7 +1740,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 79,
+        "ESRI_OID": 42,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1693,7 +1748,7 @@
     },
     {
       "type": "Feature",
-      "id": 90,
+      "id": 43,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1748,7 +1803,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 90,
+        "ESRI_OID": 43,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1756,7 +1811,7 @@
     },
     {
       "type": "Feature",
-      "id": 91,
+      "id": 136,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1811,7 +1866,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 91,
+        "ESRI_OID": 136,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1819,7 +1874,7 @@
     },
     {
       "type": "Feature",
-      "id": 93,
+      "id": 137,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1874,7 +1929,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 93,
+        "ESRI_OID": 137,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1882,7 +1937,7 @@
     },
     {
       "type": "Feature",
-      "id": 96,
+      "id": 138,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1937,10 +1992,75 @@
         "LAST_CHANGED_DATE": "05/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552046,
-        "ESRI_OID": 96,
+        "ESRI_OID": 138,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 267951059,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45151315199996,
+            38.62038936700003
+          ],
+          [
+            -90.45076389799999,
+            38.62745111700008
+          ],
+          [
+            -90.45074677699995,
+            38.62760997100003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1010661,
+        "STATIC_DTL_ID": 317968,
+        "TRANSACTION_ID": 68523746,
+        "ACTIVATION_DATE": 1782039429000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6135,
+        "TRAVELWAY_NAME": "270",
+        "DESIGNATION": "IS",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "IS 270 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.415,
+        "END_LOG": 11.915,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1782041011000,
+        "START_DATE": 1782038940000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-270 NB BEFORE I-64 RIGHT LANE CLOSED EST. CLEARANCE TIME: 7:19 AM (-90450904,38625670)",
+        "ATMS_ID": 881026,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "SANDEB1",
+        "LAST_CHANGED_DATE": 1782041011000,
+        "LOC_LAST_CHANGED_USER": "SANDEB1",
+        "LOC_LAST_CHANGED_DATE": 1782041012000,
+        "BEGIN_DESCRIPTION": ".489 mile(s) before CST CLAYTON RD E",
+        "END_DESCRIPTION": ".011 mile(s) after CST CLAYTON RD E",
+        "OBJECT_ID": 267951059,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
       }
     },
     {
