@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-07-05T01:11:16.852Z",
+    "updatedAt": "2026-07-05T05:11:42.769Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 71
+    "featureCount": 139
   },
   "features": [
     {
@@ -228,12 +228,12 @@
     },
     {
       "type": "Feature",
-      "id": 268070664,
+      "id": 268071098,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.27896133799999,
-          38.70866145100007
+          -90.32775391299998,
+          38.72692528700003
         ]
       },
       "properties": {
@@ -241,41 +241,41 @@
         "LAST_CHANGED_USER": "SANDEB1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 19,
+        "TRAVELWAY_ID": 3506,
         "DESIGNATION": "IS",
         "TRAVELWAY_NAME": "70",
-        "DIRECTION": "E",
-        "DATA_ID": 1013141,
-        "STATIC_DTL_ID": 319033,
-        "TRANSACTION_ID": 68578919,
-        "ACTIVATION_DATE": 1783212209000,
+        "DIRECTION": "W",
+        "DATA_ID": 1013191,
+        "STATIC_DTL_ID": 319083,
+        "TRANSACTION_ID": 68579081,
+        "ACTIVATION_DATE": 1783226189000,
         "DEACTIVATION_DATE": null,
         "OFFSET": null,
-        "ROUTE": "IS 70 E",
+        "ROUTE": "IS 70 W",
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 241.953003,
-        "END_LOG": 242.453003,
+        "BEGIN_LOG": 10.7180004,
+        "END_LOG": 11.2180004,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1783212209000,
-        "START_DATE": 1783211940000,
+        "STATUS_DATE": 1783228134000,
+        "START_DATE": 1783225860000,
         "END_DATE": null,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "VEHICLE CRASH",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE JENNINGS STATION RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 8:39 PM (-90275756,38707342)",
-        "ATMS_ID": 883393,
+        "EXT_COMMENT": "CRASH I-70 WB AT I-170 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 12:31 AM (-90330109,38728922)",
+        "ATMS_ID": 883415,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1783212209000,
+        "LAST_CHANGED_DATE": 1783228134000,
         "LOC_LAST_CHANGED_USER": "SANDEB1",
-        "LOC_LAST_CHANGED_DATE": 1783212209000,
-        "BEGIN_DESCRIPTION": ".004 mile(s) before RP RTU TO IS70E E",
-        "END_DESCRIPTION": ".281 mile(s) before RP IS70E TO JENNINGS STATION RD E",
-        "OBJECT_ID": 268070664,
+        "LOC_LAST_CHANGED_DATE": 1783228135000,
+        "BEGIN_DESCRIPTION": ".038 mile(s) before CST SPRINGDALE AVE E",
+        "END_DESCRIPTION": ".006 mile(s) before IS 170 W",
+        "OBJECT_ID": 268071098,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -283,7 +283,1877 @@
     },
     {
       "type": "Feature",
-      "id": 230,
+      "id": 268070749,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25028844899998,
+          38.591450991000045
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 75389,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "HYDRAULIC AVE",
+        "DIRECTION": "S",
+        "DATA_ID": 1013157,
+        "STATIC_DTL_ID": 319049,
+        "TRANSACTION_ID": 68578953,
+        "ACTIVATION_DATE": 1783218304000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST HYDRAULIC AVE S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0149999997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013158,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783218304000,
+        "START_DATE": 1783218240000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783218304000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783218304000,
+        "BEGIN_DESCRIPTION": "MO 30 E",
+        "END_DESCRIPTION": ".015 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070749,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070778,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.46286303299996,
+          38.74883310900003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6353,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "S",
+        "DATA_ID": 1013166,
+        "STATIC_DTL_ID": 319058,
+        "TRANSACTION_ID": 68578961,
+        "ACTIVATION_DATE": 1783220474000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.38000011,
+        "END_LOG": 3.39199996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013165,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220474000,
+        "START_DATE": 1783220400000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783220474000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783220474000,
+        "BEGIN_DESCRIPTION": ".007 mile(s) before PVT RIVERPORT DR E",
+        "END_DESCRIPTION": ".005 mile(s) after PVT RIVERPORT DR E",
+        "OBJECT_ID": 268070778,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070695,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.45242171299998,
+          38.79213811300008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6354,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "N",
+        "DATA_ID": 1013146,
+        "STATIC_DTL_ID": 319038,
+        "TRANSACTION_ID": 68578931,
+        "ACTIVATION_DATE": 1783214901000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 30.7530003,
+        "END_LOG": 30.7549992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013147,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214901000,
+        "START_DATE": 1783214700000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783214901000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214901000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before MO 370 E",
+        "END_DESCRIPTION": "MO 370 E",
+        "OBJECT_ID": 268070695,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070699,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.45242171299998,
+          38.79213811300008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6353,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "S",
+        "DATA_ID": 1013147,
+        "STATIC_DTL_ID": 319039,
+        "TRANSACTION_ID": 68578931,
+        "ACTIVATION_DATE": 1783214901000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.145999998,
+        "END_LOG": 0.148000002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013146,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214901000,
+        "START_DATE": 1783214700000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783214901000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214901000,
+        "BEGIN_DESCRIPTION": "MO 370 E",
+        "END_DESCRIPTION": ".002 mile(s) after MO 370 E",
+        "OBJECT_ID": 268070699,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070775,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.46286303499994,
+          38.74883310600006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6354,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "N",
+        "DATA_ID": 1013165,
+        "STATIC_DTL_ID": 319057,
+        "TRANSACTION_ID": 68578961,
+        "ACTIVATION_DATE": 1783220474000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 27.4559994,
+        "END_LOG": 27.4680004,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013166,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220474000,
+        "START_DATE": 1783220400000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783220474000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783220474000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before PVT RIVERPORT DR E",
+        "END_DESCRIPTION": ".007 mile(s) after PVT RIVERPORT DR E",
+        "OBJECT_ID": 268070775,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071030,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.38570571099996,
+          38.74237694200008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 279390,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS70E TO CYPRESS RD",
+        "DIRECTION": "N",
+        "DATA_ID": 1013194,
+        "STATIC_DTL_ID": 319086,
+        "TRANSACTION_ID": 68579053,
+        "ACTIVATION_DATE": 1783226991000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS70E TO CYPRESS RD N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.263000011,
+        "END_LOG": 0.282999992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226991000,
+        "START_DATE": 1783226940000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783226991000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783226991000,
+        "BEGIN_DESCRIPTION": ".02 mile(s) before CST CYPRESS RD S",
+        "END_DESCRIPTION": "CST CYPRESS RD S",
+        "OBJECT_ID": 268071030,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071094,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.38628771999998,
+          38.744619718000024
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6402,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS70W TO NATURAL BRIDGE RD",
+        "DIRECTION": "E",
+        "DATA_ID": 1013195,
+        "STATIC_DTL_ID": 319087,
+        "TRANSACTION_ID": 68579079,
+        "ACTIVATION_DATE": 1783227750000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS70W TO NATURAL BRIDGE RD E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.257999986,
+        "END_LOG": 0.270000011,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783227750000,
+        "START_DATE": 1783227660000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783227750000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783227750000,
+        "BEGIN_DESCRIPTION": ".012 mile(s) before CST NATURAL BRIDGE RD E",
+        "END_DESCRIPTION": "CST NATURAL BRIDGE RD E",
+        "OBJECT_ID": 268071094,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070737,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.41689144799994,
+          38.52067953100004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 102556,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "RAHNING RD",
+        "DIRECTION": "S",
+        "DATA_ID": 1013153,
+        "STATIC_DTL_ID": 319045,
+        "TRANSACTION_ID": 68578951,
+        "ACTIVATION_DATE": 1783216979000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST RAHNING RD S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0250000004,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013154,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783216979000,
+        "START_DATE": 1783216920000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783216979000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783216979000,
+        "BEGIN_DESCRIPTION": "MO 30 W",
+        "END_DESCRIPTION": ".007 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070737,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070745,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24795471099998,
+          38.59170138800005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 115182,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DIRECTION": "S",
+        "DATA_ID": 1013155,
+        "STATIC_DTL_ID": 319047,
+        "TRANSACTION_ID": 68578952,
+        "ACTIVATION_DATE": 1783217794000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.742999971,
+        "END_LOG": 0.861000001,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013156,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783217794000,
+        "START_DATE": 1783217580000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783217794000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783217794000,
+        "BEGIN_DESCRIPTION": ".053 mile(s) before MO 30 E",
+        "END_DESCRIPTION": ".018 mile(s) before CST WINNEBAGO ST E",
+        "OBJECT_ID": 268070745,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070869,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.19676212099995,
+          38.662062511000045
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6378,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "S",
+        "DATA_ID": 1013179,
+        "STATIC_DTL_ID": 319071,
+        "TRANSACTION_ID": 68578998,
+        "ACTIVATION_DATE": 1783223753000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 10.2650003,
+        "END_LOG": 10.2670002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013180,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223753000,
+        "START_DATE": 1783223700000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783223753000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223753000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CST SALISBURY ST E",
+        "END_DESCRIPTION": "CST SALISBURY ST E",
+        "OBJECT_ID": 268070869,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070800,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24043714499999,
+          38.62677821900007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 239056,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DIRECTION": "N",
+        "DATA_ID": 1013168,
+        "STATIC_DTL_ID": 319060,
+        "TRANSACTION_ID": 68578969,
+        "ACTIVATION_DATE": 1783221209000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.245000005,
+        "END_LOG": 0.250999987,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013169,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221209000,
+        "START_DATE": 1783221120000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783221209000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783221209000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".003 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070800,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070872,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.19676211799998,
+          38.662062512000034
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6379,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "N",
+        "DATA_ID": 1013180,
+        "STATIC_DTL_ID": 319072,
+        "TRANSACTION_ID": 68578998,
+        "ACTIVATION_DATE": 1783223753000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.00200000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013179,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223753000,
+        "START_DATE": 1783223700000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783223753000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223753000,
+        "BEGIN_DESCRIPTION": "CST SALISBURY ST E",
+        "END_DESCRIPTION": ".002 mile(s) after CST SALISBURY ST E",
+        "OBJECT_ID": 268070872,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070884,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25191653699994,
+          38.67640202000007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6378,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "S",
+        "DATA_ID": 1013182,
+        "STATIC_DTL_ID": 319074,
+        "TRANSACTION_ID": 68579000,
+        "ACTIVATION_DATE": 1783224115000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.85699987,
+        "END_LOG": 6.85900021,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013181,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224115000,
+        "START_DATE": 1783224060000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALSD ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224115000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224115000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST KINGSHIGHWAY BLVD S",
+        "END_DESCRIPTION": ".001 mile(s) after CST KINGSHIGHWAY BLVD S",
+        "OBJECT_ID": 268070884,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070771,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.20454302499996,
+          38.61929083100006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 9215,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "14TH ST",
+        "DIRECTION": "S",
+        "DATA_ID": 1013163,
+        "STATIC_DTL_ID": 319055,
+        "TRANSACTION_ID": 68578960,
+        "ACTIVATION_DATE": 1783220346000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST 14TH ST S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.69700003,
+        "END_LOG": 1.75300002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013164,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220346000,
+        "START_DATE": 1783220280000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783220346000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783220346000,
+        "BEGIN_DESCRIPTION": ".026 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".03 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070771,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070933,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.34372491499994,
+          38.68580571100006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 179311,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "CRYSTAL IND CT",
+        "DIRECTION": "N",
+        "DATA_ID": 1013189,
+        "STATIC_DTL_ID": 319081,
+        "TRANSACTION_ID": 68579019,
+        "ACTIVATION_DATE": 1783225454000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST CRYSTAL IND CT N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0280000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013190,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783225454000,
+        "START_DATE": 1783225380000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783225454000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783225454000,
+        "BEGIN_DESCRIPTION": "RT D E",
+        "END_DESCRIPTION": ".028 mile(s) after RT D E",
+        "OBJECT_ID": 268070933,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070927,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.31613637299995,
+          38.66584427500004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 223260,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "PENNSYLVANIA AVE",
+        "DIRECTION": "N",
+        "DATA_ID": 1013187,
+        "STATIC_DTL_ID": 319079,
+        "TRANSACTION_ID": 68579016,
+        "ACTIVATION_DATE": 1783224910000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST PENNSYLVANIA AVE N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.456999987,
+        "END_LOG": 0.481999993,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013188,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224910000,
+        "START_DATE": 1783224840000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224910000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224910000,
+        "BEGIN_DESCRIPTION": ".013 mile(s) before MO 340 E",
+        "END_DESCRIPTION": ".012 mile(s) after MO 340 E",
+        "OBJECT_ID": 268070927,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070935,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.34372491499994,
+          38.68580571200005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 55425,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "CRYSTAL IND CT",
+        "DIRECTION": "S",
+        "DATA_ID": 1013190,
+        "STATIC_DTL_ID": 319082,
+        "TRANSACTION_ID": 68579019,
+        "ACTIVATION_DATE": 1783225454000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST CRYSTAL IND CT S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.300000012,
+        "END_LOG": 0.328000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013189,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783225454000,
+        "START_DATE": 1783225380000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783225454000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783225454000,
+        "BEGIN_DESCRIPTION": ".028 mile(s) before RT D E",
+        "END_DESCRIPTION": "RT D E",
+        "OBJECT_ID": 268070935,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071000,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.39922104199997,
+          38.47348815500004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 17,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "21",
+        "DIRECTION": "N",
+        "DATA_ID": 1013192,
+        "STATIC_DTL_ID": 319084,
+        "TRANSACTION_ID": 68579045,
+        "ACTIVATION_DATE": 1783226446000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 21 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 187.192993,
+        "END_LOG": 187.201996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013193,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226446000,
+        "START_DATE": 1783226400000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783226446000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783226446000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CRD HAGEMANN DR S",
+        "END_DESCRIPTION": ".006 mile(s) after CRD HAGEMANN DR S",
+        "OBJECT_ID": 268071000,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071003,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.39922104399994,
+          38.47348815200007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 16,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "21",
+        "DIRECTION": "S",
+        "DATA_ID": 1013193,
+        "STATIC_DTL_ID": 319085,
+        "TRANSACTION_ID": 68579045,
+        "ACTIVATION_DATE": 1783226446000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 21 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.92700005,
+        "END_LOG": 6.93599987,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013192,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226446000,
+        "START_DATE": 1783226400000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783226446000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783226447000,
+        "BEGIN_DESCRIPTION": ".006 mile(s) before CRD HAGEMANN DR S",
+        "END_DESCRIPTION": ".003 mile(s) after CRD HAGEMANN DR S",
+        "OBJECT_ID": 268071003,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070687,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.45227219099996,
+          38.79229501800006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6353,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "S",
+        "DATA_ID": 1013144,
+        "STATIC_DTL_ID": 319036,
+        "TRANSACTION_ID": 68578927,
+        "ACTIVATION_DATE": 1783214547000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.131999999,
+        "END_LOG": 0.135000005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013143,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214547000,
+        "START_DATE": 1783214460000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783214547000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214547000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before MO 370 W",
+        "END_DESCRIPTION": ".002 mile(s) after MO 370 W",
+        "OBJECT_ID": 268070687,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070741,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.41689144799994,
+          38.52067953100004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 226442,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "RAHNING RD",
+        "DIRECTION": "N",
+        "DATA_ID": 1013154,
+        "STATIC_DTL_ID": 319046,
+        "TRANSACTION_ID": 68578951,
+        "ACTIVATION_DATE": 1783216979000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST RAHNING RD N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.361999989,
+        "END_LOG": 0.386999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013153,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783216979000,
+        "START_DATE": 1783216920000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783216979000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783216979000,
+        "BEGIN_DESCRIPTION": ".007 mile(s) before MO 30 E",
+        "END_DESCRIPTION": "MO 30 W",
+        "OBJECT_ID": 268070741,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070929,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.31613637299995,
+          38.66584427600003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 99397,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "PENNSYLVANIA AVE",
+        "DIRECTION": "S",
+        "DATA_ID": 1013188,
+        "STATIC_DTL_ID": 319080,
+        "TRANSACTION_ID": 68579016,
+        "ACTIVATION_DATE": 1783224910000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST PENNSYLVANIA AVE S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.61500001,
+        "END_LOG": 1.63999999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013187,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224910000,
+        "START_DATE": 1783224840000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224910000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224910000,
+        "BEGIN_DESCRIPTION": ".012 mile(s) before MO 340 E",
+        "END_DESCRIPTION": ".013 mile(s) after MO 340 E",
+        "OBJECT_ID": 268070929,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070683,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.45227218899998,
+          38.79229502000004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6354,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "N",
+        "DATA_ID": 1013143,
+        "STATIC_DTL_ID": 319035,
+        "TRANSACTION_ID": 68578927,
+        "ACTIVATION_DATE": 1783214547000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 30.7660007,
+        "END_LOG": 30.7689991,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013144,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214547000,
+        "START_DATE": 1783214460000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783214547000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214547000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before MO 370 W",
+        "END_DESCRIPTION": ".001 mile(s) after MO 370 W",
+        "OBJECT_ID": 268070683,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070751,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25028844899998,
+          38.591450992000034
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 199277,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "HYDRAULIC AVE",
+        "DIRECTION": "N",
+        "DATA_ID": 1013158,
+        "STATIC_DTL_ID": 319050,
+        "TRANSACTION_ID": 68578953,
+        "ACTIVATION_DATE": 1783218304000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST HYDRAULIC AVE N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.159999996,
+        "END_LOG": 0.174999997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013157,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783218304000,
+        "START_DATE": 1783218240000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783218304000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783218305000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) before MO 30 E",
+        "END_DESCRIPTION": "MO 30 E",
+        "OBJECT_ID": 268070751,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070747,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24795471099998,
+          38.59170138700006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 239052,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DIRECTION": "N",
+        "DATA_ID": 1013156,
+        "STATIC_DTL_ID": 319048,
+        "TRANSACTION_ID": 68578952,
+        "ACTIVATION_DATE": 1783217795000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.17200005,
+        "END_LOG": 1.28999996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013155,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783217795000,
+        "START_DATE": 1783217580000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783217795000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783217795000,
+        "BEGIN_DESCRIPTION": ".018 mile(s) after CST WINNEBAGO ST E",
+        "END_DESCRIPTION": ".053 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070747,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070773,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.20454302499996,
+          38.61929083100006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 133027,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "14TH ST",
+        "DIRECTION": "N",
+        "DATA_ID": 1013164,
+        "STATIC_DTL_ID": 319056,
+        "TRANSACTION_ID": 68578960,
+        "ACTIVATION_DATE": 1783220349000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST 14TH ST N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.546999991,
+        "END_LOG": 0.602999985,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013163,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220349000,
+        "START_DATE": 1783220280000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783220349000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783220349000,
+        "BEGIN_DESCRIPTION": ".03 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".026 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070773,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24043714499999,
+          38.62677821900007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 115179,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DIRECTION": "S",
+        "DATA_ID": 1013169,
+        "STATIC_DTL_ID": 319061,
+        "TRANSACTION_ID": 68578969,
+        "ACTIVATION_DATE": 1783221209000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.133000001,
+        "END_LOG": 0.138999999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013168,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221209000,
+        "START_DATE": 1783221120000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783221209000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783221209000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".003 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070802,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070889,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25980701099996,
+          38.61879905300003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 279371,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "VANDEVENTER AVE TO IS44W",
+        "DIRECTION": "W",
+        "DATA_ID": 1013184,
+        "STATIC_DTL_ID": 319076,
+        "TRANSACTION_ID": 68579002,
+        "ACTIVATION_DATE": 1783224260000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP VANDEVENTER AVE TO IS44W W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.00899999961,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224260000,
+        "START_DATE": 1783224180000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224260000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224260000,
+        "BEGIN_DESCRIPTION": "CST VANDEVENTER AVE S",
+        "END_DESCRIPTION": ".009 mile(s) after CST VANDEVENTER AVE S",
+        "OBJECT_ID": 268070889,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070911,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24027327599998,
+          38.65159209500007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6131,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "D",
+        "DIRECTION": "E",
+        "DATA_ID": 1013185,
+        "STATIC_DTL_ID": 319077,
+        "TRANSACTION_ID": 68579013,
+        "ACTIVATION_DATE": 1783224504000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT D E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 12.4250002,
+        "END_LOG": 12.4280005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013186,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224504000,
+        "START_DATE": 1783224480000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224504000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224504000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CST WHITTIER ST S",
+        "END_DESCRIPTION": ".001 mile(s) after CST WHITTIER ST S",
+        "OBJECT_ID": 268070911,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070914,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.24027328699998,
+          38.65159209900003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6132,
+        "DESIGNATION": "RT",
+        "TRAVELWAY_NAME": "D",
+        "DIRECTION": "W",
+        "DATA_ID": 1013186,
+        "STATIC_DTL_ID": 319078,
+        "TRANSACTION_ID": 68579013,
+        "ACTIVATION_DATE": 1783224505000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RT D W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.29299998,
+        "END_LOG": 3.296,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013185,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224505000,
+        "START_DATE": 1783224480000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224505000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224505000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST WHITTIER ST S",
+        "END_DESCRIPTION": ".002 mile(s) after CST WHITTIER ST S",
+        "OBJECT_ID": 268070914,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070824,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.43166550199999,
+          38.469853776000036
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6353,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "S",
+        "DATA_ID": 1013170,
+        "STATIC_DTL_ID": 319062,
+        "TRANSACTION_ID": 68578974,
+        "ACTIVATION_DATE": 1783221383000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 26.5839996,
+        "END_LOG": 26.5869999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013171,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221383000,
+        "START_DATE": 1783221300000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783221383000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783221383000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CRD ROMAINE CREEK RD E",
+        "END_DESCRIPTION": ".001 mile(s) after CRD ROMAINE CREEK RD E",
+        "OBJECT_ID": 268070824,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070826,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.43143781999999,
+          38.469985447000056
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6354,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "N",
+        "DATA_ID": 1013171,
+        "STATIC_DTL_ID": 319063,
+        "TRANSACTION_ID": 68578974,
+        "ACTIVATION_DATE": 1783221383000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.28100014,
+        "END_LOG": 4.28399992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013170,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221383000,
+        "START_DATE": 1783221300000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783221383000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783221383000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CRD ROMAINE CREEK RD E",
+        "END_DESCRIPTION": ".001 mile(s) after CRD ROMAINE CREEK RD E",
+        "OBJECT_ID": 268070826,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070860,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.20381245699997,
+          38.673233148000065
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 228203,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS70W TO GRAND AVE",
+        "DIRECTION": "W",
+        "DATA_ID": 1013177,
+        "STATIC_DTL_ID": 319069,
+        "TRANSACTION_ID": 68578994,
+        "ACTIVATION_DATE": 1783223328000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS70W TO GRAND AVE W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.237000003,
+        "END_LOG": 0.239999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223328000,
+        "START_DATE": 1783223280000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783223328000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223328000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CST GRAND BLVD S",
+        "END_DESCRIPTION": "CST GRAND BLVD S",
+        "OBJECT_ID": 268070860,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070881,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25191653699994,
+          38.67640202000007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "sandeb1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6379,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "115",
+        "DIRECTION": "N",
+        "DATA_ID": 1013181,
+        "STATIC_DTL_ID": 319073,
+        "TRANSACTION_ID": 68579000,
+        "ACTIVATION_DATE": 1783224115000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.375,
+        "END_LOG": 3.37700009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013182,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224115000,
+        "START_DATE": 1783224060000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALSD ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1783224115000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224115000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST KINGSHIGHWAY BLVD S",
+        "END_DESCRIPTION": ".001 mile(s) after CST KINGSHIGHWAY BLVD S",
+        "OBJECT_ID": 268070881,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -338,7 +2208,7 @@
         "LAST_CHANGED_DATE": "06/03/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552485,
-        "ESRI_OID": 230,
+        "ESRI_OID": 1,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -346,7 +2216,7 @@
     },
     {
       "type": "Feature",
-      "id": 229,
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -401,7 +2271,7 @@
         "LAST_CHANGED_DATE": "06/03/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 552484,
-        "ESRI_OID": 229,
+        "ESRI_OID": 2,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -409,7 +2279,7 @@
     },
     {
       "type": "Feature",
-      "id": 256,
+      "id": 3,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -464,7 +2334,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 256,
+        "ESRI_OID": 3,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -472,7 +2342,7 @@
     },
     {
       "type": "Feature",
-      "id": 152,
+      "id": 4,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -527,7 +2397,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 152,
+        "ESRI_OID": 4,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -535,7 +2405,7 @@
     },
     {
       "type": "Feature",
-      "id": 164,
+      "id": 5,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -590,7 +2460,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 164,
+        "ESRI_OID": 5,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -598,7 +2468,7 @@
     },
     {
       "type": "Feature",
-      "id": 96,
+      "id": 6,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -653,7 +2523,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 96,
+        "ESRI_OID": 6,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -661,7 +2531,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 7,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -716,7 +2586,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 60,
+        "ESRI_OID": 7,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -724,7 +2594,7 @@
     },
     {
       "type": "Feature",
-      "id": 139,
+      "id": 8,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -779,7 +2649,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 139,
+        "ESRI_OID": 8,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -787,7 +2657,7 @@
     },
     {
       "type": "Feature",
-      "id": 61,
+      "id": 9,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -842,7 +2712,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 61,
+        "ESRI_OID": 9,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -850,7 +2720,7 @@
     },
     {
       "type": "Feature",
-      "id": 113,
+      "id": 10,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -905,7 +2775,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 113,
+        "ESRI_OID": 10,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -913,7 +2783,7 @@
     },
     {
       "type": "Feature",
-      "id": 114,
+      "id": 11,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -968,7 +2838,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 114,
+        "ESRI_OID": 11,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -976,7 +2846,7 @@
     },
     {
       "type": "Feature",
-      "id": 220,
+      "id": 12,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1031,7 +2901,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 220,
+        "ESRI_OID": 12,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1039,7 +2909,7 @@
     },
     {
       "type": "Feature",
-      "id": 208,
+      "id": 13,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1094,7 +2964,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 208,
+        "ESRI_OID": 13,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1102,7 +2972,7 @@
     },
     {
       "type": "Feature",
-      "id": 180,
+      "id": 14,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1157,7 +3027,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 180,
+        "ESRI_OID": 14,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1165,7 +3035,7 @@
     },
     {
       "type": "Feature",
-      "id": 133,
+      "id": 15,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1220,7 +3090,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 133,
+        "ESRI_OID": 15,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1228,7 +3098,7 @@
     },
     {
       "type": "Feature",
-      "id": 132,
+      "id": 16,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1283,7 +3153,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 132,
+        "ESRI_OID": 16,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1291,7 +3161,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 59,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1346,7 +3216,7 @@
         "LAST_CHANGED_DATE": "05/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 10,
+        "ESRI_OID": 59,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1354,7 +3224,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 60,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1409,7 +3279,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 11,
+        "ESRI_OID": 60,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1417,7 +3287,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 61,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1472,7 +3342,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 13,
+        "ESRI_OID": 61,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1480,7 +3350,7 @@
     },
     {
       "type": "Feature",
-      "id": 25,
+      "id": 62,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1535,7 +3405,7 @@
         "LAST_CHANGED_DATE": "05/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 25,
+        "ESRI_OID": 62,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1543,7 +3413,7 @@
     },
     {
       "type": "Feature",
-      "id": 28,
+      "id": 63,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1598,7 +3468,7 @@
         "LAST_CHANGED_DATE": "06/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 28,
+        "ESRI_OID": 63,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1606,7 +3476,7 @@
     },
     {
       "type": "Feature",
-      "id": 57,
+      "id": 64,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1661,7 +3531,7 @@
         "LAST_CHANGED_DATE": "05/28/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 57,
+        "ESRI_OID": 64,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1669,7 +3539,7 @@
     },
     {
       "type": "Feature",
-      "id": 66,
+      "id": 1,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1724,7 +3594,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 66,
+        "ESRI_OID": 1,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1732,7 +3602,7 @@
     },
     {
       "type": "Feature",
-      "id": 67,
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1787,7 +3657,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 67,
+        "ESRI_OID": 2,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1795,7 +3665,7 @@
     },
     {
       "type": "Feature",
-      "id": 68,
+      "id": 65,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1850,7 +3720,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 68,
+        "ESRI_OID": 65,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1858,7 +3728,7 @@
     },
     {
       "type": "Feature",
-      "id": 69,
+      "id": 66,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1913,7 +3783,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 69,
+        "ESRI_OID": 66,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1921,7 +3791,7 @@
     },
     {
       "type": "Feature",
-      "id": 84,
+      "id": 13,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1976,7 +3846,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 84,
+        "ESRI_OID": 13,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1984,7 +3854,7 @@
     },
     {
       "type": "Feature",
-      "id": 85,
+      "id": 67,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2039,7 +3909,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 85,
+        "ESRI_OID": 67,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2047,7 +3917,7 @@
     },
     {
       "type": "Feature",
-      "id": 87,
+      "id": 68,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2102,7 +3972,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 87,
+        "ESRI_OID": 68,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2110,7 +3980,7 @@
     },
     {
       "type": "Feature",
-      "id": 91,
+      "id": 69,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2165,7 +4035,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553924,
-        "ESRI_OID": 91,
+        "ESRI_OID": 69,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2433,76 +4303,2262 @@
     },
     {
       "type": "Feature",
-      "id": 268070664,
+      "id": 268071098,
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -90.28322298299997,
-            38.71006543000004
+            -90.32448179699998,
+            38.72436743000003
           ],
           [
-            -90.28315481599998,
-            38.71004269200006
+            -90.32497582299999,
+            38.724760350000054
           ],
           [
-            -90.27974947599995,
-            38.70894971700005
+            -90.32593410399994,
+            38.72555214700003
           ],
           [
-            -90.27840709899993,
-            38.708458730000075
+            -90.32730051899995,
+            38.72661130900008
           ],
           [
-            -90.27708863099997,
-            38.70791693500007
+            -90.32774148099998,
+            38.726914511000075
           ],
           [
-            -90.27489671699999,
-            38.706937666000044
+            -90.32963113399995,
+            38.72855249500003
+          ],
+          [
+            -90.33052698599994,
+            38.72932078100007
+          ],
+          [
+            -90.33090682299996,
+            38.729587665000054
           ]
         ]
       },
       "properties": {
-        "DATA_ID": 1013141,
-        "STATIC_DTL_ID": 319033,
-        "TRANSACTION_ID": 68578919,
-        "ACTIVATION_DATE": 1783212209000,
+        "DATA_ID": 1013191,
+        "STATIC_DTL_ID": 319083,
+        "TRANSACTION_ID": 68579081,
+        "ACTIVATION_DATE": 1783226189000,
         "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 19,
+        "TRAVELWAY_ID": 3506,
         "TRAVELWAY_NAME": "70",
         "DESIGNATION": "IS",
-        "DIRECTION": "E",
+        "DIRECTION": "W",
         "OFFSET": null,
-        "ROUTE": "IS 70 E",
+        "ROUTE": "IS 70 W",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 241.953003,
-        "END_LOG": 242.453003,
+        "BEGIN_LOG": 10.7180004,
+        "END_LOG": 11.2180004,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1783212209000,
-        "START_DATE": 1783211940000,
+        "STATUS_DATE": 1783228134000,
+        "START_DATE": 1783225860000,
         "END_DATE": null,
         "ESTIMATED_HOUR_DURATION": 1,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "VEHICLE CRASH",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE JENNINGS STATION RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 8:39 PM (-90275756,38707342)",
-        "ATMS_ID": 883393,
+        "EXT_COMMENT": "CRASH I-70 WB AT I-170 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 12:31 AM (-90330109,38728922)",
+        "ATMS_ID": 883415,
         "ATMS_SOURCE": "29002",
         "LAST_CHANGED_USER": "SANDEB1",
-        "LAST_CHANGED_DATE": 1783212209000,
+        "LAST_CHANGED_DATE": 1783228134000,
         "LOC_LAST_CHANGED_USER": "SANDEB1",
-        "LOC_LAST_CHANGED_DATE": 1783212209000,
-        "BEGIN_DESCRIPTION": ".004 mile(s) before RP RTU TO IS70E E",
-        "END_DESCRIPTION": ".281 mile(s) before RP IS70E TO JENNINGS STATION RD E",
-        "OBJECT_ID": 268070664,
+        "LOC_LAST_CHANGED_DATE": 1783228135000,
+        "BEGIN_DESCRIPTION": ".038 mile(s) before CST SPRINGDALE AVE E",
+        "END_DESCRIPTION": ".006 mile(s) before IS 170 W",
+        "OBJECT_ID": 268071098,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070749,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.25027161199995,
+            38.59155868100004
+          ],
+          [
+            -90.25030528699995,
+            38.59134330000006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013157,
+        "STATIC_DTL_ID": 319049,
+        "TRANSACTION_ID": 68578953,
+        "ACTIVATION_DATE": 1783218304000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 75389,
+        "TRAVELWAY_NAME": "HYDRAULIC AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST HYDRAULIC AVE S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0149999997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013158,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783218304000,
+        "START_DATE": 1783218240000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783218304000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783218304000,
+        "BEGIN_DESCRIPTION": "MO 30 E",
+        "END_DESCRIPTION": ".015 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070749,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070778,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.46281449699995,
+            38.74891156800004
+          ],
+          [
+            -90.46287112499994,
+            38.74882003000005
+          ],
+          [
+            -90.46291039199997,
+            38.74875430700007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013166,
+        "STATIC_DTL_ID": 319058,
+        "TRANSACTION_ID": 68578961,
+        "ACTIVATION_DATE": 1783220474000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6353,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.38000011,
+        "END_LOG": 3.39199996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013165,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220474000,
+        "START_DATE": 1783220400000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783220474000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783220474000,
+        "BEGIN_DESCRIPTION": ".007 mile(s) before PVT RIVERPORT DR E",
+        "END_DESCRIPTION": ".005 mile(s) after PVT RIVERPORT DR E",
+        "OBJECT_ID": 268070778,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070695,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45243314099997,
+            38.79212663800007
+          ],
+          [
+            -90.45241028499998,
+            38.792149589000076
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013146,
+        "STATIC_DTL_ID": 319038,
+        "TRANSACTION_ID": 68578931,
+        "ACTIVATION_DATE": 1783214901000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6354,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 30.7530003,
+        "END_LOG": 30.7549992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013147,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214901000,
+        "START_DATE": 1783214700000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783214901000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214901000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before MO 370 E",
+        "END_DESCRIPTION": "MO 370 E",
+        "OBJECT_ID": 268070695,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070699,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45241028499998,
+            38.792149589000076
+          ],
+          [
+            -90.45243314099997,
+            38.79212663800007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013147,
+        "STATIC_DTL_ID": 319039,
+        "TRANSACTION_ID": 68578931,
+        "ACTIVATION_DATE": 1783214901000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6353,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.145999998,
+        "END_LOG": 0.148000002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013146,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214901000,
+        "START_DATE": 1783214700000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783214901000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214901000,
+        "BEGIN_DESCRIPTION": "MO 370 E",
+        "END_DESCRIPTION": ".002 mile(s) after MO 370 E",
+        "OBJECT_ID": 268070699,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070775,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.46291039199997,
+            38.74875430700007
+          ],
+          [
+            -90.46287112499994,
+            38.74882003000005
+          ],
+          [
+            -90.46281449699995,
+            38.74891156800004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013165,
+        "STATIC_DTL_ID": 319057,
+        "TRANSACTION_ID": 68578961,
+        "ACTIVATION_DATE": 1783220474000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6354,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 27.4559994,
+        "END_LOG": 27.4680004,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013166,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220474000,
+        "START_DATE": 1783220400000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783220474000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783220474000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before PVT RIVERPORT DR E",
+        "END_DESCRIPTION": ".007 mile(s) after PVT RIVERPORT DR E",
+        "OBJECT_ID": 268070775,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071030,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.38552585399998,
+            38.742341493000026
+          ],
+          [
+            -90.38588556799994,
+            38.74241239100007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013194,
+        "STATIC_DTL_ID": 319086,
+        "TRANSACTION_ID": 68579053,
+        "ACTIVATION_DATE": 1783226991000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 279390,
+        "TRAVELWAY_NAME": "IS70E TO CYPRESS RD",
+        "DESIGNATION": "RP",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "RP IS70E TO CYPRESS RD N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.263000011,
+        "END_LOG": 0.282999992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226991000,
+        "START_DATE": 1783226940000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783226991000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783226991000,
+        "BEGIN_DESCRIPTION": ".02 mile(s) before CST CYPRESS RD S",
+        "END_DESCRIPTION": "CST CYPRESS RD S",
+        "OBJECT_ID": 268071030,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071094,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.38635113799995,
+            38.744548579000025
+          ],
+          [
+            -90.38622430299995,
+            38.74469085700008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013195,
+        "STATIC_DTL_ID": 319087,
+        "TRANSACTION_ID": 68579079,
+        "ACTIVATION_DATE": 1783227750000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6402,
+        "TRAVELWAY_NAME": "IS70W TO NATURAL BRIDGE RD",
+        "DESIGNATION": "RP",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "RP IS70W TO NATURAL BRIDGE RD E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.257999986,
+        "END_LOG": 0.270000011,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783227750000,
+        "START_DATE": 1783227660000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783227750000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783227750000,
+        "BEGIN_DESCRIPTION": ".012 mile(s) before CST NATURAL BRIDGE RD E",
+        "END_DESCRIPTION": "CST NATURAL BRIDGE RD E",
+        "OBJECT_ID": 268071094,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070737,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.41687645999997,
+            38.52085998000007
+          ],
+          [
+            -90.41689804199996,
+            38.52060013400006
+          ],
+          [
+            -90.41689578299997,
+            38.52049861300003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013153,
+        "STATIC_DTL_ID": 319045,
+        "TRANSACTION_ID": 68578951,
+        "ACTIVATION_DATE": 1783216979000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 102556,
+        "TRAVELWAY_NAME": "RAHNING RD",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST RAHNING RD S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0250000004,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013154,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783216979000,
+        "START_DATE": 1783216920000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783216979000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783216979000,
+        "BEGIN_DESCRIPTION": "MO 30 W",
+        "END_DESCRIPTION": ".007 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070737,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070745,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24774129599996,
+            38.59252857900003
+          ],
+          [
+            -90.24783308199994,
+            38.59197001600006
+          ],
+          [
+            -90.24794131499999,
+            38.59178625700008
+          ],
+          [
+            -90.24799489999998,
+            38.59144678100006
+          ],
+          [
+            -90.24808775899999,
+            38.59085909700008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013155,
+        "STATIC_DTL_ID": 319047,
+        "TRANSACTION_ID": 68578952,
+        "ACTIVATION_DATE": 1783217794000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 115182,
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.742999971,
+        "END_LOG": 0.861000001,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013156,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783217794000,
+        "START_DATE": 1783217580000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783217794000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783217794000,
+        "BEGIN_DESCRIPTION": ".053 mile(s) before MO 30 E",
+        "END_DESCRIPTION": ".018 mile(s) before CST WINNEBAGO ST E",
+        "OBJECT_ID": 268070745,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070869,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.19678000599998,
+            38.66205793900008
+          ],
+          [
+            -90.19674423299995,
+            38.66206708400006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013179,
+        "STATIC_DTL_ID": 319071,
+        "TRANSACTION_ID": 68578998,
+        "ACTIVATION_DATE": 1783223753000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6378,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 10.2650003,
+        "END_LOG": 10.2670002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013180,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223753000,
+        "START_DATE": 1783223700000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783223753000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223753000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CST SALISBURY ST E",
+        "END_DESCRIPTION": "CST SALISBURY ST E",
+        "OBJECT_ID": 268070869,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070800,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24047532799995,
+            38.62674698600006
+          ],
+          [
+            -90.24043714499999,
+            38.62677821900007
+          ],
+          [
+            -90.24039995999999,
+            38.62681016300007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013168,
+        "STATIC_DTL_ID": 319060,
+        "TRANSACTION_ID": 68578969,
+        "ACTIVATION_DATE": 1783221209000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 239056,
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.245000005,
+        "END_LOG": 0.250999987,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013169,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221209000,
+        "START_DATE": 1783221120000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783221209000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783221209000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".003 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070800,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070872,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.19674423299995,
+            38.66206708400006
+          ],
+          [
+            -90.19678000399995,
+            38.66205793900008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013180,
+        "STATIC_DTL_ID": 319072,
+        "TRANSACTION_ID": 68578998,
+        "ACTIVATION_DATE": 1783223753000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6379,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.00200000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013179,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223753000,
+        "START_DATE": 1783223700000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783223753000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223753000,
+        "BEGIN_DESCRIPTION": "CST SALISBURY ST E",
+        "END_DESCRIPTION": ".002 mile(s) after CST SALISBURY ST E",
+        "OBJECT_ID": 268070872,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070884,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.25193268999999,
+            38.676409067000066
+          ],
+          [
+            -90.25191653699994,
+            38.67640202000007
+          ],
+          [
+            -90.25190007899994,
+            38.67639551800005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013182,
+        "STATIC_DTL_ID": 319074,
+        "TRANSACTION_ID": 68579000,
+        "ACTIVATION_DATE": 1783224115000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6378,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 115 S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.85699987,
+        "END_LOG": 6.85900021,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013181,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224115000,
+        "START_DATE": 1783224060000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALSD ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783224115000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224115000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST KINGSHIGHWAY BLVD S",
+        "END_DESCRIPTION": ".001 mile(s) after CST KINGSHIGHWAY BLVD S",
+        "OBJECT_ID": 268070884,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070771,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.20438879199997,
+            38.61967752500004
+          ],
+          [
+            -90.20453383399996,
+            38.619318736000025
+          ],
+          [
+            -90.20467170699999,
+            38.618900162000045
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013163,
+        "STATIC_DTL_ID": 319055,
+        "TRANSACTION_ID": 68578960,
+        "ACTIVATION_DATE": 1783220346000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 9215,
+        "TRAVELWAY_NAME": "14TH ST",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST 14TH ST S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.69700003,
+        "END_LOG": 1.75300002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013164,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220346000,
+        "START_DATE": 1783220280000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783220346000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783220346000,
+        "BEGIN_DESCRIPTION": ".026 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".03 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070771,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070933,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.34372559699995,
+            38.68560312000005
+          ],
+          [
+            -90.34372423299999,
+            38.68600830300005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013189,
+        "STATIC_DTL_ID": 319081,
+        "TRANSACTION_ID": 68579019,
+        "ACTIVATION_DATE": 1783225454000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 179311,
+        "TRAVELWAY_NAME": "CRYSTAL IND CT",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST CRYSTAL IND CT N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0280000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013190,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783225454000,
+        "START_DATE": 1783225380000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783225454000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783225454000,
+        "BEGIN_DESCRIPTION": "RT D E",
+        "END_DESCRIPTION": ".028 mile(s) after RT D E",
+        "OBJECT_ID": 268070933,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070927,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.31617871699996,
+            38.66566649400005
+          ],
+          [
+            -90.31613467899996,
+            38.66585138700003
+          ],
+          [
+            -90.31611055999997,
+            38.66602397400004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013187,
+        "STATIC_DTL_ID": 319079,
+        "TRANSACTION_ID": 68579016,
+        "ACTIVATION_DATE": 1783224910000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 223260,
+        "TRAVELWAY_NAME": "PENNSYLVANIA AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST PENNSYLVANIA AVE N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.456999987,
+        "END_LOG": 0.481999993,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013188,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224910000,
+        "START_DATE": 1783224840000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783224910000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224910000,
+        "BEGIN_DESCRIPTION": ".013 mile(s) before MO 340 E",
+        "END_DESCRIPTION": ".012 mile(s) after MO 340 E",
+        "OBJECT_ID": 268070927,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070935,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.34372423299999,
+            38.68600830300005
+          ],
+          [
+            -90.34372559699995,
+            38.68560312000005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013190,
+        "STATIC_DTL_ID": 319082,
+        "TRANSACTION_ID": 68579019,
+        "ACTIVATION_DATE": 1783225454000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 55425,
+        "TRAVELWAY_NAME": "CRYSTAL IND CT",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST CRYSTAL IND CT S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.300000012,
+        "END_LOG": 0.328000009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013189,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783225454000,
+        "START_DATE": 1783225380000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783225454000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783225454000,
+        "BEGIN_DESCRIPTION": ".028 mile(s) before RT D E",
+        "END_DESCRIPTION": "RT D E",
+        "OBJECT_ID": 268070935,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071000,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.39925282399997,
+            38.47342784700004
+          ],
+          [
+            -90.39923299399999,
+            38.473468522000076
+          ],
+          [
+            -90.39918518699994,
+            38.47354705500004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013192,
+        "STATIC_DTL_ID": 319084,
+        "TRANSACTION_ID": 68579045,
+        "ACTIVATION_DATE": 1783226446000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 17,
+        "TRAVELWAY_NAME": "21",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 21 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 187.192993,
+        "END_LOG": 187.201996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013193,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226446000,
+        "START_DATE": 1783226400000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783226446000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783226446000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CRD HAGEMANN DR S",
+        "END_DESCRIPTION": ".006 mile(s) after CRD HAGEMANN DR S",
+        "OBJECT_ID": 268071000,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268071003,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.39918518699994,
+            38.47354705500004
+          ],
+          [
+            -90.39923299399999,
+            38.473468522000076
+          ],
+          [
+            -90.39925282399997,
+            38.47342784700004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013193,
+        "STATIC_DTL_ID": 319085,
+        "TRANSACTION_ID": 68579045,
+        "ACTIVATION_DATE": 1783226446000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 16,
+        "TRAVELWAY_NAME": "21",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 21 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.92700005,
+        "END_LOG": 6.93599987,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013192,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783226446000,
+        "START_DATE": 1783226400000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783226446000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783226447000,
+        "BEGIN_DESCRIPTION": ".006 mile(s) before CRD HAGEMANN DR S",
+        "END_DESCRIPTION": ".003 mile(s) after CRD HAGEMANN DR S",
+        "OBJECT_ID": 268071003,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070687,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45225545099998,
+            38.79231247200005
+          ],
+          [
+            -90.45226666899998,
+            38.79230083300007
+          ],
+          [
+            -90.45228876399995,
+            38.79227756500006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013144,
+        "STATIC_DTL_ID": 319036,
+        "TRANSACTION_ID": 68578927,
+        "ACTIVATION_DATE": 1783214547000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6353,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.131999999,
+        "END_LOG": 0.135000005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013143,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214547000,
+        "START_DATE": 1783214460000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783214547000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214547000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before MO 370 W",
+        "END_DESCRIPTION": ".002 mile(s) after MO 370 W",
+        "OBJECT_ID": 268070687,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070741,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.41689578299997,
+            38.52049861300003
+          ],
+          [
+            -90.41689804199996,
+            38.52060013400006
+          ],
+          [
+            -90.41687645999997,
+            38.52085998000007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013154,
+        "STATIC_DTL_ID": 319046,
+        "TRANSACTION_ID": 68578951,
+        "ACTIVATION_DATE": 1783216979000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 226442,
+        "TRAVELWAY_NAME": "RAHNING RD",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST RAHNING RD N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.361999989,
+        "END_LOG": 0.386999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013153,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783216979000,
+        "START_DATE": 1783216920000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783216979000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783216979000,
+        "BEGIN_DESCRIPTION": ".007 mile(s) before MO 30 E",
+        "END_DESCRIPTION": "MO 30 W",
+        "OBJECT_ID": 268070741,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070929,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.31611055999997,
+            38.66602397400004
+          ],
+          [
+            -90.31613467899996,
+            38.66585138700003
+          ],
+          [
+            -90.31617871699996,
+            38.66566649400005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013188,
+        "STATIC_DTL_ID": 319080,
+        "TRANSACTION_ID": 68579016,
+        "ACTIVATION_DATE": 1783224910000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 99397,
+        "TRAVELWAY_NAME": "PENNSYLVANIA AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST PENNSYLVANIA AVE S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.61500001,
+        "END_LOG": 1.63999999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013187,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224910000,
+        "START_DATE": 1783224840000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783224910000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224910000,
+        "BEGIN_DESCRIPTION": ".012 mile(s) before MO 340 E",
+        "END_DESCRIPTION": ".013 mile(s) after MO 340 E",
+        "OBJECT_ID": 268070929,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070683,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.45228876199997,
+            38.79227756600005
+          ],
+          [
+            -90.45226666899998,
+            38.79230083300007
+          ],
+          [
+            -90.45225545099998,
+            38.79231247200005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013143,
+        "STATIC_DTL_ID": 319035,
+        "TRANSACTION_ID": 68578927,
+        "ACTIVATION_DATE": 1783214547000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6354,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 30.7660007,
+        "END_LOG": 30.7689991,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013144,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783214547000,
+        "START_DATE": 1783214460000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS DARK. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783214547000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783214547000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before MO 370 W",
+        "END_DESCRIPTION": ".001 mile(s) after MO 370 W",
+        "OBJECT_ID": 268070683,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070751,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.25030528699995,
+            38.59134330000006
+          ],
+          [
+            -90.25027161199995,
+            38.59155868100004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013158,
+        "STATIC_DTL_ID": 319050,
+        "TRANSACTION_ID": 68578953,
+        "ACTIVATION_DATE": 1783218304000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 199277,
+        "TRAVELWAY_NAME": "HYDRAULIC AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST HYDRAULIC AVE N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.159999996,
+        "END_LOG": 0.174999997,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013157,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783218304000,
+        "START_DATE": 1783218240000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783218304000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783218305000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) before MO 30 E",
+        "END_DESCRIPTION": "MO 30 E",
+        "OBJECT_ID": 268070751,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070747,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24808775899999,
+            38.59085909700008
+          ],
+          [
+            -90.24799489999998,
+            38.59144678100006
+          ],
+          [
+            -90.24794131499999,
+            38.59178625700008
+          ],
+          [
+            -90.24783308199994,
+            38.59197001600006
+          ],
+          [
+            -90.24774129599996,
+            38.59252857900003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013156,
+        "STATIC_DTL_ID": 319048,
+        "TRANSACTION_ID": 68578952,
+        "ACTIVATION_DATE": 1783217795000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 239052,
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.17200005,
+        "END_LOG": 1.28999996,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013155,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783217795000,
+        "START_DATE": 1783217580000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783217795000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783217795000,
+        "BEGIN_DESCRIPTION": ".018 mile(s) after CST WINNEBAGO ST E",
+        "END_DESCRIPTION": ".053 mile(s) after MO 30 E",
+        "OBJECT_ID": 268070747,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070773,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.20467170699999,
+            38.618900162000045
+          ],
+          [
+            -90.20453383399996,
+            38.619318736000025
+          ],
+          [
+            -90.20438879299996,
+            38.61967752500004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013164,
+        "STATIC_DTL_ID": 319056,
+        "TRANSACTION_ID": 68578960,
+        "ACTIVATION_DATE": 1783220349000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 133027,
+        "TRAVELWAY_NAME": "14TH ST",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST 14TH ST N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.546999991,
+        "END_LOG": 0.602999985,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013163,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783220349000,
+        "START_DATE": 1783220280000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783220349000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783220349000,
+        "BEGIN_DESCRIPTION": ".03 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".026 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070773,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070802,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24039995999999,
+            38.62681016300007
+          ],
+          [
+            -90.24043714499999,
+            38.62677821900007
+          ],
+          [
+            -90.24047532699996,
+            38.62674698700005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013169,
+        "STATIC_DTL_ID": 319061,
+        "TRANSACTION_ID": 68578969,
+        "ACTIVATION_DATE": 1783221209000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 115179,
+        "TRAVELWAY_NAME": "SPRING AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST SPRING AVE S",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.133000001,
+        "END_LOG": 0.138999999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013168,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221209000,
+        "START_DATE": 1783221120000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783221209000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783221209000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before MO 100 E",
+        "END_DESCRIPTION": ".003 mile(s) after MO 100 E",
+        "OBJECT_ID": 268070802,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070889,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.25972693499995,
+            38.618782012000054
+          ],
+          [
+            -90.25988708699998,
+            38.61881609400007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013184,
+        "STATIC_DTL_ID": 319076,
+        "TRANSACTION_ID": 68579002,
+        "ACTIVATION_DATE": 1783224260000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 279371,
+        "TRAVELWAY_NAME": "VANDEVENTER AVE TO IS44W",
+        "DESIGNATION": "RP",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "RP VANDEVENTER AVE TO IS44W W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.00899999961,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224260000,
+        "START_DATE": 1783224180000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1783224260000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1783224260000,
+        "BEGIN_DESCRIPTION": "CST VANDEVENTER AVE S",
+        "END_DESCRIPTION": ".009 mile(s) after CST VANDEVENTER AVE S",
+        "OBJECT_ID": 268070889,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070911,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24029752099995,
+            38.651602610000054
+          ],
+          [
+            -90.24026520899997,
+            38.65158859600007
+          ],
+          [
+            -90.24024908999996,
+            38.65158153200008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013185,
+        "STATIC_DTL_ID": 319077,
+        "TRANSACTION_ID": 68579013,
+        "ACTIVATION_DATE": 1783224504000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6131,
+        "TRAVELWAY_NAME": "D",
+        "DESIGNATION": "RT",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "RT D E",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 12.4250002,
+        "END_LOG": 12.4280005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013186,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224504000,
+        "START_DATE": 1783224480000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783224504000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224504000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CST WHITTIER ST S",
+        "END_DESCRIPTION": ".001 mile(s) after CST WHITTIER ST S",
+        "OBJECT_ID": 268070911,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070914,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.24024908999996,
+            38.65158153200008
+          ],
+          [
+            -90.24026520899997,
+            38.65158859600007
+          ],
+          [
+            -90.24029752099995,
+            38.651602611000044
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013186,
+        "STATIC_DTL_ID": 319078,
+        "TRANSACTION_ID": 68579013,
+        "ACTIVATION_DATE": 1783224505000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6132,
+        "TRAVELWAY_NAME": "D",
+        "DESIGNATION": "RT",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "RT D W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.29299998,
+        "END_LOG": 3.296,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013185,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224505000,
+        "START_DATE": 1783224480000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783224505000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224505000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST WHITTIER ST S",
+        "END_DESCRIPTION": ".002 mile(s) after CST WHITTIER ST S",
+        "OBJECT_ID": 268070914,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070824,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.43168209999999,
+            38.469871126000044
+          ],
+          [
+            -90.43165996599998,
+            38.46984798900007
+          ],
+          [
+            -90.43164877699996,
+            38.46983647500008
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013170,
+        "STATIC_DTL_ID": 319062,
+        "TRANSACTION_ID": 68578974,
+        "ACTIVATION_DATE": 1783221383000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6353,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 26.5839996,
+        "END_LOG": 26.5869999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013171,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221383000,
+        "START_DATE": 1783221300000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783221383000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783221383000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CRD ROMAINE CREEK RD E",
+        "END_DESCRIPTION": ".001 mile(s) after CRD ROMAINE CREEK RD E",
+        "OBJECT_ID": 268070824,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070826,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.43142132799994,
+            38.469968023000035
+          ],
+          [
+            -90.43144332099996,
+            38.46999125900004
+          ],
+          [
+            -90.43145438699997,
+            38.47000286800005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013171,
+        "STATIC_DTL_ID": 319063,
+        "TRANSACTION_ID": 68578974,
+        "ACTIVATION_DATE": 1783221383000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6354,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 141 N",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.28100014,
+        "END_LOG": 4.28399992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013170,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783221383000,
+        "START_DATE": 1783221300000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783221383000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783221383000,
+        "BEGIN_DESCRIPTION": ".002 mile(s) before CRD ROMAINE CREEK RD E",
+        "END_DESCRIPTION": ".001 mile(s) after CRD ROMAINE CREEK RD E",
+        "OBJECT_ID": 268070826,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070860,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.20380010699995,
+            38.673213727000075
+          ],
+          [
+            -90.20382481199994,
+            38.67325257600004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013177,
+        "STATIC_DTL_ID": 319069,
+        "TRANSACTION_ID": 68578994,
+        "ACTIVATION_DATE": 1783223328000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 228203,
+        "TRAVELWAY_NAME": "IS70W TO GRAND AVE",
+        "DESIGNATION": "RP",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "RP IS70W TO GRAND AVE W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.237000003,
+        "END_LOG": 0.239999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783223328000,
+        "START_DATE": 1783223280000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALS ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783223328000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783223328000,
+        "BEGIN_DESCRIPTION": ".003 mile(s) before CST GRAND BLVD S",
+        "END_DESCRIPTION": "CST GRAND BLVD S",
+        "OBJECT_ID": 268070860,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268070881,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.25190007699996,
+            38.67639551800005
+          ],
+          [
+            -90.25191653699994,
+            38.67640202000007
+          ],
+          [
+            -90.25193268999999,
+            38.676409067000066
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1013181,
+        "STATIC_DTL_ID": 319073,
+        "TRANSACTION_ID": 68579000,
+        "ACTIVATION_DATE": 1783224115000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6379,
+        "TRAVELWAY_NAME": "115",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 115 N",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 3.375,
+        "END_LOG": 3.37700009,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1013182,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783224115000,
+        "START_DATE": 1783224060000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "SIGNALSD ON RED FLASH. USE CAUTION.",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "sandeb1",
+        "LAST_CHANGED_DATE": 1783224115000,
+        "LOC_LAST_CHANGED_USER": "sandeb1",
+        "LOC_LAST_CHANGED_DATE": 1783224115000,
+        "BEGIN_DESCRIPTION": ".001 mile(s) before CST KINGSHIGHWAY BLVD S",
+        "END_DESCRIPTION": ".001 mile(s) after CST KINGSHIGHWAY BLVD S",
+        "OBJECT_ID": 268070881,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
@@ -4983,7 +9039,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 5,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5438,7 +9494,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/19/2026",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 4,
+        "ESRI_OID": 5,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5446,7 +9502,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 6,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5677,7 +9733,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2026",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 5,
+        "ESRI_OID": 6,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5685,7 +9741,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 9,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6252,7 +10308,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/28/2026",
         "OPPOSING_TI_WZ_ID": 545541,
-        "ESRI_OID": 6,
+        "ESRI_OID": 9,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6260,7 +10316,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 10,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6515,7 +10571,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 7,
+        "ESRI_OID": 10,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6523,7 +10579,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 11,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6786,7 +10842,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 8,
+        "ESRI_OID": 11,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6794,7 +10850,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 63,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7253,7 +11309,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 9,
+        "ESRI_OID": 63,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7261,7 +11317,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 64,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7712,7 +11768,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 10,
+        "ESRI_OID": 64,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7720,7 +11776,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 12,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9019,7 +13075,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/17/2026",
         "OPPOSING_TI_WZ_ID": 546406,
-        "ESRI_OID": 11,
+        "ESRI_OID": 12,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9027,7 +13083,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 13,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9114,7 +13170,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 12,
+        "ESRI_OID": 13,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9122,7 +13178,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 14,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9197,7 +13253,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 13,
+        "ESRI_OID": 14,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9205,7 +13261,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 15,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9284,7 +13340,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 14,
+        "ESRI_OID": 15,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9292,7 +13348,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 65,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9719,7 +13775,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 553924,
-        "ESRI_OID": 15,
+        "ESRI_OID": 65,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
