@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-07-09T19:11:54.320Z",
+    "updatedAt": "2026-07-09T20:58:14.867Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 71
+    "featureCount": 75
   },
   "features": [
     {
@@ -224,6 +224,116 @@
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268124642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.47702293699996,
+          38.63851395900008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6372,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "64",
+        "DIRECTION": "E",
+        "DATA_ID": 1014723,
+        "STATIC_DTL_ID": 319489,
+        "TRANSACTION_ID": 68603238,
+        "ACTIVATION_DATE": 1783630311000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 64 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 24.1420002,
+        "END_LOG": 24.6420002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783630311000,
+        "START_DATE": 1783629960000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-64 EB PAST MASON RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 4:46 PM (-90474995,38638520)",
+        "ATMS_ID": 884242,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1783630311000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1783630311000,
+        "BEGIN_DESCRIPTION": ".044 mile(s) before CST MASON RD S",
+        "END_DESCRIPTION": ".216 mile(s) after RP MASON RD TO IS64E E",
+        "OBJECT_ID": 268124642,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268124350,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.42926656799995,
+          38.54576471100006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 279360,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS44E TO IS270E",
+        "DIRECTION": "E",
+        "DATA_ID": 1014721,
+        "STATIC_DTL_ID": 319487,
+        "TRANSACTION_ID": 68603142,
+        "ACTIVATION_DATE": 1783629702000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS44E TO IS270E E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.191,
+        "END_LOG": 0.210999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783629702000,
+        "START_DATE": 1783629420000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-44 EB TO I-270 NB BE PREPARED TO STOP EST. CLEARANCE TIME: 4:07 PM (-90430167,38552178)",
+        "ATMS_ID": 884237,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1783629702000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1783629702000,
+        "BEGIN_DESCRIPTION": ".014 mile(s) after RP IS44E TO IS270W W",
+        "END_DESCRIPTION": ".034 mile(s) after RP IS44E TO IS270W W",
+        "OBJECT_ID": 268124350,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
       }
     },
     {
@@ -480,7 +590,7 @@
     },
     {
       "type": "Feature",
-      "id": 126,
+      "id": 121,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -535,7 +645,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 126,
+        "ESRI_OID": 121,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -543,7 +653,7 @@
     },
     {
       "type": "Feature",
-      "id": 127,
+      "id": 122,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -598,7 +708,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 127,
+        "ESRI_OID": 122,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -606,7 +716,7 @@
     },
     {
       "type": "Feature",
-      "id": 152,
+      "id": 146,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -661,7 +771,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 152,
+        "ESRI_OID": 146,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -669,7 +779,7 @@
     },
     {
       "type": "Feature",
-      "id": 157,
+      "id": 151,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -724,7 +834,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 157,
+        "ESRI_OID": 151,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -732,7 +842,7 @@
     },
     {
       "type": "Feature",
-      "id": 160,
+      "id": 154,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -787,7 +897,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 160,
+        "ESRI_OID": 154,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -795,7 +905,7 @@
     },
     {
       "type": "Feature",
-      "id": 174,
+      "id": 168,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -850,7 +960,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 174,
+        "ESRI_OID": 168,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -858,7 +968,7 @@
     },
     {
       "type": "Feature",
-      "id": 178,
+      "id": 172,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -913,7 +1023,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 178,
+        "ESRI_OID": 172,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -921,7 +1031,7 @@
     },
     {
       "type": "Feature",
-      "id": 194,
+      "id": 188,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -976,7 +1086,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 194,
+        "ESRI_OID": 188,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -984,7 +1094,7 @@
     },
     {
       "type": "Feature",
-      "id": 206,
+      "id": 200,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1039,7 +1149,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 206,
+        "ESRI_OID": 200,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1047,7 +1157,7 @@
     },
     {
       "type": "Feature",
-      "id": 208,
+      "id": 202,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1102,7 +1212,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 208,
+        "ESRI_OID": 202,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1110,7 +1220,7 @@
     },
     {
       "type": "Feature",
-      "id": 211,
+      "id": 205,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1165,7 +1275,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 211,
+        "ESRI_OID": 205,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1173,7 +1283,7 @@
     },
     {
       "type": "Feature",
-      "id": 212,
+      "id": 206,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1228,7 +1338,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 212,
+        "ESRI_OID": 206,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2374,6 +2484,136 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268124642,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.48163901199996,
+            38.63852142400003
+          ],
+          [
+            -90.48082384599996,
+            38.63851639600006
+          ],
+          [
+            -90.47639560299996,
+            38.63851354500008
+          ],
+          [
+            -90.47240229899995,
+            38.63850804500004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1014723,
+        "STATIC_DTL_ID": 319489,
+        "TRANSACTION_ID": 68603238,
+        "ACTIVATION_DATE": 1783630311000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6372,
+        "TRAVELWAY_NAME": "64",
+        "DESIGNATION": "IS",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "IS 64 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 24.1420002,
+        "END_LOG": 24.6420002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783630311000,
+        "START_DATE": 1783629960000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-64 EB PAST MASON RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 4:46 PM (-90474995,38638520)",
+        "ATMS_ID": 884242,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1783630311000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1783630311000,
+        "BEGIN_DESCRIPTION": ".044 mile(s) before CST MASON RD S",
+        "END_DESCRIPTION": ".216 mile(s) after RP MASON RD TO IS64E E",
+        "OBJECT_ID": 268124642,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268124350,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.42941978399995,
+            38.54568432200006
+          ],
+          [
+            -90.42911335199994,
+            38.545845100000065
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1014721,
+        "STATIC_DTL_ID": 319487,
+        "TRANSACTION_ID": 68603142,
+        "ACTIVATION_DATE": 1783629702000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 279360,
+        "TRAVELWAY_NAME": "IS44E TO IS270E",
+        "DESIGNATION": "RP",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "RP IS44E TO IS270E E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.191,
+        "END_LOG": 0.210999995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1783629702000,
+        "START_DATE": 1783629420000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-44 EB TO I-270 NB BE PREPARED TO STOP EST. CLEARANCE TIME: 4:07 PM (-90430167,38552178)",
+        "ATMS_ID": 884237,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1783629702000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1783629702000,
+        "BEGIN_DESCRIPTION": ".014 mile(s) after RP IS44E TO IS270W W",
+        "END_DESCRIPTION": ".034 mile(s) after RP IS44E TO IS270W W",
+        "OBJECT_ID": 268124350,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
       }
     },
     {
