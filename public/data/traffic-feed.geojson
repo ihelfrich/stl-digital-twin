@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-07-14T18:46:11.986Z",
+    "updatedAt": "2026-07-14T20:00:17.034Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 69
+    "featureCount": 71
   },
   "features": [
     {
@@ -56,61 +56,6 @@
         "BEGIN_DESCRIPTION": ".038 mile(s) after CST GILES AVE S",
         "END_DESCRIPTION": ".033 mile(s) after CST SPRING AVE S",
         "OBJECT_ID": 268148471,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268162778,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.19350772499996,
-          38.65165176200003
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "HOODA1",
-        "COUNTY_NAME": "ST. LOUIS CITY",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 19,
-        "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "70",
-        "DIRECTION": "E",
-        "DATA_ID": 1015722,
-        "STATIC_DTL_ID": 319886,
-        "TRANSACTION_ID": 68620081,
-        "ACTIVATION_DATE": 1784054586000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "IS 70 E",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 248.671005,
-        "END_LOG": 249.171005,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1784054586000,
-        "START_DATE": 1784054340000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 2:39 PM (-90192171,38649004)",
-        "ATMS_ID": 884900,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1784054586000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1784054586000,
-        "BEGIN_DESCRIPTION": ".01 mile(s) before RP IS70E TO ST LOUIS AVE E",
-        "END_DESCRIPTION": ".053 mile(s) after RP 11TH ST TO IS70E E",
-        "OBJECT_ID": 268162778,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -228,6 +173,61 @@
     },
     {
       "type": "Feature",
+      "id": 268164177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.33370131599997,
+          38.80009165300004
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "VOGELK1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 15,
+        "DESIGNATION": "US",
+        "TRAVELWAY_NAME": "67",
+        "DIRECTION": "S",
+        "DATA_ID": 1015737,
+        "STATIC_DTL_ID": 319894,
+        "TRANSACTION_ID": 68620372,
+        "ACTIVATION_DATE": 1784057760000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "US 67 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.9759998,
+        "END_LOG": 11.9960003,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784058492000,
+        "START_DATE": 1784057460000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE US 67 SB PAST FERDINAND ST LEFT LANE CLOSED EST. CLEARANCE TIME: 3:31 PM (-90333659,38800181)",
+        "ATMS_ID": 884916,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1784058492000,
+        "LOC_LAST_CHANGED_USER": "VOGELK1",
+        "LOC_LAST_CHANGED_DATE": 1784058493000,
+        "BEGIN_DESCRIPTION": ".018 mile(s) before CST PATTERSON RD S",
+        "END_DESCRIPTION": ".002 mile(s) after CST PATTERSON RD S",
+        "OBJECT_ID": 268164177,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 268148474,
       "geometry": {
         "type": "Point",
@@ -283,7 +283,62 @@
     },
     {
       "type": "Feature",
-      "id": 279,
+      "id": 268164274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.38906633799996,
+          38.77723429500003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "WILLIKA",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 104119,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS270E TO JAMES S MCDONNELL BLVD",
+        "DIRECTION": "E",
+        "DATA_ID": 1015738,
+        "STATIC_DTL_ID": 319895,
+        "TRANSACTION_ID": 68620398,
+        "ACTIVATION_DATE": 1784058127000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS270E TO JAMES S MCDONNELL BLVD E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.245000005,
+        "END_LOG": 0.264999986,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784058981000,
+        "START_DATE": 1784056980000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-270 EB TO MCDONNELL BLVD LEFT SHOULDER EST. CLEARANCE TIME: 3:23 PM (-90390048,38776681)",
+        "ATMS_ID": 884914,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1784058981000,
+        "LOC_LAST_CHANGED_USER": "WILLIKA",
+        "LOC_LAST_CHANGED_DATE": 1784058981000,
+        "BEGIN_DESCRIPTION": ".02 mile(s) before CST JAMES S MCDONNELL BLVD S",
+        "END_DESCRIPTION": "CST JAMES S MCDONNELL BLVD S",
+        "OBJECT_ID": 268164274,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -338,7 +393,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 279,
+        "ESRI_OID": 83,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -346,7 +401,7 @@
     },
     {
       "type": "Feature",
-      "id": 102,
+      "id": 86,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -401,7 +456,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 102,
+        "ESRI_OID": 86,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -409,7 +464,7 @@
     },
     {
       "type": "Feature",
-      "id": 141,
+      "id": 121,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -464,7 +519,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 141,
+        "ESRI_OID": 121,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -472,7 +527,7 @@
     },
     {
       "type": "Feature",
-      "id": 142,
+      "id": 122,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -527,7 +582,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 142,
+        "ESRI_OID": 122,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -535,7 +590,7 @@
     },
     {
       "type": "Feature",
-      "id": 171,
+      "id": 142,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -590,7 +645,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 171,
+        "ESRI_OID": 142,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -598,7 +653,7 @@
     },
     {
       "type": "Feature",
-      "id": 177,
+      "id": 147,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -653,7 +708,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 177,
+        "ESRI_OID": 147,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -661,7 +716,7 @@
     },
     {
       "type": "Feature",
-      "id": 180,
+      "id": 150,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -716,7 +771,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 180,
+        "ESRI_OID": 150,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -724,7 +779,7 @@
     },
     {
       "type": "Feature",
-      "id": 193,
+      "id": 162,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -779,7 +834,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 193,
+        "ESRI_OID": 162,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -787,7 +842,7 @@
     },
     {
       "type": "Feature",
-      "id": 198,
+      "id": 166,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -842,7 +897,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 198,
+        "ESRI_OID": 166,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -850,7 +905,7 @@
     },
     {
       "type": "Feature",
-      "id": 213,
+      "id": 182,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -905,7 +960,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 213,
+        "ESRI_OID": 182,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -913,7 +968,7 @@
     },
     {
       "type": "Feature",
-      "id": 225,
+      "id": 195,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -968,7 +1023,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 225,
+        "ESRI_OID": 195,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -976,7 +1031,7 @@
     },
     {
       "type": "Feature",
-      "id": 226,
+      "id": 196,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1031,7 +1086,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 226,
+        "ESRI_OID": 196,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1039,7 +1094,7 @@
     },
     {
       "type": "Feature",
-      "id": 231,
+      "id": 199,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1094,7 +1149,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 231,
+        "ESRI_OID": 199,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1102,7 +1157,7 @@
     },
     {
       "type": "Feature",
-      "id": 232,
+      "id": 200,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1157,7 +1212,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 232,
+        "ESRI_OID": 200,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2112,83 +2167,6 @@
     },
     {
       "type": "Feature",
-      "id": 268162778,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.19517127799998,
-            38.655030440000075
-          ],
-          [
-            -90.19510768499998,
-            38.65489461900006
-          ],
-          [
-            -90.19389900599998,
-            38.652418417000035
-          ],
-          [
-            -90.19221724199997,
-            38.64912313800005
-          ],
-          [
-            -90.19216327899994,
-            38.64899694400003
-          ],
-          [
-            -90.19180729199996,
-            38.648281944000075
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1015722,
-        "STATIC_DTL_ID": 319886,
-        "TRANSACTION_ID": 68620081,
-        "ACTIVATION_DATE": 1784054586000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 19,
-        "TRAVELWAY_NAME": "70",
-        "DESIGNATION": "IS",
-        "DIRECTION": "E",
-        "OFFSET": null,
-        "ROUTE": "IS 70 E",
-        "COUNTY_NAME": "ST. LOUIS CITY",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 248.671005,
-        "END_LOG": 249.171005,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1784054586000,
-        "START_DATE": 1784054340000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 2:39 PM (-90192171,38649004)",
-        "ATMS_ID": 884900,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "HOODA1",
-        "LAST_CHANGED_DATE": 1784054586000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1784054586000,
-        "BEGIN_DESCRIPTION": ".01 mile(s) before RP IS70E TO ST LOUIS AVE E",
-        "END_DESCRIPTION": ".053 mile(s) after RP 11TH ST TO IS70E E",
-        "OBJECT_ID": 268162778,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 268159397,
       "geometry": {
         "type": "LineString",
@@ -2319,6 +2297,75 @@
     },
     {
       "type": "Feature",
+      "id": 268164177,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.33351521799995,
+            38.80009078100005
+          ],
+          [
+            -90.33371992799994,
+            38.80009174000003
+          ],
+          [
+            -90.33385438799996,
+            38.80008556700005
+          ],
+          [
+            -90.33389090799994,
+            38.80007994400006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1015737,
+        "STATIC_DTL_ID": 319894,
+        "TRANSACTION_ID": 68620372,
+        "ACTIVATION_DATE": 1784057760000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 15,
+        "TRAVELWAY_NAME": "67",
+        "DESIGNATION": "US",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "US 67 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.9759998,
+        "END_LOG": 11.9960003,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784058492000,
+        "START_DATE": 1784057460000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE US 67 SB PAST FERDINAND ST LEFT LANE CLOSED EST. CLEARANCE TIME: 3:31 PM (-90333659,38800181)",
+        "ATMS_ID": 884916,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "VOGELK1",
+        "LAST_CHANGED_DATE": 1784058492000,
+        "LOC_LAST_CHANGED_USER": "VOGELK1",
+        "LOC_LAST_CHANGED_DATE": 1784058493000,
+        "BEGIN_DESCRIPTION": ".018 mile(s) before CST PATTERSON RD S",
+        "END_DESCRIPTION": ".002 mile(s) after CST PATTERSON RD S",
+        "OBJECT_ID": 268164177,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 268148474,
       "geometry": {
         "type": "LineString",
@@ -2384,7 +2431,68 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 268164274,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.38923689199999,
+            38.77717814300007
+          ],
+          [
+            -90.38889578299995,
+            38.77729044600005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1015738,
+        "STATIC_DTL_ID": 319895,
+        "TRANSACTION_ID": 68620398,
+        "ACTIVATION_DATE": 1784058127000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 104119,
+        "TRAVELWAY_NAME": "IS270E TO JAMES S MCDONNELL BLVD",
+        "DESIGNATION": "RP",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "RP IS270E TO JAMES S MCDONNELL BLVD E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.245000005,
+        "END_LOG": 0.264999986,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784058981000,
+        "START_DATE": 1784056980000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-270 EB TO MCDONNELL BLVD LEFT SHOULDER EST. CLEARANCE TIME: 3:23 PM (-90390048,38776681)",
+        "ATMS_ID": 884914,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WILLIKA",
+        "LAST_CHANGED_DATE": 1784058981000,
+        "LOC_LAST_CHANGED_USER": "WILLIKA",
+        "LOC_LAST_CHANGED_DATE": 1784058981000,
+        "BEGIN_DESCRIPTION": ".02 mile(s) before CST JAMES S MCDONNELL BLVD S",
+        "END_DESCRIPTION": "CST JAMES S MCDONNELL BLVD S",
+        "OBJECT_ID": 268164274,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2731,7 +2839,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/07/2026",
         "OPPOSING_TI_WZ_ID": 540208,
-        "ESRI_OID": 1,
+        "ESRI_OID": 27,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2739,7 +2847,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 28,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2870,7 +2978,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 2,
+        "ESRI_OID": 28,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -2878,7 +2986,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 29,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3005,7 +3113,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 3,
+        "ESRI_OID": 29,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3013,7 +3121,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 30,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3100,7 +3208,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 4,
+        "ESRI_OID": 30,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3108,7 +3216,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 31,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3187,7 +3295,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 5,
+        "ESRI_OID": 31,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3195,7 +3303,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 32,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3278,7 +3386,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 6,
+        "ESRI_OID": 32,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3286,7 +3394,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 33,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3377,7 +3485,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 7,
+        "ESRI_OID": 33,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3385,7 +3493,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 34,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3688,7 +3796,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/07/2026",
         "OPPOSING_TI_WZ_ID": 540209,
-        "ESRI_OID": 8,
+        "ESRI_OID": 34,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3696,7 +3804,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 35,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3791,7 +3899,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 9,
+        "ESRI_OID": 35,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3799,7 +3907,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 36,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3914,7 +4022,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 10,
+        "ESRI_OID": 36,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3922,7 +4030,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 37,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4201,7 +4309,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "09/04/2025",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 11,
+        "ESRI_OID": 37,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4209,7 +4317,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 38,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4324,7 +4432,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 12,
+        "ESRI_OID": 38,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4332,7 +4440,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 39,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4411,7 +4519,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 13,
+        "ESRI_OID": 39,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4419,7 +4527,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 40,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4494,7 +4602,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/24/2026",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 14,
+        "ESRI_OID": 40,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4502,7 +4610,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 41,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4605,7 +4713,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 15,
+        "ESRI_OID": 41,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4613,7 +4721,7 @@
     },
     {
       "type": "Feature",
-      "id": 16,
+      "id": 42,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4716,7 +4824,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 16,
+        "ESRI_OID": 42,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
