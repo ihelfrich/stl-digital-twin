@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-07-20T00:11:07.886Z",
+    "updatedAt": "2026-07-20T04:08:56.443Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 81
+    "featureCount": 89
   },
   "features": [
     {
@@ -118,7 +118,7 @@
     },
     {
       "type": "Feature",
-      "id": 268200933,
+      "id": 268201179,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -127,7 +127,7 @@
         ]
       },
       "properties": {
-        "ESTIMATED_HOUR_DURATION": 2,
+        "ESTIMATED_HOUR_DURATION": 7,
         "LAST_CHANGED_USER": "WHITAN1",
         "COUNTY_NAME": "ST. LOUIS CITY",
         "DISTRICT_NO": 5,
@@ -137,7 +137,7 @@
         "DIRECTION": "W",
         "DATA_ID": 1016441,
         "STATIC_DTL_ID": 320267,
-        "TRANSACTION_ID": 68640250,
+        "TRANSACTION_ID": 68640470,
         "ACTIVATION_DATE": 1784499447000,
         "DEACTIVATION_DATE": null,
         "OFFSET": null,
@@ -150,22 +150,132 @@
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1784505668000,
+        "STATUS_DATE": 1784513942000,
         "START_DATE": 1784499240000,
         "END_DATE": null,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "OTHER",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 6:44 PM (-90189706,38645015)",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 7/20/2026 12:14 AM (-90189706,38645015)",
         "ATMS_ID": 885781,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1784505668000,
+        "LAST_CHANGED_DATE": 1784513942000,
         "LOC_LAST_CHANGED_USER": "WHITAN1",
-        "LOC_LAST_CHANGED_DATE": 1784505668000,
+        "LOC_LAST_CHANGED_DATE": 1784513942000,
         "BEGIN_DESCRIPTION": ".007 mile(s) before PED ST LOUIS RIVERFRONT TRAIL S",
         "END_DESCRIPTION": ".061 mile(s) before IS 44 E",
-        "OBJECT_ID": 268200933,
+        "OBJECT_ID": 268201179,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32139850799996,
+          38.44125535300003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6257,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "231",
+        "DIRECTION": "N",
+        "DATA_ID": 1016467,
+        "STATIC_DTL_ID": 320293,
+        "TRANSACTION_ID": 68640466,
+        "ACTIVATION_DATE": 1784512957000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 231 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.46799994,
+        "END_LOG": 4.48799992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016468,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784512957000,
+        "START_DATE": 1784512920000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1784512957000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784512957000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CRD WINDING CREEK WAY S",
+        "END_DESCRIPTION": ".009 mile(s) after CRD WINDING CREEK WAY S",
+        "OBJECT_ID": 268201163,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.35950846499998,
+          38.57986188700005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 238227,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "S ELM AVE",
+        "DIRECTION": "N",
+        "DATA_ID": 1016464,
+        "STATIC_DTL_ID": 320290,
+        "TRANSACTION_ID": 68640449,
+        "ACTIVATION_DATE": 1784510228000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST S ELM AVE N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.03799999,
+        "END_LOG": 1.04700005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016463,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784510228000,
+        "START_DATE": 1784510100000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1784510228000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784510228000,
+        "BEGIN_DESCRIPTION": ".004 mile(s) before RP SO ELM AVE TO IS44E E",
+        "END_DESCRIPTION": ".005 mile(s) after RP SO ELM AVE TO IS44E E",
+        "OBJECT_ID": 268201142,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -228,6 +338,61 @@
     },
     {
       "type": "Feature",
+      "id": 268201140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.35950846499998,
+          38.57986188600006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 114341,
+        "DESIGNATION": "CST",
+        "TRAVELWAY_NAME": "S ELM AVE",
+        "DIRECTION": "S",
+        "DATA_ID": 1016463,
+        "STATIC_DTL_ID": 320289,
+        "TRANSACTION_ID": 68640449,
+        "ACTIVATION_DATE": 1784510227000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "CST S ELM AVE S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.910000026,
+        "END_LOG": 0.91900003,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016464,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784510227000,
+        "START_DATE": 1784510100000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1784510227000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784510227000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before RP IS44E TO SO ELM AVE E",
+        "END_DESCRIPTION": ".004 mile(s) after RP IS44E TO SO ELM AVE E",
+        "OBJECT_ID": 268201140,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 268200851,
       "geometry": {
         "type": "Point",
@@ -276,6 +441,61 @@
         "BEGIN_DESCRIPTION": ".058 mile(s) before CST PARDEE LN E",
         "END_DESCRIPTION": ".024 mile(s) before CST GRANT RD S",
         "OBJECT_ID": 268200851,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32139850599998,
+          38.44125535500007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 96,
+        "LAST_CHANGED_USER": "welloc1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6256,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "231",
+        "DIRECTION": "S",
+        "DATA_ID": 1016468,
+        "STATIC_DTL_ID": 320294,
+        "TRANSACTION_ID": 68640466,
+        "ACTIVATION_DATE": 1784512959000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 231 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 7.74399996,
+        "END_LOG": 7.76399994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016467,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784512959000,
+        "START_DATE": 1784512920000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1784512959000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784512959000,
+        "BEGIN_DESCRIPTION": ".009 mile(s) before CRD WINDING CREEK WAY S",
+        "END_DESCRIPTION": ".011 mile(s) after CRD WINDING CREEK WAY S",
+        "OBJECT_ID": 268201167,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -393,7 +613,7 @@
     },
     {
       "type": "Feature",
-      "id": 93,
+      "id": 195,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -433,9 +653,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 37154,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".031 mile(s) before CRD CONSORT DR S",
         "END_REF_PT": ".02 mile(s) before PVT MANCHESTER MEADOWS S",
@@ -448,7 +668,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 93,
+        "ESRI_OID": 195,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -456,7 +676,7 @@
     },
     {
       "type": "Feature",
-      "id": 97,
+      "id": 199,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -496,9 +716,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 22055,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".014 mile(s) after CO MO100W TO MO100E E",
         "END_REF_PT": ".013 mile(s) after CRD MASON LN S",
@@ -511,7 +731,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 97,
+        "ESRI_OID": 199,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -519,7 +739,7 @@
     },
     {
       "type": "Feature",
-      "id": 130,
+      "id": 29,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -559,9 +779,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 1153,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CST DUNN RD E",
         "END_REF_PT": ".001 mile(s) before CST CHAIN OF ROCKS BRG E",
@@ -574,7 +794,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 130,
+        "ESRI_OID": 29,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -582,7 +802,7 @@
     },
     {
       "type": "Feature",
-      "id": 131,
+      "id": 30,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -622,9 +842,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 3112,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) after CST CHAIN OF ROCKS BRG E",
         "END_REF_PT": ".001 mile(s) after CST DUNN RD E",
@@ -637,7 +857,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 131,
+        "ESRI_OID": 30,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -645,7 +865,7 @@
     },
     {
       "type": "Feature",
-      "id": 137,
+      "id": 236,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -685,9 +905,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18577,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".004 mile(s) before CRD BARRETT STATION RD S",
         "END_REF_PT": ".003 mile(s) after CST DES PERES RD S",
@@ -700,7 +920,7 @@
         "LAST_CHANGED_DATE": "07/15/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 554935,
-        "ESRI_OID": 137,
+        "ESRI_OID": 236,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -708,7 +928,7 @@
     },
     {
       "type": "Feature",
-      "id": 138,
+      "id": 237,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -748,9 +968,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 22055,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CST DES PERES RD S",
         "END_REF_PT": ".004 mile(s) after CRD BARRETT STATION RD S",
@@ -763,7 +983,7 @@
         "LAST_CHANGED_DATE": "07/15/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 554934,
-        "ESRI_OID": 138,
+        "ESRI_OID": 237,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -771,7 +991,7 @@
     },
     {
       "type": "Feature",
-      "id": 155,
+      "id": 35,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -811,9 +1031,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18462,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CST N 5TH ST S",
         "END_REF_PT": ".068 mile(s) after MO 141 S",
@@ -826,7 +1046,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 155,
+        "ESRI_OID": 35,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -834,7 +1054,7 @@
     },
     {
       "type": "Feature",
-      "id": 160,
+      "id": 36,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -874,9 +1094,9 @@
         "ORG_CODE": "7FCE",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 9828,
+        "NHS": "COL",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST ALABAMA AVE E",
         "END_REF_PT": "US 50 E",
@@ -889,7 +1109,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 160,
+        "ESRI_OID": 36,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -897,7 +1117,7 @@
     },
     {
       "type": "Feature",
-      "id": 163,
+      "id": 37,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -937,9 +1157,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 23735,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".012 mile(s) before RP MO141 TO MO370W W",
         "END_REF_PT": ".001 mile(s) after CST N 5TH ST S",
@@ -952,7 +1172,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 163,
+        "ESRI_OID": 37,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -960,7 +1180,7 @@
     },
     {
       "type": "Feature",
-      "id": 175,
+      "id": 40,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1000,9 +1220,9 @@
         "ORG_CODE": "7FCD",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 54291,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".047 mile(s) after RP IS55N TO MO141S S",
         "END_REF_PT": ".033 mile(s) before RP MERAMEC BOTTOM RD TO IS55N N",
@@ -1015,7 +1235,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 175,
+        "ESRI_OID": 40,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1023,7 +1243,7 @@
     },
     {
       "type": "Feature",
-      "id": 180,
+      "id": 44,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1063,9 +1283,9 @@
         "ORG_CODE": "7FCD",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 70519,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".026 mile(s) after RP IS55S TO MERAMEC BOTTOM RD W",
         "END_REF_PT": ".083 mile(s) before RP MO141N TO IS55S S",
@@ -1078,7 +1298,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 180,
+        "ESRI_OID": 44,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1086,7 +1306,7 @@
     },
     {
       "type": "Feature",
-      "id": 192,
+      "id": 283,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1126,9 +1346,9 @@
         "ORG_CODE": "Fcb",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11810,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".019 mile(s) before CRD CRAIG RD S",
         "END_REF_PT": ".006 mile(s) after CRD ORCHARD LAKES DR S",
@@ -1141,7 +1361,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 192,
+        "ESRI_OID": 283,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1149,7 +1369,7 @@
     },
     {
       "type": "Feature",
-      "id": 206,
+      "id": 295,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1189,9 +1409,9 @@
         "ORG_CODE": "Fcb",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11850,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CST EMERSON RD S",
         "END_REF_PT": ".019 mile(s) after CRD CRAIG RD S",
@@ -1204,7 +1424,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 206,
+        "ESRI_OID": 295,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1212,7 +1432,7 @@
     },
     {
       "type": "Feature",
-      "id": 208,
+      "id": 297,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1252,9 +1472,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 37154,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".013 mile(s) before CRD MASON LN S",
         "END_REF_PT": ".012 mile(s) after CRD BARRETT STATION RD S",
@@ -1267,7 +1487,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 208,
+        "ESRI_OID": 297,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1275,7 +1495,7 @@
     },
     {
       "type": "Feature",
-      "id": 211,
+      "id": 52,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1315,9 +1535,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 24630,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".121 mile(s) after RP LILAC AVE TO IS270E E",
         "END_REF_PT": ".024 mile(s) after RP RIVERVIEW DR TO IS270E E",
@@ -1330,7 +1550,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 211,
+        "ESRI_OID": 52,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1338,7 +1558,7 @@
     },
     {
       "type": "Feature",
-      "id": 212,
+      "id": 53,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1378,9 +1598,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 23218,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".022 mile(s) before RP IS270W TO RIVERVIEW DR W",
         "END_REF_PT": ".069 mile(s) before RP IS270W TO LILAC AVE W",
@@ -1393,7 +1613,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 212,
+        "ESRI_OID": 53,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1401,7 +1621,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 101,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1441,9 +1661,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "PENDING DIST APPRVL",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 13689,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".17 mile(s) before PVT MACHENS CLUB DR S",
         "END_REF_PT": ".153 mile(s) before CST LEWIS & CLARK BLVD S",
@@ -1456,7 +1676,7 @@
         "LAST_CHANGED_DATE": "07/16/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 5,
+        "ESRI_OID": 101,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1464,7 +1684,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 102,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1504,9 +1724,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "PENDING DIST APPRVL",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11546,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".139 mile(s) after CST LEWIS & CLARK BLVD N",
         "END_REF_PT": ".685 mile(s) before CO US67S TO US67N N",
@@ -1519,7 +1739,7 @@
         "LAST_CHANGED_DATE": "07/16/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 6,
+        "ESRI_OID": 102,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1527,7 +1747,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 110,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1567,9 +1787,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 6488,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".001 mile(s) after CST 3RD ST S",
         "END_REF_PT": ".001 mile(s) after RP MO94 TO MO370W W",
@@ -1582,7 +1802,7 @@
         "LAST_CHANGED_DATE": "05/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 14,
+        "ESRI_OID": 110,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1590,7 +1810,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 111,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1630,9 +1850,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 17160,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".008 mile(s) before RP IS255S TO US67 S",
         "END_REF_PT": ".005 mile(s) before CST STARLING AIRPORT RD S",
@@ -1645,7 +1865,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 15,
+        "ESRI_OID": 111,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1653,7 +1873,7 @@
     },
     {
       "type": "Feature",
-      "id": 19,
+      "id": 115,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1693,9 +1913,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 17160,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "US 50 E",
         "END_REF_PT": ".002 mile(s) after CRD MEHL AVE S",
@@ -1708,7 +1928,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 19,
+        "ESRI_OID": 115,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1716,7 +1936,7 @@
     },
     {
       "type": "Feature",
-      "id": 29,
+      "id": 124,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1756,9 +1976,9 @@
         "ORG_CODE": "FCE",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 5630,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".002 mile(s) after CST YALE AVE S",
         "END_REF_PT": ".003 mile(s) before IS 55 S",
@@ -1771,7 +1991,7 @@
         "LAST_CHANGED_DATE": "05/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 29,
+        "ESRI_OID": 124,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1779,7 +1999,7 @@
     },
     {
       "type": "Feature",
-      "id": 32,
+      "id": 127,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1819,9 +2039,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 14218,
+        "NHS": "COL",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST BROADWAY ST S",
         "END_REF_PT": ".001 mile(s) before CRD SOUTHWARK LN E",
@@ -1834,7 +2054,7 @@
         "LAST_CHANGED_DATE": "06/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 32,
+        "ESRI_OID": 127,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1842,7 +2062,7 @@
     },
     {
       "type": "Feature",
-      "id": 45,
+      "id": 137,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1882,9 +2102,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 41420,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CRD BAUMGARTNER RD E",
         "END_REF_PT": ".011 mile(s) after CRD CHRISTOPHER DR S",
@@ -1897,7 +2117,7 @@
         "LAST_CHANGED_DATE": "07/14/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 549222,
-        "ESRI_OID": 45,
+        "ESRI_OID": 137,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1905,7 +2125,7 @@
     },
     {
       "type": "Feature",
-      "id": 77,
+      "id": 11,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1945,9 +2165,9 @@
         "ORG_CODE": "7FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18462,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CRD ELM POINT IND DR E",
         "END_REF_PT": ".001 mile(s) before RP MO370E TO IS270E E",
@@ -1960,7 +2180,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 77,
+        "ESRI_OID": 11,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1968,7 +2188,7 @@
     },
     {
       "type": "Feature",
-      "id": 78,
+      "id": 12,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2008,9 +2228,9 @@
         "ORG_CODE": "7FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 15821,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "RAMP",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".149 mile(s) before RP IS270W TO MO370W W",
         "END_REF_PT": ".004 mile(s) after CRD ELM POINT IND DR E",
@@ -2023,7 +2243,7 @@
         "LAST_CHANGED_DATE": "08/29/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 78,
+        "ESRI_OID": 12,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2031,7 +2251,7 @@
     },
     {
       "type": "Feature",
-      "id": 79,
+      "id": 166,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2071,9 +2291,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 85207,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".003 mile(s) before RP IS70W TO LP70E E",
         "END_REF_PT": ".004 mile(s) before RP LAKE ST LOUIS BLVD TO IS70W W",
@@ -2086,7 +2306,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 79,
+        "ESRI_OID": 166,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2094,7 +2314,7 @@
     },
     {
       "type": "Feature",
-      "id": 80,
+      "id": 167,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2134,9 +2354,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 42974,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".023 mile(s) after RP IS70E TO LAKE ST LOUIS BLVD E",
         "END_REF_PT": ".023 mile(s) after RP LP70E TO IS70E E",
@@ -2149,7 +2369,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 80,
+        "ESRI_OID": 167,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2157,7 +2377,7 @@
     },
     {
       "type": "Feature",
-      "id": 90,
+      "id": 13,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2197,9 +2417,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 16834,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".06 mile(s) before RP DRTDE TO US67S S",
         "END_REF_PT": ".001 mile(s) before CST FLOM CT E",
@@ -2212,7 +2432,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 90,
+        "ESRI_OID": 13,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2220,7 +2440,7 @@
     },
     {
       "type": "Feature",
-      "id": 91,
+      "id": 176,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2260,9 +2480,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 10944,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".014 mile(s) after RP US67S TO RTDW W",
         "END_REF_PT": ".016 mile(s) before RP DRTDE TO US67S S",
@@ -2275,7 +2495,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 91,
+        "ESRI_OID": 176,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2283,7 +2503,7 @@
     },
     {
       "type": "Feature",
-      "id": 93,
+      "id": 178,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2323,9 +2543,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 9497,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".024 mile(s) after RP US67N TO RTDE E",
         "END_REF_PT": ".01 mile(s) after RP RTDW TO US67N N",
@@ -2338,7 +2558,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 93,
+        "ESRI_OID": 178,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2346,7 +2566,7 @@
     },
     {
       "type": "Feature",
-      "id": 100,
+      "id": 185,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2386,9 +2606,9 @@
         "ORG_CODE": "7FTE",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 21912,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST COUNTRY RIDGE DR E",
         "END_REF_PT": "CST RIVER VALLEY DR S",
@@ -2401,7 +2621,7 @@
         "LAST_CHANGED_DATE": "06/26/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553924,
-        "ESRI_OID": 100,
+        "ESRI_OID": 185,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2543,7 +2763,7 @@
     },
     {
       "type": "Feature",
-      "id": 268200933,
+      "id": 268201179,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2612,7 +2832,7 @@
       "properties": {
         "DATA_ID": 1016441,
         "STATIC_DTL_ID": 320267,
-        "TRANSACTION_ID": 68640250,
+        "TRANSACTION_ID": 68640470,
         "ACTIVATION_DATE": 1784499447000,
         "DEACTIVATION_DATE": null,
         "TRAVELWAY_ID": 3506,
@@ -2631,24 +2851,154 @@
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1784505668000,
+        "STATUS_DATE": 1784513942000,
         "START_DATE": 1784499240000,
         "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 2,
+        "ESTIMATED_HOUR_DURATION": 7,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "OTHER",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 6:44 PM (-90189706,38645015)",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST TUCKER BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 7/20/2026 12:14 AM (-90189706,38645015)",
         "ATMS_ID": 885781,
         "ATMS_SOURCE": "29002",
         "LAST_CHANGED_USER": "WHITAN1",
-        "LAST_CHANGED_DATE": 1784505668000,
+        "LAST_CHANGED_DATE": 1784513942000,
         "LOC_LAST_CHANGED_USER": "WHITAN1",
-        "LOC_LAST_CHANGED_DATE": 1784505668000,
+        "LOC_LAST_CHANGED_DATE": 1784513942000,
         "BEGIN_DESCRIPTION": ".007 mile(s) before PED ST LOUIS RIVERFRONT TRAIL S",
         "END_DESCRIPTION": ".061 mile(s) before IS 44 E",
-        "OBJECT_ID": 268200933,
+        "OBJECT_ID": 268201179,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201163,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.32152149499996,
+            38.44114823000007
+          ],
+          [
+            -90.32138620699999,
+            38.44126606700007
+          ],
+          [
+            -90.32127074499994,
+            38.441359876000035
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1016467,
+        "STATIC_DTL_ID": 320293,
+        "TRANSACTION_ID": 68640466,
+        "ACTIVATION_DATE": 1784512957000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6257,
+        "TRAVELWAY_NAME": "231",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 231 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 4.46799994,
+        "END_LOG": 4.48799992,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016468,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784512957000,
+        "START_DATE": 1784512920000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1784512957000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784512957000,
+        "BEGIN_DESCRIPTION": ".011 mile(s) before CRD WINDING CREEK WAY S",
+        "END_DESCRIPTION": ".009 mile(s) after CRD WINDING CREEK WAY S",
+        "OBJECT_ID": 268201163,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201142,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.35949655999997,
+            38.57979756700007
+          ],
+          [
+            -90.35950686899997,
+            38.579854805000025
+          ],
+          [
+            -90.35952283499995,
+            38.579925623000065
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1016464,
+        "STATIC_DTL_ID": 320290,
+        "TRANSACTION_ID": 68640449,
+        "ACTIVATION_DATE": 1784510228000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 238227,
+        "TRAVELWAY_NAME": "S ELM AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "CST S ELM AVE N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.03799999,
+        "END_LOG": 1.04700005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016463,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784510228000,
+        "START_DATE": 1784510100000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1784510228000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784510228000,
+        "BEGIN_DESCRIPTION": ".004 mile(s) before RP SO ELM AVE TO IS44E E",
+        "END_DESCRIPTION": ".005 mile(s) after RP SO ELM AVE TO IS44E E",
+        "OBJECT_ID": 268201142,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
@@ -2721,6 +3071,71 @@
     },
     {
       "type": "Feature",
+      "id": 268201140,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.35952283499995,
+            38.579925623000065
+          ],
+          [
+            -90.35950686899997,
+            38.579854805000025
+          ],
+          [
+            -90.35949655899998,
+            38.579797566000025
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1016463,
+        "STATIC_DTL_ID": 320289,
+        "TRANSACTION_ID": 68640449,
+        "ACTIVATION_DATE": 1784510227000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 114341,
+        "TRAVELWAY_NAME": "S ELM AVE",
+        "DESIGNATION": "CST",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "CST S ELM AVE S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0.910000026,
+        "END_LOG": 0.91900003,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016464,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784510227000,
+        "START_DATE": 1784510100000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1784510227000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784510227000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before RP IS44E TO SO ELM AVE E",
+        "END_DESCRIPTION": ".004 mile(s) after RP IS44E TO SO ELM AVE E",
+        "OBJECT_ID": 268201140,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
       "id": 268200851,
       "geometry": {
         "type": "LineString",
@@ -2779,6 +3194,71 @@
         "BEGIN_DESCRIPTION": ".058 mile(s) before CST PARDEE LN E",
         "END_DESCRIPTION": ".024 mile(s) before CST GRANT RD S",
         "OBJECT_ID": 268200851,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268201167,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.32127074499994,
+            38.441359876000035
+          ],
+          [
+            -90.32138620699999,
+            38.44126606700007
+          ],
+          [
+            -90.32152149399997,
+            38.44114823100006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1016468,
+        "STATIC_DTL_ID": 320294,
+        "TRANSACTION_ID": 68640466,
+        "ACTIVATION_DATE": 1784512959000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6256,
+        "TRAVELWAY_NAME": "231",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 231 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 7.74399996,
+        "END_LOG": 7.76399994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1016467,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1784512959000,
+        "START_DATE": 1784512920000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 96,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signal on red flash, be prepared to stop",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "welloc1",
+        "LAST_CHANGED_DATE": 1784512959000,
+        "LOC_LAST_CHANGED_USER": "welloc1",
+        "LOC_LAST_CHANGED_DATE": 1784512959000,
+        "BEGIN_DESCRIPTION": ".009 mile(s) before CRD WINDING CREEK WAY S",
+        "END_DESCRIPTION": ".011 mile(s) after CRD WINDING CREEK WAY S",
+        "OBJECT_ID": 268201167,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
@@ -2916,7 +3396,7 @@
     },
     {
       "type": "Feature",
-      "id": 106,
+      "id": 10,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3249,9 +3729,9 @@
         "ORG_CODE": "6I70",
         "STATUS": "ACTIVE",
         "WEEKEND": "SATURDAY",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 30126,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".045 mile(s) after RT K S",
         "END_REF_PT": ".006 mile(s) before RP US61S TO US40W W",
@@ -3263,7 +3743,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/17/2026",
         "OPPOSING_TI_WZ_ID": 540208,
-        "ESRI_OID": 106,
+        "ESRI_OID": 10,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3271,7 +3751,7 @@
     },
     {
       "type": "Feature",
-      "id": 35,
+      "id": 11,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3388,9 +3868,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18462,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CST N 5TH ST S",
         "END_REF_PT": ".068 mile(s) after MO 141 S",
@@ -3402,7 +3882,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 35,
+        "ESRI_OID": 11,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3410,7 +3890,7 @@
     },
     {
       "type": "Feature",
-      "id": 37,
+      "id": 12,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3523,9 +4003,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 23735,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".012 mile(s) before RP MO141 TO MO370W W",
         "END_REF_PT": ".001 mile(s) after CST N 5TH ST S",
@@ -3537,7 +4017,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 37,
+        "ESRI_OID": 12,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3545,7 +4025,7 @@
     },
     {
       "type": "Feature",
-      "id": 53,
+      "id": 13,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3618,9 +4098,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 23218,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".022 mile(s) before RP IS270W TO RIVERVIEW DR W",
         "END_REF_PT": ".069 mile(s) before RP IS270W TO LILAC AVE W",
@@ -3632,7 +4112,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 53,
+        "ESRI_OID": 13,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3640,7 +4120,7 @@
     },
     {
       "type": "Feature",
-      "id": 29,
+      "id": 14,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3705,9 +4185,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 1153,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CST DUNN RD E",
         "END_REF_PT": ".001 mile(s) before CST CHAIN OF ROCKS BRG E",
@@ -3719,7 +4199,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 29,
+        "ESRI_OID": 14,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3727,7 +4207,7 @@
     },
     {
       "type": "Feature",
-      "id": 30,
+      "id": 15,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3796,9 +4276,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 3112,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".001 mile(s) after CST CHAIN OF ROCKS BRG E",
         "END_REF_PT": ".001 mile(s) after CST DUNN RD E",
@@ -3810,7 +4290,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 30,
+        "ESRI_OID": 15,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3818,7 +4298,7 @@
     },
     {
       "type": "Feature",
-      "id": 52,
+      "id": 16,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3895,9 +4375,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 24630,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".121 mile(s) after RP LILAC AVE TO IS270E E",
         "END_REF_PT": ".024 mile(s) after RP RIVERVIEW DR TO IS270E E",
@@ -3909,7 +4389,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 52,
+        "ESRI_OID": 16,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3917,7 +4397,7 @@
     },
     {
       "type": "Feature",
-      "id": 107,
+      "id": 17,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4206,9 +4686,9 @@
         "ORG_CODE": "6I70",
         "STATUS": "ACTIVE",
         "WEEKEND": "SATURDAY",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 20652,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "IS 70 E",
         "END_REF_PT": ".032 mile(s) before RP RTKS TO IS64E E",
@@ -4220,7 +4700,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/17/2026",
         "OPPOSING_TI_WZ_ID": 540209,
-        "ESRI_OID": 107,
+        "ESRI_OID": 17,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4228,7 +4708,7 @@
     },
     {
       "type": "Feature",
-      "id": 108,
+      "id": 18,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4309,9 +4789,9 @@
         "ORG_CODE": "Fcb",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11850,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CST EMERSON RD S",
         "END_REF_PT": ".019 mile(s) after CRD CRAIG RD S",
@@ -4323,7 +4803,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 108,
+        "ESRI_OID": 18,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4331,7 +4811,7 @@
     },
     {
       "type": "Feature",
-      "id": 109,
+      "id": 19,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4432,9 +4912,9 @@
         "ORG_CODE": "Fcb",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11810,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".019 mile(s) before CRD CRAIG RD S",
         "END_REF_PT": ".006 mile(s) after CRD ORCHARD LAKES DR S",
@@ -4446,7 +4926,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 109,
+        "ESRI_OID": 19,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4454,7 +4934,7 @@
     },
     {
       "type": "Feature",
-      "id": 36,
+      "id": 20,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4719,9 +5199,9 @@
         "ORG_CODE": "7FCE",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 9828,
+        "NHS": "COL",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST ALABAMA AVE E",
         "END_REF_PT": "US 50 E",
@@ -4733,7 +5213,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "09/04/2025",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 36,
+        "ESRI_OID": 20,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4741,7 +5221,7 @@
     },
     {
       "type": "Feature",
-      "id": 110,
+      "id": 21,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4842,9 +5322,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 22055,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".014 mile(s) after CO MO100W TO MO100E E",
         "END_REF_PT": ".013 mile(s) after CRD MASON LN S",
@@ -4856,7 +5336,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 110,
+        "ESRI_OID": 21,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4864,7 +5344,7 @@
     },
     {
       "type": "Feature",
-      "id": 111,
+      "id": 22,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4929,9 +5409,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 37154,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".013 mile(s) before CRD MASON LN S",
         "END_REF_PT": ".012 mile(s) after CRD BARRETT STATION RD S",
@@ -4943,7 +5423,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 111,
+        "ESRI_OID": 22,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4951,7 +5431,7 @@
     },
     {
       "type": "Feature",
-      "id": 112,
+      "id": 23,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5096,9 +5576,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18577,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".004 mile(s) before CRD BARRETT STATION RD S",
         "END_REF_PT": ".003 mile(s) after CST DES PERES RD S",
@@ -5110,7 +5590,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/15/2026",
         "OPPOSING_TI_WZ_ID": 554935,
-        "ESRI_OID": 112,
+        "ESRI_OID": 23,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5118,7 +5598,7 @@
     },
     {
       "type": "Feature",
-      "id": 113,
+      "id": 24,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5275,9 +5755,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 22055,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CST DES PERES RD S",
         "END_REF_PT": ".004 mile(s) after CRD BARRETT STATION RD S",
@@ -5289,7 +5769,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/15/2026",
         "OPPOSING_TI_WZ_ID": 554934,
-        "ESRI_OID": 113,
+        "ESRI_OID": 24,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5297,7 +5777,7 @@
     },
     {
       "type": "Feature",
-      "id": 114,
+      "id": 25,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5358,9 +5838,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 37154,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".031 mile(s) before CRD CONSORT DR S",
         "END_REF_PT": ".02 mile(s) before PVT MANCHESTER MEADOWS S",
@@ -5372,7 +5852,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/24/2026",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 114,
+        "ESRI_OID": 25,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5380,7 +5860,7 @@
     },
     {
       "type": "Feature",
-      "id": 40,
+      "id": 26,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5469,9 +5949,9 @@
         "ORG_CODE": "7FCD",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 54291,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".047 mile(s) after RP IS55N TO MO141S S",
         "END_REF_PT": ".033 mile(s) before RP MERAMEC BOTTOM RD TO IS55N N",
@@ -5483,7 +5963,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 40,
+        "ESRI_OID": 26,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5491,7 +5971,7 @@
     },
     {
       "type": "Feature",
-      "id": 44,
+      "id": 27,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5580,9 +6060,9 @@
         "ORG_CODE": "7FCD",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 70519,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".026 mile(s) after RP IS55S TO MERAMEC BOTTOM RD W",
         "END_REF_PT": ".083 mile(s) before RP MO141N TO IS55S S",
@@ -5594,7 +6074,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 44,
+        "ESRI_OID": 27,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5602,7 +6082,7 @@
     },
     {
       "type": "Feature",
-      "id": 53,
+      "id": 14,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5719,9 +6199,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "PENDING DIST APPRVL",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 13689,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".17 mile(s) before PVT MACHENS CLUB DR S",
         "END_REF_PT": ".153 mile(s) before CST LEWIS & CLARK BLVD S",
@@ -5733,7 +6213,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/16/2026",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 53,
+        "ESRI_OID": 14,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5741,7 +6221,7 @@
     },
     {
       "type": "Feature",
-      "id": 54,
+      "id": 15,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5838,9 +6318,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "PENDING DIST APPRVL",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 11546,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".139 mile(s) after CST LEWIS & CLARK BLVD N",
         "END_REF_PT": ".685 mile(s) before CO US67S TO US67N N",
@@ -5852,7 +6332,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/16/2026",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 54,
+        "ESRI_OID": 15,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5860,7 +6340,7 @@
     },
     {
       "type": "Feature",
-      "id": 55,
+      "id": 16,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5921,9 +6401,9 @@
         "ORG_CODE": "FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 6488,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".001 mile(s) after CST 3RD ST S",
         "END_REF_PT": ".001 mile(s) after RP MO94 TO MO370W W",
@@ -5935,7 +6415,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/21/2026",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 55,
+        "ESRI_OID": 16,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5943,7 +6423,7 @@
     },
     {
       "type": "Feature",
-      "id": 56,
+      "id": 17,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6260,9 +6740,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 17160,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".008 mile(s) before RP IS255S TO US67 S",
         "END_REF_PT": ".005 mile(s) before CST STARLING AIRPORT RD S",
@@ -6274,7 +6754,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 56,
+        "ESRI_OID": 17,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6282,7 +6762,7 @@
     },
     {
       "type": "Feature",
-      "id": 57,
+      "id": 18,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6359,9 +6839,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 17160,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "US 50 E",
         "END_REF_PT": ".002 mile(s) after CRD MEHL AVE S",
@@ -6373,7 +6853,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 57,
+        "ESRI_OID": 18,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6381,7 +6861,7 @@
     },
     {
       "type": "Feature",
-      "id": 58,
+      "id": 19,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6822,9 +7302,9 @@
         "ORG_CODE": "FCE",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 5630,
+        "NHS": "NOS",
+        "ROADWAY_TYPE": "MULTI-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".002 mile(s) after CST YALE AVE S",
         "END_REF_PT": ".003 mile(s) before IS 55 S",
@@ -6836,7 +7316,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/19/2026",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 58,
+        "ESRI_OID": 19,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6844,7 +7324,7 @@
     },
     {
       "type": "Feature",
-      "id": 59,
+      "id": 20,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7061,9 +7541,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 14218,
+        "NHS": "COL",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST BROADWAY ST S",
         "END_REF_PT": ".001 mile(s) before CRD SOUTHWARK LN E",
@@ -7075,7 +7555,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2026",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 59,
+        "ESRI_OID": 20,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7083,7 +7563,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 21,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7204,9 +7684,9 @@
         "ORG_CODE": "7FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 41420,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": ".001 mile(s) before CRD BAUMGARTNER RD E",
         "END_REF_PT": ".011 mile(s) after CRD CHRISTOPHER DR S",
@@ -7218,7 +7698,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/14/2026",
         "OPPOSING_TI_WZ_ID": 549222,
-        "ESRI_OID": 60,
+        "ESRI_OID": 21,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7226,7 +7706,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 22,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7467,9 +7947,9 @@
         "ORG_CODE": "7FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 18462,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": "CRD ELM POINT IND DR E",
         "END_REF_PT": ".001 mile(s) before RP MO370E TO IS270E E",
@@ -7481,7 +7961,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 11,
+        "ESRI_OID": 22,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7489,7 +7969,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 23,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7738,9 +8218,9 @@
         "ORG_CODE": "7FCG",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 15821,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "RAMP",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".149 mile(s) before RP IS270W TO MO370W W",
         "END_REF_PT": ".004 mile(s) after CRD ELM POINT IND DR E",
@@ -7752,7 +8232,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/29/2025",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 12,
+        "ESRI_OID": 23,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7760,7 +8240,7 @@
     },
     {
       "type": "Feature",
-      "id": 61,
+      "id": 24,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8205,9 +8685,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 85207,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".003 mile(s) before RP IS70W TO LP70E E",
         "END_REF_PT": ".004 mile(s) before RP LAKE ST LOUIS BLVD TO IS70W W",
@@ -8219,7 +8699,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 61,
+        "ESRI_OID": 24,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8227,7 +8707,7 @@
     },
     {
       "type": "Feature",
-      "id": 62,
+      "id": 25,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8664,9 +9144,9 @@
         "ORG_CODE": "FCB",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 42974,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "FREEWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".023 mile(s) after RP IS70E TO LAKE ST LOUIS BLVD E",
         "END_REF_PT": ".023 mile(s) after RP LP70E TO IS70E E",
@@ -8678,7 +9158,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 62,
+        "ESRI_OID": 25,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8686,7 +9166,7 @@
     },
     {
       "type": "Feature",
-      "id": 63,
+      "id": 26,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9971,9 +10451,9 @@
         "ORG_CODE": "7FCD",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 2468,
+        "NHS": "COL",
+        "ROADWAY_TYPE": "TWO-LANE",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "MO 100 E",
         "END_REF_PT": ".008 mile(s) before MO 100 W",
@@ -9985,7 +10465,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/17/2026",
         "OPPOSING_TI_WZ_ID": 546406,
-        "ESRI_OID": 63,
+        "ESRI_OID": 26,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9993,7 +10473,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 27,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10066,9 +10546,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 16834,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".06 mile(s) before RP DRTDE TO US67S S",
         "END_REF_PT": ".001 mile(s) before CST FLOM CT E",
@@ -10080,7 +10560,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 14,
+        "ESRI_OID": 27,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -10088,7 +10568,7 @@
     },
     {
       "type": "Feature",
-      "id": 64,
+      "id": 28,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10149,9 +10629,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 10944,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".014 mile(s) after RP US67S TO RTDW W",
         "END_REF_PT": ".016 mile(s) before RP DRTDE TO US67S S",
@@ -10163,7 +10643,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 64,
+        "ESRI_OID": 28,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -10171,7 +10651,7 @@
     },
     {
       "type": "Feature",
-      "id": 65,
+      "id": 29,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10236,9 +10716,9 @@
         "ORG_CODE": "7FCA",
         "STATUS": "ACTIVE",
         "WEEKEND": "BOTH",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 9497,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "EXPRESSWAY",
         "DIVIDED_UNDIVIDED": "DIVIDED",
         "BEG_REF_PT": ".024 mile(s) after RP US67N TO RTDE E",
         "END_REF_PT": ".01 mile(s) after RP RTDW TO US67N N",
@@ -10250,7 +10730,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 65,
+        "ESRI_OID": 29,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -10258,7 +10738,7 @@
     },
     {
       "type": "Feature",
-      "id": 66,
+      "id": 30,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10671,9 +11151,9 @@
         "ORG_CODE": "7FTE",
         "STATUS": "ACTIVE",
         "WEEKEND": "NONE",
-        "AADT": null,
-        "NHS": null,
-        "ROADWAY_TYPE": null,
+        "AADT": 21912,
+        "NHS": "NHS",
+        "ROADWAY_TYPE": "5 LANE SECTION",
         "DIVIDED_UNDIVIDED": "UNDIVIDED",
         "BEG_REF_PT": "CST COUNTRY RIDGE DR E",
         "END_REF_PT": "CST RIVER VALLEY DR S",
@@ -10685,7 +11165,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/26/2026",
         "OPPOSING_TI_WZ_ID": 553924,
-        "ESRI_OID": 66,
+        "ESRI_OID": 30,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
