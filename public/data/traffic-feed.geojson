@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-16T10:31:18.032Z",
+    "updatedAt": "2026-08-16T10:56:35.621Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 81
+    "featureCount": 83
   },
   "features": [
     {
@@ -118,7 +118,7 @@
     },
     {
       "type": "Feature",
-      "id": 268633324,
+      "id": 268633332,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -127,7 +127,7 @@
         ]
       },
       "properties": {
-        "ESTIMATED_HOUR_DURATION": 2,
+        "ESTIMATED_HOUR_DURATION": 4,
         "LAST_CHANGED_USER": "SANDEB1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
@@ -137,7 +137,7 @@
         "DIRECTION": "S",
         "DATA_ID": 1020824,
         "STATIC_DTL_ID": 322313,
-        "TRANSACTION_ID": 68753604,
+        "TRANSACTION_ID": 68753610,
         "ACTIVATION_DATE": 1786871166000,
         "DEACTIVATION_DATE": null,
         "OFFSET": null,
@@ -150,22 +150,22 @@
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1786872382000,
+        "STATUS_DATE": 1786876997000,
         "START_DATE": 1786869900000,
         "END_DATE": null,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "POLICE EMERGENCY",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "EMERGENCY VEHICLES MO 141 SB PAST CREVE COEUR MILL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 5:45 AM (-90499206,38716317)",
+        "EXT_COMMENT": "EMERGENCY VEHICLES MO 141 SB PAST CREVE COEUR MILL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 7:43 AM (-90499206,38716317)",
         "ATMS_ID": 890227,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1786872382000,
+        "LAST_CHANGED_DATE": 1786876997000,
         "LOC_LAST_CHANGED_USER": "SANDEB1",
-        "LOC_LAST_CHANGED_DATE": 1786872382000,
+        "LOC_LAST_CHANGED_DATE": 1786876998000,
         "BEGIN_DESCRIPTION": ".009 mile(s) before CST RIVER VALLEY DR S",
         "END_DESCRIPTION": ".011 mile(s) after CST RIVER VALLEY DR S",
-        "OBJECT_ID": 268633324,
+        "OBJECT_ID": 268633332,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -228,7 +228,62 @@
     },
     {
       "type": "Feature",
-      "id": 111,
+      "id": 268633335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.34159287299997,
+          38.73276643100007
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "SANDEB1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3506,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "W",
+        "DATA_ID": 1020827,
+        "STATIC_DTL_ID": 322316,
+        "TRANSACTION_ID": 68753611,
+        "ACTIVATION_DATE": 1786877606000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.7119999,
+        "END_LOG": 11.9619999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1786877606000,
+        "START_DATE": 1786877160000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "CRASH I-70 WB PAST I-170 BE PREPARED TO STOP EST. CLEARANCE TIME: 6:46 AM (-90343057,38733115)",
+        "ATMS_ID": 890229,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1786877606000,
+        "LOC_LAST_CHANGED_USER": "SANDEB1",
+        "LOC_LAST_CHANGED_DATE": 1786877607000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) after RP IS170W TO IS70W W",
+        "END_DESCRIPTION": "CST JAMES S MCDONNELL BLVD S",
+        "OBJECT_ID": 268633335,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -283,7 +338,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 111,
+        "ESRI_OID": 124,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -291,7 +346,7 @@
     },
     {
       "type": "Feature",
-      "id": 112,
+      "id": 125,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -346,7 +401,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 112,
+        "ESRI_OID": 125,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -480,7 +535,7 @@
     },
     {
       "type": "Feature",
-      "id": 133,
+      "id": 143,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -535,7 +590,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 133,
+        "ESRI_OID": 143,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -543,7 +598,7 @@
     },
     {
       "type": "Feature",
-      "id": 132,
+      "id": 142,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -598,7 +653,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 132,
+        "ESRI_OID": 142,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -606,7 +661,7 @@
     },
     {
       "type": "Feature",
-      "id": 134,
+      "id": 144,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -661,7 +716,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 134,
+        "ESRI_OID": 144,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -669,7 +724,7 @@
     },
     {
       "type": "Feature",
-      "id": 142,
+      "id": 150,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -724,7 +779,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 142,
+        "ESRI_OID": 150,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -732,7 +787,7 @@
     },
     {
       "type": "Feature",
-      "id": 178,
+      "id": 180,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -787,7 +842,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 178,
+        "ESRI_OID": 180,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -795,7 +850,7 @@
     },
     {
       "type": "Feature",
-      "id": 168,
+      "id": 173,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -850,7 +905,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 168,
+        "ESRI_OID": 173,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -858,7 +913,7 @@
     },
     {
       "type": "Feature",
-      "id": 139,
+      "id": 148,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -913,7 +968,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 139,
+        "ESRI_OID": 148,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -921,7 +976,7 @@
     },
     {
       "type": "Feature",
-      "id": 156,
+      "id": 162,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -976,7 +1031,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 156,
+        "ESRI_OID": 162,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -984,7 +1039,7 @@
     },
     {
       "type": "Feature",
-      "id": 152,
+      "id": 158,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1039,7 +1094,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 152,
+        "ESRI_OID": 158,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1047,7 +1102,7 @@
     },
     {
       "type": "Feature",
-      "id": 83,
+      "id": 106,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1102,7 +1157,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 83,
+        "ESRI_OID": 106,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1110,7 +1165,7 @@
     },
     {
       "type": "Feature",
-      "id": 78,
+      "id": 101,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1165,7 +1220,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 78,
+        "ESRI_OID": 101,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1173,7 +1228,7 @@
     },
     {
       "type": "Feature",
-      "id": 182,
+      "id": 183,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1228,7 +1283,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 182,
+        "ESRI_OID": 183,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2559,7 +2614,7 @@
     },
     {
       "type": "Feature",
-      "id": 268633324,
+      "id": 268633332,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2580,7 +2635,7 @@
       "properties": {
         "DATA_ID": 1020824,
         "STATIC_DTL_ID": 322313,
-        "TRANSACTION_ID": 68753604,
+        "TRANSACTION_ID": 68753610,
         "ACTIVATION_DATE": 1786871166000,
         "DEACTIVATION_DATE": null,
         "TRAVELWAY_ID": 6353,
@@ -2599,24 +2654,24 @@
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1786872382000,
+        "STATUS_DATE": 1786876997000,
         "START_DATE": 1786869900000,
         "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 2,
+        "ESTIMATED_HOUR_DURATION": 4,
         "RIVER_NAME": null,
         "DEPTH": 0,
         "TYPE_CODE": "POLICE EMERGENCY",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "EMERGENCY VEHICLES MO 141 SB PAST CREVE COEUR MILL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 5:45 AM (-90499206,38716317)",
+        "EXT_COMMENT": "EMERGENCY VEHICLES MO 141 SB PAST CREVE COEUR MILL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 7:43 AM (-90499206,38716317)",
         "ATMS_ID": 890227,
         "ATMS_SOURCE": "29002",
         "LAST_CHANGED_USER": "SANDEB1",
-        "LAST_CHANGED_DATE": 1786872382000,
+        "LAST_CHANGED_DATE": 1786876997000,
         "LOC_LAST_CHANGED_USER": "SANDEB1",
-        "LOC_LAST_CHANGED_DATE": 1786872382000,
+        "LOC_LAST_CHANGED_DATE": 1786876998000,
         "BEGIN_DESCRIPTION": ".009 mile(s) before CST RIVER VALLEY DR S",
         "END_DESCRIPTION": ".011 mile(s) after CST RIVER VALLEY DR S",
-        "OBJECT_ID": 268633324,
+        "OBJECT_ID": 268633332,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
@@ -2681,6 +2736,71 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268633335,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.33939774399994,
+            38.732204452000076
+          ],
+          [
+            -90.34030224399999,
+            38.73245870000005
+          ],
+          [
+            -90.34380286099997,
+            38.73329333000004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1020827,
+        "STATIC_DTL_ID": 322316,
+        "TRANSACTION_ID": 68753611,
+        "ACTIVATION_DATE": 1786877606000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3506,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 11.7119999,
+        "END_LOG": 11.9619999,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1786877606000,
+        "START_DATE": 1786877160000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "CRASH I-70 WB PAST I-170 BE PREPARED TO STOP EST. CLEARANCE TIME: 6:46 AM (-90343057,38733115)",
+        "ATMS_ID": 890229,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "SANDEB1",
+        "LAST_CHANGED_DATE": 1786877606000,
+        "LOC_LAST_CHANGED_USER": "SANDEB1",
+        "LOC_LAST_CHANGED_DATE": 1786877607000,
+        "BEGIN_DESCRIPTION": ".015 mile(s) after RP IS170W TO IS70W W",
+        "END_DESCRIPTION": "CST JAMES S MCDONNELL BLVD S",
+        "OBJECT_ID": 268633335,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
       }
     },
     {
