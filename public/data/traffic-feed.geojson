@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-17T22:57:32.968Z",
+    "updatedAt": "2026-08-17T23:29:08.238Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 95
+    "featureCount": 99
   },
   "features": [
     {
@@ -56,6 +56,116 @@
         "BEGIN_DESCRIPTION": ".004 mile(s) before CST CREVE COEUR AIRPORT RD E",
         "END_DESCRIPTION": ".004 mile(s) after CST CREVE COEUR AIRPORT RD E",
         "OBJECT_ID": 268633310,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268648058,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.35257058599996,
+          38.73359151200003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 19,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "E",
+        "DATA_ID": 1020976,
+        "STATIC_DTL_ID": 322457,
+        "TRANSACTION_ID": 68758284,
+        "ACTIVATION_DATE": 1787009094000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 237.440994,
+        "END_LOG": 237.940994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787009094000,
+        "START_DATE": 1787008500000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-70 EB PAST NATURAL BRIDGE RD LEFT LANE CLOSED EST. CLEARANCE TIME: 7:15 PM (-90348462,38732855)",
+        "ATMS_ID": 890401,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787009094000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787009094000,
+        "BEGIN_DESCRIPTION": ".298 mile(s) before MO 115 S",
+        "END_DESCRIPTION": ".022 mile(s) before RP LAMBERT INTL BLVD TO IS70E E",
+        "OBJECT_ID": 268648058,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268648052,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.35444026099998,
+          38.50841211800008
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6136,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "270",
+        "DIRECTION": "W",
+        "DATA_ID": 1020969,
+        "STATIC_DTL_ID": 322455,
+        "TRANSACTION_ID": 68758281,
+        "ACTIVATION_DATE": 1787007633000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 270 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 34.3460007,
+        "END_LOG": 34.8460007,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787008607000,
+        "START_DATE": 1787007000000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-270 SB BEFORE I-55 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 6:50 PM (-90350413,38507347)",
+        "ATMS_ID": 890390,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787008607000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787008607000,
+        "BEGIN_DESCRIPTION": ".284 mile(s) before CRD THEISS RD S",
+        "END_DESCRIPTION": ".029 mile(s) after RP IS270W TO US50E E",
+        "OBJECT_ID": 268648052,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -503,7 +613,7 @@
     },
     {
       "type": "Feature",
-      "id": 91,
+      "id": 324,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -558,7 +668,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 91,
+        "ESRI_OID": 324,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -566,7 +676,7 @@
     },
     {
       "type": "Feature",
-      "id": 97,
+      "id": 328,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -621,7 +731,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 97,
+        "ESRI_OID": 328,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -629,7 +739,7 @@
     },
     {
       "type": "Feature",
-      "id": 131,
+      "id": 148,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -684,7 +794,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 131,
+        "ESRI_OID": 148,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -692,7 +802,7 @@
     },
     {
       "type": "Feature",
-      "id": 132,
+      "id": 149,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -747,7 +857,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 132,
+        "ESRI_OID": 149,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -755,7 +865,7 @@
     },
     {
       "type": "Feature",
-      "id": 153,
+      "id": 377,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -810,7 +920,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 153,
+        "ESRI_OID": 377,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -818,7 +928,7 @@
     },
     {
       "type": "Feature",
-      "id": 154,
+      "id": 378,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -873,7 +983,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 154,
+        "ESRI_OID": 378,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -881,7 +991,7 @@
     },
     {
       "type": "Feature",
-      "id": 155,
+      "id": 180,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -936,7 +1046,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 155,
+        "ESRI_OID": 180,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -944,7 +1054,7 @@
     },
     {
       "type": "Feature",
-      "id": 162,
+      "id": 184,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -999,7 +1109,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 162,
+        "ESRI_OID": 184,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1007,7 +1117,7 @@
     },
     {
       "type": "Feature",
-      "id": 165,
+      "id": 187,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1062,7 +1172,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 165,
+        "ESRI_OID": 187,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1070,7 +1180,7 @@
     },
     {
       "type": "Feature",
-      "id": 177,
+      "id": 200,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1125,7 +1235,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 177,
+        "ESRI_OID": 200,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1133,7 +1243,7 @@
     },
     {
       "type": "Feature",
-      "id": 184,
+      "id": 205,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1188,7 +1298,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 184,
+        "ESRI_OID": 205,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1196,7 +1306,7 @@
     },
     {
       "type": "Feature",
-      "id": 200,
+      "id": 408,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1251,7 +1361,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 200,
+        "ESRI_OID": 408,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1259,7 +1369,7 @@
     },
     {
       "type": "Feature",
-      "id": 210,
+      "id": 415,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1314,7 +1424,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 210,
+        "ESRI_OID": 415,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1322,7 +1432,7 @@
     },
     {
       "type": "Feature",
-      "id": 214,
+      "id": 419,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1377,7 +1487,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 214,
+        "ESRI_OID": 419,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1385,7 +1495,7 @@
     },
     {
       "type": "Feature",
-      "id": 218,
+      "id": 244,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1440,7 +1550,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 218,
+        "ESRI_OID": 244,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1448,7 +1558,7 @@
     },
     {
       "type": "Feature",
-      "id": 219,
+      "id": 245,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1503,7 +1613,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 219,
+        "ESRI_OID": 245,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1511,7 +1621,7 @@
     },
     {
       "type": "Feature",
-      "id": 221,
+      "id": 10,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1566,7 +1676,7 @@
         "LAST_CHANGED_DATE": "08/14/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555069,
-        "ESRI_OID": 221,
+        "ESRI_OID": 10,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1574,7 +1684,7 @@
     },
     {
       "type": "Feature",
-      "id": 226,
+      "id": 15,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1629,7 +1739,7 @@
         "LAST_CHANGED_DATE": "07/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 226,
+        "ESRI_OID": 15,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1637,7 +1747,7 @@
     },
     {
       "type": "Feature",
-      "id": 229,
+      "id": 18,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1692,7 +1802,7 @@
         "LAST_CHANGED_DATE": "07/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 229,
+        "ESRI_OID": 18,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1700,7 +1810,7 @@
     },
     {
       "type": "Feature",
-      "id": 236,
+      "id": 26,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1755,7 +1865,7 @@
         "LAST_CHANGED_DATE": "07/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 236,
+        "ESRI_OID": 26,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1763,7 +1873,7 @@
     },
     {
       "type": "Feature",
-      "id": 237,
+      "id": 27,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1818,7 +1928,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 237,
+        "ESRI_OID": 27,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1826,7 +1936,7 @@
     },
     {
       "type": "Feature",
-      "id": 246,
+      "id": 36,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1881,7 +1991,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 246,
+        "ESRI_OID": 36,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1889,7 +1999,7 @@
     },
     {
       "type": "Feature",
-      "id": 268,
+      "id": 59,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1944,7 +2054,7 @@
         "LAST_CHANGED_DATE": "07/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 268,
+        "ESRI_OID": 59,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1952,7 +2062,7 @@
     },
     {
       "type": "Feature",
-      "id": 271,
+      "id": 62,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2007,7 +2117,7 @@
         "LAST_CHANGED_DATE": "06/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 271,
+        "ESRI_OID": 62,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2015,7 +2125,7 @@
     },
     {
       "type": "Feature",
-      "id": 281,
+      "id": 74,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2070,7 +2180,7 @@
         "LAST_CHANGED_DATE": "07/14/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 549222,
-        "ESRI_OID": 281,
+        "ESRI_OID": 74,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2078,7 +2188,7 @@
     },
     {
       "type": "Feature",
-      "id": 289,
+      "id": 83,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2133,7 +2243,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556490,
-        "ESRI_OID": 289,
+        "ESRI_OID": 83,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2141,7 +2251,7 @@
     },
     {
       "type": "Feature",
-      "id": 290,
+      "id": 84,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2196,7 +2306,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556489,
-        "ESRI_OID": 290,
+        "ESRI_OID": 84,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2204,7 +2314,7 @@
     },
     {
       "type": "Feature",
-      "id": 300,
+      "id": 94,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2259,7 +2369,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555897,
-        "ESRI_OID": 300,
+        "ESRI_OID": 94,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2267,7 +2377,7 @@
     },
     {
       "type": "Feature",
-      "id": 336,
+      "id": 130,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2322,7 +2432,7 @@
         "LAST_CHANGED_DATE": "07/30/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555073,
-        "ESRI_OID": 336,
+        "ESRI_OID": 130,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2330,7 +2440,7 @@
     },
     {
       "type": "Feature",
-      "id": 337,
+      "id": 131,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2385,7 +2495,7 @@
         "LAST_CHANGED_DATE": "07/30/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555072,
-        "ESRI_OID": 337,
+        "ESRI_OID": 131,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2393,7 +2503,7 @@
     },
     {
       "type": "Feature",
-      "id": 348,
+      "id": 142,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2448,7 +2558,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 348,
+        "ESRI_OID": 142,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2456,7 +2566,7 @@
     },
     {
       "type": "Feature",
-      "id": 349,
+      "id": 143,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2511,7 +2621,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 349,
+        "ESRI_OID": 143,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2519,7 +2629,7 @@
     },
     {
       "type": "Feature",
-      "id": 350,
+      "id": 144,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2574,7 +2684,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 350,
+        "ESRI_OID": 144,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2582,7 +2692,7 @@
     },
     {
       "type": "Feature",
-      "id": 351,
+      "id": 145,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2637,7 +2747,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 351,
+        "ESRI_OID": 145,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2645,7 +2755,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 169,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2700,7 +2810,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 12,
+        "ESRI_OID": 169,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2708,7 +2818,7 @@
     },
     {
       "type": "Feature",
-      "id": 372,
+      "id": 170,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2763,7 +2873,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 372,
+        "ESRI_OID": 170,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2771,7 +2881,7 @@
     },
     {
       "type": "Feature",
-      "id": 375,
+      "id": 173,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2826,7 +2936,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 375,
+        "ESRI_OID": 173,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2892,6 +3002,152 @@
         "BEGIN_DESCRIPTION": ".004 mile(s) before CST CREVE COEUR AIRPORT RD E",
         "END_DESCRIPTION": ".004 mile(s) after CST CREVE COEUR AIRPORT RD E",
         "OBJECT_ID": 268633310,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268648058,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.35639586399998,
+            38.73563348300007
+          ],
+          [
+            -90.35183615799997,
+            38.73319944000008
+          ],
+          [
+            -90.35083067499994,
+            38.732875473000036
+          ],
+          [
+            -90.35040455399997,
+            38.732794295000076
+          ],
+          [
+            -90.34966611199997,
+            38.73273016300004
+          ],
+          [
+            -90.34821843299994,
+            38.732882275000065
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1020976,
+        "STATIC_DTL_ID": 322457,
+        "TRANSACTION_ID": 68758284,
+        "ACTIVATION_DATE": 1787009094000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 19,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "IS 70 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 237.440994,
+        "END_LOG": 237.940994,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787009094000,
+        "START_DATE": 1787008500000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-70 EB PAST NATURAL BRIDGE RD LEFT LANE CLOSED EST. CLEARANCE TIME: 7:15 PM (-90348462,38732855)",
+        "ATMS_ID": 890401,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1787009094000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787009094000,
+        "BEGIN_DESCRIPTION": ".298 mile(s) before MO 115 S",
+        "END_DESCRIPTION": ".022 mile(s) before RP LAMBERT INTL BLVD TO IS70E E",
+        "OBJECT_ID": 268648058,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268648052,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.35879654799999,
+            38.50959751900007
+          ],
+          [
+            -90.35384781699997,
+            38.508250892000035
+          ],
+          [
+            -90.35058911199997,
+            38.507375753000076
+          ],
+          [
+            -90.35007822499995,
+            38.50725043600005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1020969,
+        "STATIC_DTL_ID": 322455,
+        "TRANSACTION_ID": 68758281,
+        "ACTIVATION_DATE": 1787007633000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6136,
+        "TRAVELWAY_NAME": "270",
+        "DESIGNATION": "IS",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "IS 270 W",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 34.3460007,
+        "END_LOG": 34.8460007,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787008607000,
+        "START_DATE": 1787007000000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH I-270 SB BEFORE I-55 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 6:50 PM (-90350413,38507347)",
+        "ATMS_ID": 890390,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1787008607000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787008607000,
+        "BEGIN_DESCRIPTION": ".284 mile(s) before CRD THEISS RD S",
+        "END_DESCRIPTION": ".029 mile(s) after RP IS270W TO US50E E",
+        "OBJECT_ID": 268648052,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
@@ -6029,7 +6285,7 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 140,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6096,7 +6352,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/14/2026",
         "OPPOSING_TI_WZ_ID": 555069,
-        "ESRI_OID": 1,
+        "ESRI_OID": 140,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6104,7 +6360,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 144,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6215,7 +6471,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/21/2026",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 2,
+        "ESRI_OID": 144,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6223,7 +6479,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 145,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6354,7 +6610,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/21/2026",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 3,
+        "ESRI_OID": 145,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6362,7 +6618,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 128,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6437,7 +6693,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/29/2026",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 4,
+        "ESRI_OID": 128,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6445,7 +6701,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 137,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6776,7 +7032,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 5,
+        "ESRI_OID": 137,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6784,7 +7040,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 135,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6875,7 +7131,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/18/2026",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 6,
+        "ESRI_OID": 135,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6883,7 +7139,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 138,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7338,7 +7594,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/29/2026",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 7,
+        "ESRI_OID": 138,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7346,7 +7602,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 136,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7577,7 +7833,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2026",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 8,
+        "ESRI_OID": 136,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7585,7 +7841,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 141,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7720,7 +7976,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/14/2026",
         "OPPOSING_TI_WZ_ID": 549222,
-        "ESRI_OID": 9,
+        "ESRI_OID": 141,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7728,7 +7984,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 131,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7843,7 +8099,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 556490,
-        "ESRI_OID": 10,
+        "ESRI_OID": 131,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7851,7 +8107,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 127,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7962,7 +8218,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 556489,
-        "ESRI_OID": 11,
+        "ESRI_OID": 127,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7970,7 +8226,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 139,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8429,7 +8685,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/31/2026",
         "OPPOSING_TI_WZ_ID": 555897,
-        "ESRI_OID": 12,
+        "ESRI_OID": 139,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -8437,7 +8693,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 123,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -9424,7 +9680,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/30/2026",
         "OPPOSING_TI_WZ_ID": 555073,
-        "ESRI_OID": 13,
+        "ESRI_OID": 123,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -9432,7 +9688,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 124,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10459,7 +10715,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/30/2026",
         "OPPOSING_TI_WZ_ID": 555072,
-        "ESRI_OID": 14,
+        "ESRI_OID": 124,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -10467,7 +10723,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 129,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10722,7 +10978,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 15,
+        "ESRI_OID": 129,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -10730,7 +10986,7 @@
     },
     {
       "type": "Feature",
-      "id": 16,
+      "id": 130,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10993,7 +11249,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 16,
+        "ESRI_OID": 130,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -11001,7 +11257,7 @@
     },
     {
       "type": "Feature",
-      "id": 17,
+      "id": 126,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -11460,7 +11716,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 17,
+        "ESRI_OID": 126,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -11468,7 +11724,7 @@
     },
     {
       "type": "Feature",
-      "id": 18,
+      "id": 125,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -11919,7 +12175,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 18,
+        "ESRI_OID": 125,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -11927,7 +12183,7 @@
     },
     {
       "type": "Feature",
-      "id": 19,
+      "id": 134,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -13226,7 +13482,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/17/2026",
         "OPPOSING_TI_WZ_ID": 546406,
-        "ESRI_OID": 19,
+        "ESRI_OID": 134,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -13234,7 +13490,7 @@
     },
     {
       "type": "Feature",
-      "id": 20,
+      "id": 10,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -13321,7 +13577,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 20,
+        "ESRI_OID": 10,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -13329,7 +13585,7 @@
     },
     {
       "type": "Feature",
-      "id": 21,
+      "id": 133,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -13404,7 +13660,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 21,
+        "ESRI_OID": 133,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -13412,7 +13668,7 @@
     },
     {
       "type": "Feature",
-      "id": 22,
+      "id": 132,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -13491,7 +13747,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/19/2025",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 22,
+        "ESRI_OID": 132,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
