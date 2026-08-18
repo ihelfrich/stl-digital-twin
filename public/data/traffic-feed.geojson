@@ -1,61 +1,171 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-18T11:52:30.517Z",
+    "updatedAt": "2026-08-18T12:49:51.933Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 79
+    "featureCount": 83
   },
   "features": [
     {
       "type": "Feature",
-      "id": 268650005,
+      "id": 268650408,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.29044833399996,
-          38.771371042000055
+          -90.30494252899996,
+          38.47030277500005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "stillm1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6256,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "231",
+        "DIRECTION": "S",
+        "DATA_ID": 1021002,
+        "STATIC_DTL_ID": 322483,
+        "TRANSACTION_ID": 68759338,
+        "ACTIVATION_DATE": 1787056731000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 231 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 5.34499979,
+        "END_LOG": 5.35500002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1021003,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787056731000,
+        "START_DATE": 1787056680000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signals on Red Flash",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1787056731000,
+        "LOC_LAST_CHANGED_USER": "stillm1",
+        "LOC_LAST_CHANGED_DATE": 1787056732000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before CRD BAUMGARTNER RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CRD BAUMGARTNER RD E",
+        "OBJECT_ID": 268650408,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268650443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.36218412399995,
+          38.67182965000006
         ]
       },
       "properties": {
         "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "MILLIM3",
+        "LAST_CHANGED_USER": "VOGELK1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 6135,
+        "TRAVELWAY_ID": 6163,
         "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "270",
+        "TRAVELWAY_NAME": "170",
         "DIRECTION": "E",
-        "DATA_ID": 1020995,
-        "STATIC_DTL_ID": 322476,
-        "TRANSACTION_ID": 68759196,
-        "ACTIVATION_DATE": 1787052609000,
+        "DATA_ID": 1020997,
+        "STATIC_DTL_ID": 322478,
+        "TRANSACTION_ID": 68759348,
+        "ACTIVATION_DATE": 1787054432000,
         "DEACTIVATION_DATE": null,
         "OFFSET": null,
-        "ROUTE": "IS 270 E",
+        "ROUTE": "IS 170 E",
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 29.0559998,
-        "END_LOG": 29.5559998,
+        "BEGIN_LOG": 7.6960001,
+        "END_LOG": 8.1960001,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787052974000,
-        "START_DATE": 1787052360000,
+        "STATUS_DATE": 1787057356000,
+        "START_DATE": 1787054220000,
         "END_DATE": null,
         "RIVER_NAME": null,
         "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
+        "TYPE_CODE": "OTHER",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-270 EB PAST ELIZABETH AVE 4 RIGHT LANES CLOSED EST. CLEARANCE TIME: 7:26 AM (-90286170,38771281)",
-        "ATMS_ID": 890463,
+        "EXT_COMMENT": "STALLED VEHICLE I-170 SB PAST OLIVE BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 7:57 AM (-90361759,38669531)",
+        "ATMS_ID": 890467,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787052974000,
-        "LOC_LAST_CHANGED_USER": "MILLIM3",
-        "LOC_LAST_CHANGED_DATE": 1787052974000,
-        "BEGIN_DESCRIPTION": ".362 mile(s) before RP OR270E TO IS270E E",
-        "END_DESCRIPTION": ".138 mile(s) after RP OR270E TO IS270E E",
-        "OBJECT_ID": 268650005,
+        "LAST_CHANGED_DATE": 1787057356000,
+        "LOC_LAST_CHANGED_USER": "VOGELK1",
+        "LOC_LAST_CHANGED_DATE": 1787057356000,
+        "BEGIN_DESCRIPTION": ".088 mile(s) before MO 340 W",
+        "END_DESCRIPTION": ".03 mile(s) before CST OLD BONHOMME RD E",
+        "OBJECT_ID": 268650443,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268650412,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.30494252899996,
+          38.47030277500005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "stillm1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6257,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "231",
+        "DIRECTION": "N",
+        "DATA_ID": 1021003,
+        "STATIC_DTL_ID": 322484,
+        "TRANSACTION_ID": 68759338,
+        "ACTIVATION_DATE": 1787056733000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 231 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.87699986,
+        "END_LOG": 6.88700008,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1021002,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787056733000,
+        "START_DATE": 1787056680000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signals on Red Flash",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_DATE": 1787056733000,
+        "LOC_LAST_CHANGED_USER": "stillm1",
+        "LOC_LAST_CHANGED_DATE": 1787056733000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before CRD CLIFF CAVE RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CRD CLIFF CAVE RD E",
+        "OBJECT_ID": 268650412,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -1071,7 +1181,7 @@
     },
     {
       "type": "Feature",
-      "id": 180,
+      "id": 182,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1126,7 +1236,7 @@
         "LAST_CHANGED_DATE": "08/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555069,
-        "ESRI_OID": 180,
+        "ESRI_OID": 182,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2394,64 +2504,230 @@
     },
     {
       "type": "Feature",
-      "id": 268650005,
+      "id": 268650408,
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -90.29507433399993,
-            38.77152143300003
+            -90.30492321899999,
+            38.47037376000003
           ],
           [
-            -90.28837589199998,
-            38.77130360800004
+            -90.30494252899996,
+            38.47030277500005
           ],
           [
-            -90.28581671299997,
-            38.77126799700005
+            -90.30496250499993,
+            38.47023187800005
           ]
         ]
       },
       "properties": {
-        "DATA_ID": 1020995,
-        "STATIC_DTL_ID": 322476,
-        "TRANSACTION_ID": 68759196,
-        "ACTIVATION_DATE": 1787052609000,
+        "DATA_ID": 1021002,
+        "STATIC_DTL_ID": 322483,
+        "TRANSACTION_ID": 68759338,
+        "ACTIVATION_DATE": 1787056731000,
         "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 6135,
-        "TRAVELWAY_NAME": "270",
-        "DESIGNATION": "IS",
-        "DIRECTION": "E",
+        "TRAVELWAY_ID": 6256,
+        "TRAVELWAY_NAME": "231",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
         "OFFSET": null,
-        "ROUTE": "IS 270 E",
+        "ROUTE": "MO 231 S",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 29.0559998,
-        "END_LOG": 29.5559998,
+        "BEGIN_LOG": 5.34499979,
+        "END_LOG": 5.35500002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1021003,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787056731000,
+        "START_DATE": 1787056680000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signals on Red Flash",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "stillm1",
+        "LAST_CHANGED_DATE": 1787056731000,
+        "LOC_LAST_CHANGED_USER": "stillm1",
+        "LOC_LAST_CHANGED_DATE": 1787056732000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before CRD BAUMGARTNER RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CRD BAUMGARTNER RD E",
+        "OBJECT_ID": 268650408,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268650443,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.36183527699995,
+            38.67541687600004
+          ],
+          [
+            -90.36207096599998,
+            38.67475713300007
+          ],
+          [
+            -90.36220131899995,
+            38.67417764400005
+          ],
+          [
+            -90.36221520999999,
+            38.674104397000065
+          ],
+          [
+            -90.36222686199994,
+            38.67404576300004
+          ],
+          [
+            -90.36223302999997,
+            38.674003138000046
+          ],
+          [
+            -90.36223886399995,
+            38.67395491000008
+          ],
+          [
+            -90.36231528399998,
+            38.673090896000076
+          ],
+          [
+            -90.36231142299994,
+            38.67277761200006
+          ],
+          [
+            -90.36227787399997,
+            38.67233116500006
+          ],
+          [
+            -90.36211969999994,
+            38.67148500800005
+          ],
+          [
+            -90.36140238699994,
+            38.66826392300004
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1020997,
+        "STATIC_DTL_ID": 322478,
+        "TRANSACTION_ID": 68759348,
+        "ACTIVATION_DATE": 1787054432000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6163,
+        "TRAVELWAY_NAME": "170",
+        "DESIGNATION": "IS",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "IS 170 E",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 7.6960001,
+        "END_LOG": 8.1960001,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787052974000,
-        "START_DATE": 1787052360000,
+        "STATUS_DATE": 1787057356000,
+        "START_DATE": 1787054220000,
         "END_DATE": null,
         "ESTIMATED_HOUR_DURATION": 1,
         "RIVER_NAME": null,
         "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
+        "TYPE_CODE": "OTHER",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-270 EB PAST ELIZABETH AVE 4 RIGHT LANES CLOSED EST. CLEARANCE TIME: 7:26 AM (-90286170,38771281)",
-        "ATMS_ID": 890463,
+        "EXT_COMMENT": "STALLED VEHICLE I-170 SB PAST OLIVE BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 7:57 AM (-90361759,38669531)",
+        "ATMS_ID": 890467,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "MILLIM3",
-        "LAST_CHANGED_DATE": 1787052974000,
-        "LOC_LAST_CHANGED_USER": "MILLIM3",
-        "LOC_LAST_CHANGED_DATE": 1787052974000,
-        "BEGIN_DESCRIPTION": ".362 mile(s) before RP OR270E TO IS270E E",
-        "END_DESCRIPTION": ".138 mile(s) after RP OR270E TO IS270E E",
-        "OBJECT_ID": 268650005,
+        "LAST_CHANGED_USER": "VOGELK1",
+        "LAST_CHANGED_DATE": 1787057356000,
+        "LOC_LAST_CHANGED_USER": "VOGELK1",
+        "LOC_LAST_CHANGED_DATE": 1787057356000,
+        "BEGIN_DESCRIPTION": ".088 mile(s) before MO 340 W",
+        "END_DESCRIPTION": ".03 mile(s) before CST OLD BONHOMME RD E",
+        "OBJECT_ID": 268650443,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268650412,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.30496250499993,
+            38.47023187800005
+          ],
+          [
+            -90.30494252899996,
+            38.47030277500005
+          ],
+          [
+            -90.30492321899999,
+            38.47037376000003
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1021003,
+        "STATIC_DTL_ID": 322484,
+        "TRANSACTION_ID": 68759338,
+        "ACTIVATION_DATE": 1787056733000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6257,
+        "TRAVELWAY_NAME": "231",
+        "DESIGNATION": "MO",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "MO 231 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 6.87699986,
+        "END_LOG": 6.88700008,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": 1021002,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787056733000,
+        "START_DATE": 1787056680000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": null,
+        "TYPE_CODE": "SIGNAL ISSUE",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "Signals on Red Flash",
+        "ATMS_ID": null,
+        "ATMS_SOURCE": null,
+        "LAST_CHANGED_USER": "stillm1",
+        "LAST_CHANGED_DATE": 1787056733000,
+        "LOC_LAST_CHANGED_USER": "stillm1",
+        "LOC_LAST_CHANGED_DATE": 1787056733000,
+        "BEGIN_DESCRIPTION": ".005 mile(s) before CRD CLIFF CAVE RD E",
+        "END_DESCRIPTION": ".005 mile(s) after CRD CLIFF CAVE RD E",
+        "OBJECT_ID": 268650412,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
