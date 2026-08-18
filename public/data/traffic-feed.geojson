@@ -1,61 +1,61 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-18T23:00:10.226Z",
+    "updatedAt": "2026-08-18T23:30:27.294Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 83
+    "featureCount": 81
   },
   "features": [
     {
       "type": "Feature",
-      "id": 268658021,
+      "id": 268658083,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.32449731199995,
-          38.72410156600006
+          -90.70911920799995,
+          38.50068871600007
         ]
       },
       "properties": {
-        "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "DYCKJ1",
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "WHITAN1",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 19,
+        "TRAVELWAY_ID": 9,
         "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "70",
+        "TRAVELWAY_NAME": "44",
         "DIRECTION": "E",
-        "DATA_ID": 1021078,
-        "STATIC_DTL_ID": 322543,
-        "TRANSACTION_ID": 68761894,
-        "ACTIVATION_DATE": 1787092094000,
+        "DATA_ID": 1021082,
+        "STATIC_DTL_ID": 322547,
+        "TRANSACTION_ID": 68761928,
+        "ACTIVATION_DATE": 1787095020000,
         "DEACTIVATION_DATE": null,
         "OFFSET": null,
-        "ROUTE": "IS 70 E",
+        "ROUTE": "IS 44 E",
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 239.160995,
-        "END_LOG": 239.660995,
+        "BEGIN_LOG": 259.490997,
+        "END_LOG": 259.990997,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787093558000,
-        "START_DATE": 1787091540000,
+        "STATUS_DATE": 1787095020000,
+        "START_DATE": 1787094720000,
         "END_DATE": null,
         "RIVER_NAME": null,
         "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
+        "TYPE_CODE": "DEBRIS ON ROADWAY",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE HANLEY RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 6:19 PM (-90322299,38722295)",
-        "ATMS_ID": 890619,
+        "EXT_COMMENT": "DEBRIS I-44 EB BEFORE SIX FLAGS RD LEFT LANE CLOSED EST. CLEARANCE TIME: 6:42 PM (-90706331,38501388)",
+        "ATMS_ID": 890631,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787093558000,
-        "LOC_LAST_CHANGED_USER": "DYCKJ1",
-        "LOC_LAST_CHANGED_DATE": 1787093559000,
-        "BEGIN_DESCRIPTION": ".016 mile(s) before RP IS170W TO IS70E E",
-        "END_DESCRIPTION": ".047 mile(s) before RP IS70E TO NO HANLEY RD E",
-        "OBJECT_ID": 268658021,
+        "LAST_CHANGED_DATE": 1787095020000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787095020000,
+        "BEGIN_DESCRIPTION": "1.782 mile(s) before RP IS44E TO LP44 W",
+        "END_DESCRIPTION": "1.282 mile(s) before RP IS44E TO LP44 W",
+        "OBJECT_ID": 268658083,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -63,62 +63,7 @@
     },
     {
       "type": "Feature",
-      "id": 268658017,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.35662009299995,
-          38.659001785000044
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 1.5,
-        "LAST_CHANGED_USER": "WHITAN1",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 104343,
-        "DESIGNATION": "RP",
-        "TRAVELWAY_NAME": "DELMAR BLVD TO IS170E",
-        "DIRECTION": "E",
-        "DATA_ID": 1021074,
-        "STATIC_DTL_ID": 322539,
-        "TRANSACTION_ID": 68761892,
-        "ACTIVATION_DATE": 1787089656000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "RP DELMAR BLVD TO IS170E E",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.144999996,
-        "END_LOG": 0.165000007,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787093436000,
-        "START_DATE": 1787089500000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
-        "EXT_COMMENT": "CRASH I-170 SB ON RAMP FROM DELMAR BLVD BE PREPARED TO STOP EST. CLEARANCE TIME: 6:15 PM (-90357137,38659605)",
-        "ATMS_ID": 890609,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787093436000,
-        "LOC_LAST_CHANGED_USER": "WHITAN1",
-        "LOC_LAST_CHANGED_DATE": 1787093436000,
-        "BEGIN_DESCRIPTION": ".023 mile(s) before IS 170 E",
-        "END_DESCRIPTION": ".003 mile(s) before IS 170 E",
-        "OBJECT_ID": 268658017,
-        "layerId": 25,
-        "layerName": "Incident Medium Point",
-        "severity": "medium"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83,
+      "id": 95,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -173,7 +118,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 83,
+        "ESRI_OID": 95,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -181,7 +126,7 @@
     },
     {
       "type": "Feature",
-      "id": 86,
+      "id": 101,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -236,7 +181,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 86,
+        "ESRI_OID": 101,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -244,7 +189,7 @@
     },
     {
       "type": "Feature",
-      "id": 119,
+      "id": 138,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -299,7 +244,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 119,
+        "ESRI_OID": 138,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -307,7 +252,7 @@
     },
     {
       "type": "Feature",
-      "id": 120,
+      "id": 139,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -362,7 +307,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 120,
+        "ESRI_OID": 139,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -370,7 +315,7 @@
     },
     {
       "type": "Feature",
-      "id": 344,
+      "id": 160,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -425,7 +370,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 344,
+        "ESRI_OID": 160,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -433,7 +378,7 @@
     },
     {
       "type": "Feature",
-      "id": 345,
+      "id": 161,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -488,7 +433,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 345,
+        "ESRI_OID": 161,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -496,7 +441,7 @@
     },
     {
       "type": "Feature",
-      "id": 140,
+      "id": 165,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -551,7 +496,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 140,
+        "ESRI_OID": 165,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -559,7 +504,7 @@
     },
     {
       "type": "Feature",
-      "id": 146,
+      "id": 172,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -614,7 +559,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 146,
+        "ESRI_OID": 172,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -622,7 +567,7 @@
     },
     {
       "type": "Feature",
-      "id": 149,
+      "id": 175,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -677,7 +622,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 149,
+        "ESRI_OID": 175,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -685,7 +630,7 @@
     },
     {
       "type": "Feature",
-      "id": 160,
+      "id": 187,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -740,7 +685,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 160,
+        "ESRI_OID": 187,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -748,7 +693,7 @@
     },
     {
       "type": "Feature",
-      "id": 164,
+      "id": 195,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -803,7 +748,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 164,
+        "ESRI_OID": 195,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -811,7 +756,7 @@
     },
     {
       "type": "Feature",
-      "id": 179,
+      "id": 211,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -866,7 +811,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 179,
+        "ESRI_OID": 211,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -874,7 +819,7 @@
     },
     {
       "type": "Feature",
-      "id": 191,
+      "id": 222,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -929,7 +874,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 191,
+        "ESRI_OID": 222,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -937,7 +882,7 @@
     },
     {
       "type": "Feature",
-      "id": 192,
+      "id": 226,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -992,7 +937,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 192,
+        "ESRI_OID": 226,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1000,7 +945,7 @@
     },
     {
       "type": "Feature",
-      "id": 197,
+      "id": 229,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1055,7 +1000,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 197,
+        "ESRI_OID": 229,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1063,7 +1008,7 @@
     },
     {
       "type": "Feature",
-      "id": 198,
+      "id": 230,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1118,7 +1063,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 198,
+        "ESRI_OID": 230,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2512,144 +2457,79 @@
     },
     {
       "type": "Feature",
-      "id": 268658021,
+      "id": 268658083,
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -90.32779385899994,
-            38.72663595400007
+            -90.71339438399997,
+            38.499328959000024
           ],
           [
-            -90.32757052799997,
-            38.72648530500004
+            -90.70825534199997,
+            38.500963451000075
           ],
           [
-            -90.32692775399994,
-            38.72605513900004
+            -90.70721216399994,
+            38.50125580900004
           ],
           [
-            -90.32533439399998,
-            38.72482533400006
+            -90.70637597099994,
+            38.50144921900005
           ],
           [
-            -90.32507280499999,
-            38.72457268800008
+            -90.70520397299998,
+            38.50167037500006
           ],
           [
-            -90.32194243699996,
-            38.722009926000055
-          ],
-          [
-            -90.32120735899997,
-            38.72156507700004
+            -90.70471709899994,
+            38.50174352200003
           ]
         ]
       },
       "properties": {
-        "DATA_ID": 1021078,
-        "STATIC_DTL_ID": 322543,
-        "TRANSACTION_ID": 68761894,
-        "ACTIVATION_DATE": 1787092094000,
+        "DATA_ID": 1021082,
+        "STATIC_DTL_ID": 322547,
+        "TRANSACTION_ID": 68761928,
+        "ACTIVATION_DATE": 1787095020000,
         "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 19,
-        "TRAVELWAY_NAME": "70",
+        "TRAVELWAY_ID": 9,
+        "TRAVELWAY_NAME": "44",
         "DESIGNATION": "IS",
         "DIRECTION": "E",
         "OFFSET": null,
-        "ROUTE": "IS 70 E",
+        "ROUTE": "IS 44 E",
         "COUNTY_NAME": "ST. LOUIS",
         "DISTRICT_NO": 5,
         "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 239.160995,
-        "END_LOG": 239.660995,
+        "BEGIN_LOG": 259.490997,
+        "END_LOG": 259.990997,
         "PRIMARY_IND": "Y",
         "ENTIRE_IND": "Y",
         "ORPHANS_IND": null,
         "OPPOSING_DATA_ID": null,
         "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787093558000,
-        "START_DATE": 1787091540000,
+        "STATUS_DATE": 1787095020000,
+        "START_DATE": 1787094720000,
         "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1,
+        "ESTIMATED_HOUR_DURATION": 0.5,
         "RIVER_NAME": null,
         "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
+        "TYPE_CODE": "DEBRIS ON ROADWAY",
         "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 EB BEFORE HANLEY RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 6:19 PM (-90322299,38722295)",
-        "ATMS_ID": 890619,
+        "EXT_COMMENT": "DEBRIS I-44 EB BEFORE SIX FLAGS RD LEFT LANE CLOSED EST. CLEARANCE TIME: 6:42 PM (-90706331,38501388)",
+        "ATMS_ID": 890631,
         "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "DYCKJ1",
-        "LAST_CHANGED_DATE": 1787093558000,
-        "LOC_LAST_CHANGED_USER": "DYCKJ1",
-        "LOC_LAST_CHANGED_DATE": 1787093559000,
-        "BEGIN_DESCRIPTION": ".016 mile(s) before RP IS170W TO IS70E E",
-        "END_DESCRIPTION": ".047 mile(s) before RP IS70E TO NO HANLEY RD E",
-        "OBJECT_ID": 268658021,
+        "LAST_CHANGED_USER": "WHITAN1",
+        "LAST_CHANGED_DATE": 1787095020000,
+        "LOC_LAST_CHANGED_USER": "WHITAN1",
+        "LOC_LAST_CHANGED_DATE": 1787095020000,
+        "BEGIN_DESCRIPTION": "1.782 mile(s) before RP IS44E TO LP44 W",
+        "END_DESCRIPTION": "1.282 mile(s) before RP IS44E TO LP44 W",
+        "OBJECT_ID": 268658083,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268658017,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.35672364899995,
-            38.65912203200003
-          ],
-          [
-            -90.35651653699995,
-            38.658881536000024
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1021074,
-        "STATIC_DTL_ID": 322539,
-        "TRANSACTION_ID": 68761892,
-        "ACTIVATION_DATE": 1787089656000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 104343,
-        "TRAVELWAY_NAME": "DELMAR BLVD TO IS170E",
-        "DESIGNATION": "RP",
-        "DIRECTION": "E",
-        "OFFSET": null,
-        "ROUTE": "RP DELMAR BLVD TO IS170E E",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.144999996,
-        "END_LOG": 0.165000007,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787093436000,
-        "START_DATE": 1787089500000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1.5,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
-        "EXT_COMMENT": "CRASH I-170 SB ON RAMP FROM DELMAR BLVD BE PREPARED TO STOP EST. CLEARANCE TIME: 6:15 PM (-90357137,38659605)",
-        "ATMS_ID": 890609,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "WHITAN1",
-        "LAST_CHANGED_DATE": 1787093436000,
-        "LOC_LAST_CHANGED_USER": "WHITAN1",
-        "LOC_LAST_CHANGED_DATE": 1787093436000,
-        "BEGIN_DESCRIPTION": ".023 mile(s) before IS 170 E",
-        "END_DESCRIPTION": ".003 mile(s) before IS 170 E",
-        "OBJECT_ID": 268658017,
-        "layerId": 32,
-        "layerName": "Incident Medium Line",
-        "severity": "medium"
       }
     },
     {
