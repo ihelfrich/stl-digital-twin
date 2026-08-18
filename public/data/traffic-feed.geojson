@@ -1,179 +1,14 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-18T10:50:18.984Z",
+    "updatedAt": "2026-08-18T11:26:38.142Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 83
+    "featureCount": 77
   },
   "features": [
     {
       "type": "Feature",
-      "id": 268649041,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.40960833299994,
-          38.74417060400003
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "BAXTEJ1",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 3506,
-        "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "70",
-        "DIRECTION": "W",
-        "DATA_ID": 1020993,
-        "STATIC_DTL_ID": 322474,
-        "TRANSACTION_ID": 68758898,
-        "ACTIVATION_DATE": 1787049812000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 15.4399996,
-        "END_LOG": 15.9399996,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787049812000,
-        "START_DATE": 1787049600000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 WB AT ST CHARLES ROCK RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 6:40 AM (-90413168,38743939)",
-        "ATMS_ID": 890461,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787049812000,
-        "LOC_LAST_CHANGED_USER": "BAXTEJ1",
-        "LOC_LAST_CHANGED_DATE": 1787049812000,
-        "BEGIN_DESCRIPTION": ".207 mile(s) before RP IS70W TO MO180E E",
-        "END_DESCRIPTION": ".071 mile(s) after MO 180 E",
-        "OBJECT_ID": 268649041,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268648725,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.26923399299994,
-          38.704710816000045
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 96,
-        "LAST_CHANGED_USER": "kinghd1",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 1039126,
-        "DESIGNATION": "CST",
-        "TRAVELWAY_NAME": "JENNINGS STATION CROSSING",
-        "DIRECTION": "E",
-        "DATA_ID": 1020987,
-        "STATIC_DTL_ID": 322468,
-        "TRANSACTION_ID": 68758748,
-        "ACTIVATION_DATE": 1787036661000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "CST JENNINGS STATION CROSSING E",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0,
-        "END_LOG": 0.023,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": 1020988,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787036661000,
-        "START_DATE": 1787036580000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": null,
-        "TYPE_CODE": "SIGNAL ISSUE",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "DARK SIGNAL JENNINGS STATION AT I-70 BE PREPARED TO STOP",
-        "ATMS_ID": null,
-        "ATMS_SOURCE": null,
-        "LAST_CHANGED_DATE": 1787046133000,
-        "LOC_LAST_CHANGED_USER": "kinghd1",
-        "LOC_LAST_CHANGED_DATE": 1787046133000,
-        "BEGIN_DESCRIPTION": "CST JENNINGS STATION RD S",
-        "END_DESCRIPTION": ".023 mile(s) after CST JENNINGS STATION RD S",
-        "OBJECT_ID": 268648725,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268648727,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.26923399199995,
-          38.704710816000045
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 96,
-        "LAST_CHANGED_USER": "kinghd1",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 1039127,
-        "DESIGNATION": "CST",
-        "TRAVELWAY_NAME": "JENNINGS STATION CROSSING",
-        "DIRECTION": "W",
-        "DATA_ID": 1020988,
-        "STATIC_DTL_ID": 322469,
-        "TRANSACTION_ID": 68758748,
-        "ACTIVATION_DATE": 1787036662000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "CST JENNINGS STATION CROSSING W",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.0680000037,
-        "END_LOG": 0.0909999982,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": 1020987,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787036662000,
-        "START_DATE": 1787036580000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": null,
-        "TYPE_CODE": "SIGNAL ISSUE",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "DARK SIGNAL JENNINGS STATION AT I-70 BE PREPARED TO STOP",
-        "ATMS_ID": null,
-        "ATMS_SOURCE": null,
-        "LAST_CHANGED_DATE": 1787046134000,
-        "LOC_LAST_CHANGED_USER": "kinghd1",
-        "LOC_LAST_CHANGED_DATE": 1787046134000,
-        "BEGIN_DESCRIPTION": ".023 mile(s) before CST JENNINGS STATION RD S",
-        "END_DESCRIPTION": "CST JENNINGS STATION RD S",
-        "OBJECT_ID": 268648727,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 122,
+      "id": 94,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -228,7 +63,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 122,
+        "ESRI_OID": 94,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -236,7 +71,7 @@
     },
     {
       "type": "Feature",
-      "id": 128,
+      "id": 100,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -291,7 +126,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 128,
+        "ESRI_OID": 100,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -299,7 +134,7 @@
     },
     {
       "type": "Feature",
-      "id": 153,
+      "id": 135,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -354,7 +189,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 153,
+        "ESRI_OID": 135,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -362,7 +197,7 @@
     },
     {
       "type": "Feature",
-      "id": 154,
+      "id": 136,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -417,7 +252,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 154,
+        "ESRI_OID": 136,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -425,7 +260,7 @@
     },
     {
       "type": "Feature",
-      "id": 171,
+      "id": 157,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -480,7 +315,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 171,
+        "ESRI_OID": 157,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -488,7 +323,7 @@
     },
     {
       "type": "Feature",
-      "id": 172,
+      "id": 158,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -543,7 +378,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 172,
+        "ESRI_OID": 158,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -551,7 +386,7 @@
     },
     {
       "type": "Feature",
-      "id": 174,
+      "id": 160,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -606,7 +441,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 174,
+        "ESRI_OID": 160,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -614,7 +449,7 @@
     },
     {
       "type": "Feature",
-      "id": 178,
+      "id": 167,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -669,7 +504,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 178,
+        "ESRI_OID": 167,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -677,7 +512,7 @@
     },
     {
       "type": "Feature",
-      "id": 180,
+      "id": 170,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -732,7 +567,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 180,
+        "ESRI_OID": 170,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -740,7 +575,7 @@
     },
     {
       "type": "Feature",
-      "id": 188,
+      "id": 182,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -795,7 +630,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 188,
+        "ESRI_OID": 182,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -803,7 +638,7 @@
     },
     {
       "type": "Feature",
-      "id": 197,
+      "id": 191,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -858,7 +693,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 197,
+        "ESRI_OID": 191,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -866,7 +701,7 @@
     },
     {
       "type": "Feature",
-      "id": 211,
+      "id": 206,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -921,7 +756,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 211,
+        "ESRI_OID": 206,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -929,7 +764,7 @@
     },
     {
       "type": "Feature",
-      "id": 218,
+      "id": 216,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -984,7 +819,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 218,
+        "ESRI_OID": 216,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -992,7 +827,7 @@
     },
     {
       "type": "Feature",
-      "id": 221,
+      "id": 220,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1047,7 +882,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 221,
+        "ESRI_OID": 220,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2504,214 +2339,7 @@
     },
     {
       "type": "Feature",
-      "id": 268649041,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.40499032199995,
-            38.74427279500003
-          ],
-          [
-            -90.40553424899997,
-            38.74429897600004
-          ],
-          [
-            -90.40678637399998,
-            38.74430936600004
-          ],
-          [
-            -90.40881639199995,
-            38.74421896400003
-          ],
-          [
-            -90.41229723899994,
-            38.74400636300004
-          ],
-          [
-            -90.41260060699994,
-            38.74397389500007
-          ],
-          [
-            -90.41288733399995,
-            38.74396098700004
-          ],
-          [
-            -90.41419816099994,
-            38.74388474500006
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1020993,
-        "STATIC_DTL_ID": 322474,
-        "TRANSACTION_ID": 68758898,
-        "ACTIVATION_DATE": 1787049812000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 3506,
-        "TRAVELWAY_NAME": "70",
-        "DESIGNATION": "IS",
-        "DIRECTION": "W",
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 15.4399996,
-        "END_LOG": 15.9399996,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787049812000,
-        "START_DATE": 1787049600000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 WB AT ST CHARLES ROCK RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 6:40 AM (-90413168,38743939)",
-        "ATMS_ID": 890461,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "BAXTEJ1",
-        "LAST_CHANGED_DATE": 1787049812000,
-        "LOC_LAST_CHANGED_USER": "BAXTEJ1",
-        "LOC_LAST_CHANGED_DATE": 1787049812000,
-        "BEGIN_DESCRIPTION": ".207 mile(s) before RP IS70W TO MO180E E",
-        "END_DESCRIPTION": ".071 mile(s) after MO 180 E",
-        "OBJECT_ID": 268649041,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268648725,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.26942579099995,
-            38.704641104000075
-          ],
-          [
-            -90.26904219299996,
-            38.70478052800007
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1020987,
-        "STATIC_DTL_ID": 322468,
-        "TRANSACTION_ID": 68758748,
-        "ACTIVATION_DATE": 1787036661000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 1039126,
-        "TRAVELWAY_NAME": "JENNINGS STATION CROSSING",
-        "DESIGNATION": "CST",
-        "DIRECTION": "E",
-        "OFFSET": null,
-        "ROUTE": "CST JENNINGS STATION CROSSING E",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0,
-        "END_LOG": 0.023,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": 1020988,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787036661000,
-        "START_DATE": 1787036580000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 96,
-        "RIVER_NAME": null,
-        "DEPTH": null,
-        "TYPE_CODE": "SIGNAL ISSUE",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "DARK SIGNAL JENNINGS STATION AT I-70 BE PREPARED TO STOP",
-        "ATMS_ID": null,
-        "ATMS_SOURCE": null,
-        "LAST_CHANGED_USER": "kinghd1",
-        "LAST_CHANGED_DATE": 1787046133000,
-        "LOC_LAST_CHANGED_USER": "kinghd1",
-        "LOC_LAST_CHANGED_DATE": 1787046133000,
-        "BEGIN_DESCRIPTION": "CST JENNINGS STATION RD S",
-        "END_DESCRIPTION": ".023 mile(s) after CST JENNINGS STATION RD S",
-        "OBJECT_ID": 268648725,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268648727,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.26904219299996,
-            38.70478052800007
-          ],
-          [
-            -90.26942579099995,
-            38.704641104000075
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1020988,
-        "STATIC_DTL_ID": 322469,
-        "TRANSACTION_ID": 68758748,
-        "ACTIVATION_DATE": 1787036662000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 1039127,
-        "TRAVELWAY_NAME": "JENNINGS STATION CROSSING",
-        "DESIGNATION": "CST",
-        "DIRECTION": "W",
-        "OFFSET": null,
-        "ROUTE": "CST JENNINGS STATION CROSSING W",
-        "COUNTY_NAME": "ST. LOUIS",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 0.0680000037,
-        "END_LOG": 0.0909999982,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": 1020987,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787036662000,
-        "START_DATE": 1787036580000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 96,
-        "RIVER_NAME": null,
-        "DEPTH": null,
-        "TYPE_CODE": "SIGNAL ISSUE",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "DARK SIGNAL JENNINGS STATION AT I-70 BE PREPARED TO STOP",
-        "ATMS_ID": null,
-        "ATMS_SOURCE": null,
-        "LAST_CHANGED_USER": "kinghd1",
-        "LAST_CHANGED_DATE": 1787046134000,
-        "LOC_LAST_CHANGED_USER": "kinghd1",
-        "LOC_LAST_CHANGED_DATE": 1787046134000,
-        "BEGIN_DESCRIPTION": ".023 mile(s) before CST JENNINGS STATION RD S",
-        "END_DESCRIPTION": "CST JENNINGS STATION RD S",
-        "OBJECT_ID": 268648727,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 1,
+      "id": 72,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3058,7 +2686,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/14/2026",
         "OPPOSING_TI_WZ_ID": 540208,
-        "ESRI_OID": 1,
+        "ESRI_OID": 72,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3066,7 +2694,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 58,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3197,7 +2825,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 2,
+        "ESRI_OID": 58,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3205,7 +2833,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 59,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3332,7 +2960,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "02/24/2026",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 3,
+        "ESRI_OID": 59,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3340,7 +2968,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 67,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3427,7 +3055,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 4,
+        "ESRI_OID": 67,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3435,7 +3063,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 68,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3514,7 +3142,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 5,
+        "ESRI_OID": 68,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3522,7 +3150,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 69,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3605,7 +3233,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 6,
+        "ESRI_OID": 69,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3613,7 +3241,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 74,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3692,7 +3320,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/11/2026",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 7,
+        "ESRI_OID": 74,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3700,7 +3328,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 73,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3771,7 +3399,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/11/2026",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 8,
+        "ESRI_OID": 73,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3779,7 +3407,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 70,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3870,7 +3498,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "03/12/2025",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 9,
+        "ESRI_OID": 70,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -3878,7 +3506,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 71,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4181,7 +3809,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/14/2026",
         "OPPOSING_TI_WZ_ID": 540209,
-        "ESRI_OID": 10,
+        "ESRI_OID": 71,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4189,7 +3817,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 63,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4284,7 +3912,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/31/2026",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 11,
+        "ESRI_OID": 63,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4292,7 +3920,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 62,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4407,7 +4035,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/31/2026",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 12,
+        "ESRI_OID": 62,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4415,7 +4043,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 29,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4694,7 +4322,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "09/04/2025",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 13,
+        "ESRI_OID": 29,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4702,7 +4330,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 50,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4817,7 +4445,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 14,
+        "ESRI_OID": 50,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4825,7 +4453,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 64,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4904,7 +4532,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "05/27/2026",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 15,
+        "ESRI_OID": 64,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4912,7 +4540,7 @@
     },
     {
       "type": "Feature",
-      "id": 16,
+      "id": 48,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -4987,7 +4615,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/24/2026",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 16,
+        "ESRI_OID": 48,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -4995,7 +4623,7 @@
     },
     {
       "type": "Feature",
-      "id": 17,
+      "id": 34,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5098,7 +4726,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 17,
+        "ESRI_OID": 34,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
@@ -5106,7 +4734,7 @@
     },
     {
       "type": "Feature",
-      "id": 18,
+      "id": 37,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5209,7 +4837,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "04/07/2026",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 18,
+        "ESRI_OID": 37,
         "layerId": 33,
         "layerName": "Work Zone High Line",
         "severity": "high"
