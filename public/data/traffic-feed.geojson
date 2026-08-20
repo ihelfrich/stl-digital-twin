@@ -1,11 +1,66 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-20T13:08:24.895Z",
+    "updatedAt": "2026-08-20T13:58:28.425Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
     "featureCount": 85
   },
   "features": [
+    {
+      "type": "Feature",
+      "id": 268672846,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.19723817099998,
+          38.66230313800003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "HOODA1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 3506,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "W",
+        "DATA_ID": 1021556,
+        "STATIC_DTL_ID": 322661,
+        "TRANSACTION_ID": 68766953,
+        "ACTIVATION_DATE": 1787232430000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.70000005,
+        "END_LOG": 2.20000005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787233893000,
+        "START_DATE": 1787232120000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST SALISBURY 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 8:52 AM (-90198954,38665353)",
+        "ATMS_ID": 890886,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787233893000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787233894000,
+        "BEGIN_DESCRIPTION": ".03 mile(s) before RP IS70W TO 9TH ST S",
+        "END_DESCRIPTION": ".066 mile(s) after RP 9TH ST TO IS70W W",
+        "OBJECT_ID": 268672846,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
     {
       "type": "Feature",
       "id": 268670817,
@@ -56,61 +111,6 @@
         "BEGIN_DESCRIPTION": ".011 mile(s) before CST LUCAS AND HUNT RD S",
         "END_DESCRIPTION": ".005 mile(s) after CST LUCAS AND HUNT RD S",
         "OBJECT_ID": 268670817,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268671909,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.55824201299998,
-          38.791501373000074
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 1,
-        "LAST_CHANGED_USER": "HOODA1",
-        "COUNTY_NAME": "ST. CHARLES",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 3506,
-        "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "70",
-        "DIRECTION": "W",
-        "DATA_ID": 1021550,
-        "STATIC_DTL_ID": 322655,
-        "TRANSACTION_ID": 68766775,
-        "ACTIVATION_DATE": 1787229373000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 24.2390003,
-        "END_LOG": 24.7390003,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787230351000,
-        "START_DATE": 1787229180000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 WB PAST ZUMBEHL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 8:33 AM (-90560084,38791954)",
-        "ATMS_ID": 890879,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787230351000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1787230351000,
-        "BEGIN_DESCRIPTION": ".478 mile(s) before RP IS70W TO CAVE SPRINGS RD S S",
-        "END_DESCRIPTION": ".022 mile(s) after RP IS70W TO CAVE SPRINGS RD S S",
-        "OBJECT_ID": 268671909,
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
@@ -1181,7 +1181,7 @@
     },
     {
       "type": "Feature",
-      "id": 52,
+      "id": 81,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1236,7 +1236,7 @@
         "LAST_CHANGED_DATE": "08/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555069,
-        "ESRI_OID": 52,
+        "ESRI_OID": 81,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1244,7 +1244,7 @@
     },
     {
       "type": "Feature",
-      "id": 57,
+      "id": 79,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1299,7 +1299,7 @@
         "LAST_CHANGED_DATE": "07/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 57,
+        "ESRI_OID": 79,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1307,7 +1307,7 @@
     },
     {
       "type": "Feature",
-      "id": 60,
+      "id": 80,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1362,7 +1362,7 @@
         "LAST_CHANGED_DATE": "07/21/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 60,
+        "ESRI_OID": 80,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1370,7 +1370,7 @@
     },
     {
       "type": "Feature",
-      "id": 67,
+      "id": 14,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1425,7 +1425,7 @@
         "LAST_CHANGED_DATE": "07/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 67,
+        "ESRI_OID": 14,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1433,7 +1433,7 @@
     },
     {
       "type": "Feature",
-      "id": 68,
+      "id": 41,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1488,7 +1488,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547883,
-        "ESRI_OID": 68,
+        "ESRI_OID": 41,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1496,7 +1496,7 @@
     },
     {
       "type": "Feature",
-      "id": 75,
+      "id": 42,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1551,7 +1551,7 @@
         "LAST_CHANGED_DATE": "03/18/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547884,
-        "ESRI_OID": 75,
+        "ESRI_OID": 42,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1559,7 +1559,7 @@
     },
     {
       "type": "Feature",
-      "id": 87,
+      "id": 164,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1614,7 +1614,7 @@
         "LAST_CHANGED_DATE": "08/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556932,
-        "ESRI_OID": 87,
+        "ESRI_OID": 164,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1622,7 +1622,7 @@
     },
     {
       "type": "Feature",
-      "id": 88,
+      "id": 34,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1677,7 +1677,7 @@
         "LAST_CHANGED_DATE": "07/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539271,
-        "ESRI_OID": 88,
+        "ESRI_OID": 34,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1685,7 +1685,7 @@
     },
     {
       "type": "Feature",
-      "id": 91,
+      "id": 19,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1740,7 +1740,7 @@
         "LAST_CHANGED_DATE": "06/19/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547275,
-        "ESRI_OID": 91,
+        "ESRI_OID": 19,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1748,7 +1748,7 @@
     },
     {
       "type": "Feature",
-      "id": 104,
+      "id": 75,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1803,7 +1803,7 @@
         "LAST_CHANGED_DATE": "07/14/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 549222,
-        "ESRI_OID": 104,
+        "ESRI_OID": 75,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1811,7 +1811,7 @@
     },
     {
       "type": "Feature",
-      "id": 110,
+      "id": 132,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1866,7 +1866,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556490,
-        "ESRI_OID": 110,
+        "ESRI_OID": 132,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1874,7 +1874,7 @@
     },
     {
       "type": "Feature",
-      "id": 111,
+      "id": 133,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1929,7 +1929,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556489,
-        "ESRI_OID": 111,
+        "ESRI_OID": 133,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -1937,7 +1937,7 @@
     },
     {
       "type": "Feature",
-      "id": 113,
+      "id": 95,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1992,7 +1992,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555897,
-        "ESRI_OID": 113,
+        "ESRI_OID": 95,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2000,7 +2000,7 @@
     },
     {
       "type": "Feature",
-      "id": 133,
+      "id": 82,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2055,7 +2055,7 @@
         "LAST_CHANGED_DATE": "07/30/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555073,
-        "ESRI_OID": 133,
+        "ESRI_OID": 82,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2063,7 +2063,7 @@
     },
     {
       "type": "Feature",
-      "id": 134,
+      "id": 83,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2118,7 +2118,7 @@
         "LAST_CHANGED_DATE": "07/30/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 555072,
-        "ESRI_OID": 134,
+        "ESRI_OID": 83,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2126,7 +2126,7 @@
     },
     {
       "type": "Feature",
-      "id": 141,
+      "id": 2,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2181,7 +2181,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 141,
+        "ESRI_OID": 2,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2189,7 +2189,7 @@
     },
     {
       "type": "Feature",
-      "id": 142,
+      "id": 1,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2244,7 +2244,7 @@
         "LAST_CHANGED_DATE": "08/12/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 142,
+        "ESRI_OID": 1,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2252,7 +2252,7 @@
     },
     {
       "type": "Feature",
-      "id": 143,
+      "id": 64,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2307,7 +2307,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 143,
+        "ESRI_OID": 64,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2315,7 +2315,7 @@
     },
     {
       "type": "Feature",
-      "id": 144,
+      "id": 65,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2370,7 +2370,7 @@
         "LAST_CHANGED_DATE": "06/29/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 144,
+        "ESRI_OID": 65,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2378,7 +2378,7 @@
     },
     {
       "type": "Feature",
-      "id": 158,
+      "id": 3,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2433,7 +2433,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Between 6/30/25 and 11/6/26, thru lanes in both directions of Page Blvd. will be diverted to the open half of the bridge over Lindbergh Blvd. during construction of the other half. Please drive with caution. ",
         "OPPOSING_TI_WZ_ID": 532209,
-        "ESRI_OID": 158,
+        "ESRI_OID": 3,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2441,7 +2441,7 @@
     },
     {
       "type": "Feature",
-      "id": 159,
+      "id": 27,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2496,7 +2496,7 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532211,
-        "ESRI_OID": 159,
+        "ESRI_OID": 27,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
@@ -2504,7 +2504,7 @@
     },
     {
       "type": "Feature",
-      "id": 161,
+      "id": 28,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -2559,10 +2559,99 @@
         "LAST_CHANGED_DATE": "06/19/2025",
         "EXTERNAL_COMMENT": "Lane closure on Lindbergh Blvd. for bridge construction work between 6/30/2025 through 11/6/2026. Please drive with caution.",
         "OPPOSING_TI_WZ_ID": 532210,
-        "ESRI_OID": 161,
+        "ESRI_OID": 28,
         "layerId": 27,
         "layerName": "Work Zone Medium Point",
         "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268672846,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.19606125599995,
+            38.65882740400008
+          ],
+          [
+            -90.19614592199997,
+            38.65925788900006
+          ],
+          [
+            -90.19639094599995,
+            38.660416131000034
+          ],
+          [
+            -90.19685195499994,
+            38.66157976300008
+          ],
+          [
+            -90.19710194499999,
+            38.661975631000075
+          ],
+          [
+            -90.19728925599998,
+            38.662425953000024
+          ],
+          [
+            -90.19751691999994,
+            38.66292475800003
+          ],
+          [
+            -90.19850950799997,
+            38.66477543600007
+          ],
+          [
+            -90.19907668999997,
+            38.66562105300005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1021556,
+        "STATIC_DTL_ID": 322661,
+        "TRANSACTION_ID": 68766953,
+        "ACTIVATION_DATE": 1787232430000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 3506,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "IS 70 W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 1.70000005,
+        "END_LOG": 2.20000005,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787233893000,
+        "START_DATE": 1787232120000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST SALISBURY 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 8:52 AM (-90198954,38665353)",
+        "ATMS_ID": 890886,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "HOODA1",
+        "LAST_CHANGED_DATE": 1787233893000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787233894000,
+        "BEGIN_DESCRIPTION": ".03 mile(s) before RP IS70W TO 9TH ST S",
+        "END_DESCRIPTION": ".066 mile(s) after RP 9TH ST TO IS70W W",
+        "OBJECT_ID": 268672846,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
       }
     },
     {
@@ -2625,83 +2714,6 @@
         "BEGIN_DESCRIPTION": ".011 mile(s) before CST LUCAS AND HUNT RD S",
         "END_DESCRIPTION": ".005 mile(s) after CST LUCAS AND HUNT RD S",
         "OBJECT_ID": 268670817,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 268671909,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.55374182899999,
-            38.790653287000055
-          ],
-          [
-            -90.55871413799997,
-            38.79159033600007
-          ],
-          [
-            -90.56041175399997,
-            38.791983981000044
-          ],
-          [
-            -90.56137160399999,
-            38.79226566700004
-          ],
-          [
-            -90.56223525199994,
-            38.79255660300004
-          ],
-          [
-            -90.56259974299996,
-            38.79270076300003
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1021550,
-        "STATIC_DTL_ID": 322655,
-        "TRANSACTION_ID": 68766775,
-        "ACTIVATION_DATE": 1787229373000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 3506,
-        "TRAVELWAY_NAME": "70",
-        "DESIGNATION": "IS",
-        "DIRECTION": "W",
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "COUNTY_NAME": "ST. CHARLES",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 24.2390003,
-        "END_LOG": 24.7390003,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787230351000,
-        "START_DATE": 1787229180000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 1,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "VEHICLE CRASH",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "CRASH I-70 WB PAST ZUMBEHL RD 2 LEFT LANES CLOSED EST. CLEARANCE TIME: 8:33 AM (-90560084,38791954)",
-        "ATMS_ID": 890879,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "HOODA1",
-        "LAST_CHANGED_DATE": 1787230351000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1787230351000,
-        "BEGIN_DESCRIPTION": ".478 mile(s) before RP IS70W TO CAVE SPRINGS RD S S",
-        "END_DESCRIPTION": ".022 mile(s) after RP IS70W TO CAVE SPRINGS RD S S",
-        "OBJECT_ID": 268671909,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
