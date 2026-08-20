@@ -1,66 +1,11 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-20T13:58:28.425Z",
+    "updatedAt": "2026-08-20T14:45:01.330Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 85
+    "featureCount": 89
   },
   "features": [
-    {
-      "type": "Feature",
-      "id": 268672846,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.19723817099998,
-          38.66230313800003
-        ]
-      },
-      "properties": {
-        "ESTIMATED_HOUR_DURATION": 0.5,
-        "LAST_CHANGED_USER": "HOODA1",
-        "COUNTY_NAME": "ST. LOUIS CITY",
-        "DISTRICT_NO": 5,
-        "TRAVELWAY_ID": 3506,
-        "DESIGNATION": "IS",
-        "TRAVELWAY_NAME": "70",
-        "DIRECTION": "W",
-        "DATA_ID": 1021556,
-        "STATIC_DTL_ID": 322661,
-        "TRANSACTION_ID": 68766953,
-        "ACTIVATION_DATE": 1787232430000,
-        "DEACTIVATION_DATE": null,
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 1.70000005,
-        "END_LOG": 2.20000005,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787233893000,
-        "START_DATE": 1787232120000,
-        "END_DATE": null,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "OTHER",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST SALISBURY 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 8:52 AM (-90198954,38665353)",
-        "ATMS_ID": 890886,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_DATE": 1787233893000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1787233894000,
-        "BEGIN_DESCRIPTION": ".03 mile(s) before RP IS70W TO 9TH ST S",
-        "END_DESCRIPTION": ".066 mile(s) after RP 9TH ST TO IS70W W",
-        "OBJECT_ID": 268672846,
-        "layerId": 24,
-        "layerName": "Incident High Point",
-        "severity": "high"
-      }
-    },
     {
       "type": "Feature",
       "id": 268670817,
@@ -173,7 +118,172 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 268673691,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.50081183999998,
+          38.57708138900006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "HOODA1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6353,
+        "DESIGNATION": "MO",
+        "TRAVELWAY_NAME": "141",
+        "DIRECTION": "S",
+        "DATA_ID": 1021572,
+        "STATIC_DTL_ID": 322670,
+        "TRANSACTION_ID": 68767145,
+        "ACTIVATION_DATE": 1787237074000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 16.9589996,
+        "END_LOG": 16.9790001,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787237074000,
+        "START_DATE": 1787236860000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH MO 141 SB PAST MANCHESTER RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:41 AM (-90502013,38580102)",
+        "ATMS_ID": 890915,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787237074000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787237074000,
+        "BEGIN_DESCRIPTION": ".008 mile(s) before CST BROMFIELD TER E",
+        "END_DESCRIPTION": ".012 mile(s) after CST BROMFIELD TER E",
+        "OBJECT_ID": 268673691,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268673683,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.21273844099994,
+          38.68039659900006
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "LAST_CHANGED_USER": "HOODA1",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 19,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "70",
+        "DIRECTION": "E",
+        "DATA_ID": 1021571,
+        "STATIC_DTL_ID": 322669,
+        "TRANSACTION_ID": 68767143,
+        "ACTIVATION_DATE": 1787236951000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 70 E",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 246.386002,
+        "END_LOG": 246.886002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787236951000,
+        "START_DATE": 1787236260000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 EB AT ADELAIDE AVE RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:01 AM (-90210148,38678766)",
+        "ATMS_ID": 890912,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787236951000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787236951000,
+        "BEGIN_DESCRIPTION": ".056 mile(s) before RP CARRIE AVE TO IS70E E",
+        "END_DESCRIPTION": ".052 mile(s) before RP ADELAIDE AVE TO IS70E E",
+        "OBJECT_ID": 268673683,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268673503,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.32380854799999,
+          38.502230660000066
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "HOODA1",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 6512,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "255",
+        "DIRECTION": "N",
+        "DATA_ID": 1021568,
+        "STATIC_DTL_ID": 322666,
+        "TRANSACTION_ID": 68767088,
+        "ACTIVATION_DATE": 1787236095000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 255 N",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 2.65199995,
+        "END_LOG": 3.15199995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787236095000,
+        "START_DATE": 1787235600000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "VEHICLE FIRE I-255 WB PAST LINDBERGH BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:20 AM (-90325406,38502326)",
+        "ATMS_ID": 890907,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787236095000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787236095000,
+        "BEGIN_DESCRIPTION": ".096 mile(s) after US 50 W",
+        "END_DESCRIPTION": ".037 mile(s) before RP US61 TO IS255N N",
+        "OBJECT_ID": 268673503,
+        "layerId": 24,
+        "layerName": "Incident High Point",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -228,7 +338,7 @@
         "LAST_CHANGED_DATE": "06/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 553750,
-        "ESRI_OID": 1,
+        "ESRI_OID": 97,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -236,7 +346,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 103,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -291,7 +401,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550721,
-        "ESRI_OID": 2,
+        "ESRI_OID": 103,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -299,7 +409,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 138,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -354,7 +464,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529223,
-        "ESRI_OID": 3,
+        "ESRI_OID": 138,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -362,7 +472,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 139,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -417,7 +527,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529222,
-        "ESRI_OID": 4,
+        "ESRI_OID": 139,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -425,7 +535,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 160,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -480,7 +590,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556463,
-        "ESRI_OID": 5,
+        "ESRI_OID": 160,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -488,7 +598,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 161,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -543,7 +653,7 @@
         "LAST_CHANGED_DATE": "08/11/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 556462,
-        "ESRI_OID": 6,
+        "ESRI_OID": 161,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -551,7 +661,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 164,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -606,7 +716,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546719,
-        "ESRI_OID": 7,
+        "ESRI_OID": 164,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -614,7 +724,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 171,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -669,7 +779,7 @@
         "LAST_CHANGED_DATE": "09/04/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 539903,
-        "ESRI_OID": 8,
+        "ESRI_OID": 171,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -677,7 +787,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 174,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -732,7 +842,7 @@
         "LAST_CHANGED_DATE": "02/24/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 546720,
-        "ESRI_OID": 9,
+        "ESRI_OID": 174,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -740,7 +850,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 183,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -795,7 +905,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547774,
-        "ESRI_OID": 10,
+        "ESRI_OID": 183,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -803,7 +913,7 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 190,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -858,7 +968,7 @@
         "LAST_CHANGED_DATE": "04/07/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547773,
-        "ESRI_OID": 11,
+        "ESRI_OID": 190,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -866,7 +976,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
+      "id": 208,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -921,7 +1031,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 547281,
-        "ESRI_OID": 12,
+        "ESRI_OID": 208,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -929,7 +1039,7 @@
     },
     {
       "type": "Feature",
-      "id": 13,
+      "id": 219,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -984,7 +1094,7 @@
         "LAST_CHANGED_DATE": "07/31/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 551100,
-        "ESRI_OID": 13,
+        "ESRI_OID": 219,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -992,7 +1102,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 223,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1047,7 +1157,7 @@
         "LAST_CHANGED_DATE": "05/27/2026",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 550719,
-        "ESRI_OID": 14,
+        "ESRI_OID": 223,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1055,7 +1165,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
+      "id": 227,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1110,7 +1220,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529255,
-        "ESRI_OID": 15,
+        "ESRI_OID": 227,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -1118,7 +1228,7 @@
     },
     {
       "type": "Feature",
-      "id": 16,
+      "id": 228,
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -1173,7 +1283,7 @@
         "LAST_CHANGED_DATE": "03/12/2025",
         "EXTERNAL_COMMENT": " ",
         "OPPOSING_TI_WZ_ID": 529254,
-        "ESRI_OID": 16,
+        "ESRI_OID": 228,
         "layerId": 26,
         "layerName": "Work Zone High Point",
         "severity": "high"
@@ -2567,95 +2677,6 @@
     },
     {
       "type": "Feature",
-      "id": 268672846,
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -90.19606125599995,
-            38.65882740400008
-          ],
-          [
-            -90.19614592199997,
-            38.65925788900006
-          ],
-          [
-            -90.19639094599995,
-            38.660416131000034
-          ],
-          [
-            -90.19685195499994,
-            38.66157976300008
-          ],
-          [
-            -90.19710194499999,
-            38.661975631000075
-          ],
-          [
-            -90.19728925599998,
-            38.662425953000024
-          ],
-          [
-            -90.19751691999994,
-            38.66292475800003
-          ],
-          [
-            -90.19850950799997,
-            38.66477543600007
-          ],
-          [
-            -90.19907668999997,
-            38.66562105300005
-          ]
-        ]
-      },
-      "properties": {
-        "DATA_ID": 1021556,
-        "STATIC_DTL_ID": 322661,
-        "TRANSACTION_ID": 68766953,
-        "ACTIVATION_DATE": 1787232430000,
-        "DEACTIVATION_DATE": null,
-        "TRAVELWAY_ID": 3506,
-        "TRAVELWAY_NAME": "70",
-        "DESIGNATION": "IS",
-        "DIRECTION": "W",
-        "OFFSET": null,
-        "ROUTE": "IS 70 W",
-        "COUNTY_NAME": "ST. LOUIS CITY",
-        "DISTRICT_NO": 5,
-        "DISTRICT_ABBR": "SL",
-        "BEGIN_LOG": 1.70000005,
-        "END_LOG": 2.20000005,
-        "PRIMARY_IND": "Y",
-        "ENTIRE_IND": "Y",
-        "ORPHANS_IND": null,
-        "OPPOSING_DATA_ID": null,
-        "STATUS_CODE": "ACTIVE",
-        "STATUS_DATE": 1787233893000,
-        "START_DATE": 1787232120000,
-        "END_DATE": null,
-        "ESTIMATED_HOUR_DURATION": 0.5,
-        "RIVER_NAME": null,
-        "DEPTH": 0,
-        "TYPE_CODE": "OTHER",
-        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
-        "EXT_COMMENT": "STALLED VEHICLE I-70 WB PAST SALISBURY 2 RIGHT LANES CLOSED EST. CLEARANCE TIME: 8:52 AM (-90198954,38665353)",
-        "ATMS_ID": 890886,
-        "ATMS_SOURCE": "29002",
-        "LAST_CHANGED_USER": "HOODA1",
-        "LAST_CHANGED_DATE": 1787233893000,
-        "LOC_LAST_CHANGED_USER": "HOODA1",
-        "LOC_LAST_CHANGED_DATE": 1787233894000,
-        "BEGIN_DESCRIPTION": ".03 mile(s) before RP IS70W TO 9TH ST S",
-        "END_DESCRIPTION": ".066 mile(s) after RP 9TH ST TO IS70W W",
-        "OBJECT_ID": 268672846,
-        "layerId": 31,
-        "layerName": "Incident High Line",
-        "severity": "high"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 268670817,
       "geometry": {
         "type": "LineString",
@@ -2779,6 +2800,213 @@
         "BEGIN_DESCRIPTION": ".005 mile(s) before CST LUCAS AND HUNT RD S",
         "END_DESCRIPTION": ".011 mile(s) after CST LUCAS AND HUNT RD S",
         "OBJECT_ID": 268670820,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268673691,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.50083324599996,
+            38.577225043000055
+          ],
+          [
+            -90.50081980599998,
+            38.577109661000065
+          ],
+          [
+            -90.50077201099998,
+            38.57694003000006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1021572,
+        "STATIC_DTL_ID": 322670,
+        "TRANSACTION_ID": 68767145,
+        "ACTIVATION_DATE": 1787237074000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6353,
+        "TRAVELWAY_NAME": "141",
+        "DESIGNATION": "MO",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "MO 141 S",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 16.9589996,
+        "END_LOG": 16.9790001,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787237074000,
+        "START_DATE": 1787236860000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "CRASH MO 141 SB PAST MANCHESTER RD RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:41 AM (-90502013,38580102)",
+        "ATMS_ID": 890915,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "HOODA1",
+        "LAST_CHANGED_DATE": 1787237074000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787237074000,
+        "BEGIN_DESCRIPTION": ".008 mile(s) before CST BROMFIELD TER E",
+        "END_DESCRIPTION": ".012 mile(s) after CST BROMFIELD TER E",
+        "OBJECT_ID": 268673691,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268673683,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.21639746299996,
+            38.68261161500004
+          ],
+          [
+            -90.21557910899998,
+            38.68211552300005
+          ],
+          [
+            -90.21457794599996,
+            38.68149813700006
+          ],
+          [
+            -90.21409687299996,
+            38.681249593000075
+          ],
+          [
+            -90.21132223799998,
+            38.67950729000006
+          ],
+          [
+            -90.20913083999994,
+            38.67812159300007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1021571,
+        "STATIC_DTL_ID": 322669,
+        "TRANSACTION_ID": 68767143,
+        "ACTIVATION_DATE": 1787236951000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 19,
+        "TRAVELWAY_NAME": "70",
+        "DESIGNATION": "IS",
+        "DIRECTION": "E",
+        "OFFSET": null,
+        "ROUTE": "IS 70 E",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 246.386002,
+        "END_LOG": 246.886002,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787236951000,
+        "START_DATE": 1787236260000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 0.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-70 EB AT ADELAIDE AVE RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:01 AM (-90210148,38678766)",
+        "ATMS_ID": 890912,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "HOODA1",
+        "LAST_CHANGED_DATE": 1787236951000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787236951000,
+        "BEGIN_DESCRIPTION": ".056 mile(s) before RP CARRIE AVE TO IS70E E",
+        "END_DESCRIPTION": ".052 mile(s) before RP ADELAIDE AVE TO IS70E E",
+        "OBJECT_ID": 268673683,
+        "layerId": 31,
+        "layerName": "Incident High Line",
+        "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268673503,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.31922092499997,
+            38.50186607400008
+          ],
+          [
+            -90.32230364199995,
+            38.502120379000075
+          ],
+          [
+            -90.32839670299995,
+            38.50256676400005
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1021568,
+        "STATIC_DTL_ID": 322666,
+        "TRANSACTION_ID": 68767088,
+        "ACTIVATION_DATE": 1787236095000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 6512,
+        "TRAVELWAY_NAME": "255",
+        "DESIGNATION": "IS",
+        "DIRECTION": "N",
+        "OFFSET": null,
+        "ROUTE": "IS 255 N",
+        "COUNTY_NAME": "ST. LOUIS",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 2.65199995,
+        "END_LOG": 3.15199995,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787236095000,
+        "START_DATE": 1787235600000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "EXPECT DELAYS",
+        "EXT_COMMENT": "VEHICLE FIRE I-255 WB PAST LINDBERGH BLVD RIGHT LANE CLOSED EST. CLEARANCE TIME: 10:20 AM (-90325406,38502326)",
+        "ATMS_ID": 890907,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "HOODA1",
+        "LAST_CHANGED_DATE": 1787236095000,
+        "LOC_LAST_CHANGED_USER": "HOODA1",
+        "LOC_LAST_CHANGED_DATE": 1787236095000,
+        "BEGIN_DESCRIPTION": ".096 mile(s) after US 50 W",
+        "END_DESCRIPTION": ".037 mile(s) before RP US61 TO IS255N N",
+        "OBJECT_ID": 268673503,
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
