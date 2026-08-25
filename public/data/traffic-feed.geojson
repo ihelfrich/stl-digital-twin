@@ -1,9 +1,9 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "updatedAt": "2026-08-25T22:48:43.529Z",
+    "updatedAt": "2026-08-25T23:12:46.738Z",
     "source": "MoDOT TravelerInformation ArcGIS REST",
-    "featureCount": 81
+    "featureCount": 85
   },
   "features": [
     {
@@ -114,6 +114,116 @@
         "layerId": 24,
         "layerName": "Incident High Point",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268807061,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.37770683999997,
+          38.44977710100005
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1,
+        "LAST_CHANGED_USER": "OLOUGD2",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 13,
+        "DESIGNATION": "IS",
+        "TRAVELWAY_NAME": "55",
+        "DIRECTION": "S",
+        "DATA_ID": 1023487,
+        "STATIC_DTL_ID": 323066,
+        "TRANSACTION_ID": 68790541,
+        "ACTIVATION_DATE": 1787698823000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "IS 55 S",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 17.0860004,
+        "END_LOG": 17.3360004,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787698823000,
+        "START_DATE": 1787697900000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "CRASH I-55 SB BEFORE MO 141 BE PREPARED TO STOP EST. CLEARANCE TIME: 6:45 PM (-90378055,38448681)",
+        "ATMS_ID": 891672,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787698823000,
+        "LOC_LAST_CHANGED_USER": "OLOUGD2",
+        "LOC_LAST_CHANGED_DATE": 1787698823000,
+        "BEGIN_DESCRIPTION": ".384 mile(s) before RP IS55S TO MO141S S",
+        "END_DESCRIPTION": ".134 mile(s) before RP IS55S TO MO141S S",
+        "OBJECT_ID": 268807061,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268807068,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.18624265499994,
+          38.63507250600003
+        ]
+      },
+      "properties": {
+        "ESTIMATED_HOUR_DURATION": 1.5,
+        "LAST_CHANGED_USER": "WILLIKA",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "TRAVELWAY_ID": 901746,
+        "DESIGNATION": "RP",
+        "TRAVELWAY_NAME": "IS44W TO LACLEDES LANDING BLVD",
+        "DIRECTION": "W",
+        "DATA_ID": 1023492,
+        "STATIC_DTL_ID": 323067,
+        "TRANSACTION_ID": 68790543,
+        "ACTIVATION_DATE": 1787699433000,
+        "DEACTIVATION_DATE": null,
+        "OFFSET": null,
+        "ROUTE": "RP IS44W TO LACLEDES LANDING BLVD W",
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0199999996,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787699433000,
+        "START_DATE": 1787695620000,
+        "END_DATE": null,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-44 WB TO LACLEDES LANDING BLVD BE PREPARED TO STOP EST. CLEARANCE TIME: 6:37 PM (-90186281,38632816)",
+        "ATMS_ID": 891663,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_DATE": 1787699433000,
+        "LOC_LAST_CHANGED_USER": "WILLIKA",
+        "LOC_LAST_CHANGED_DATE": 1787699433000,
+        "BEGIN_DESCRIPTION": "IS 44 W",
+        "END_DESCRIPTION": ".014 mile(s) before CST 4TH ST N",
+        "OBJECT_ID": 268807068,
+        "layerId": 25,
+        "layerName": "Incident Medium Point",
+        "severity": "medium"
       }
     },
     {
@@ -2575,6 +2685,128 @@
         "layerId": 31,
         "layerName": "Incident High Line",
         "severity": "high"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268807061,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.37713578499995,
+            38.45153052000006
+          ],
+          [
+            -90.37827786699995,
+            38.44802368000006
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1023487,
+        "STATIC_DTL_ID": 323066,
+        "TRANSACTION_ID": 68790541,
+        "ACTIVATION_DATE": 1787698823000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 13,
+        "TRAVELWAY_NAME": "55",
+        "DESIGNATION": "IS",
+        "DIRECTION": "S",
+        "OFFSET": null,
+        "ROUTE": "IS 55 S",
+        "COUNTY_NAME": "JEFFERSON",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 17.0860004,
+        "END_LOG": 17.3360004,
+        "PRIMARY_IND": "Y",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787698823000,
+        "START_DATE": 1787697900000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "VEHICLE CRASH",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "CRASH I-55 SB BEFORE MO 141 BE PREPARED TO STOP EST. CLEARANCE TIME: 6:45 PM (-90378055,38448681)",
+        "ATMS_ID": 891672,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "OLOUGD2",
+        "LAST_CHANGED_DATE": 1787698823000,
+        "LOC_LAST_CHANGED_USER": "OLOUGD2",
+        "LOC_LAST_CHANGED_DATE": 1787698823000,
+        "BEGIN_DESCRIPTION": ".384 mile(s) before RP IS55S TO MO141S S",
+        "END_DESCRIPTION": ".134 mile(s) before RP IS55S TO MO141S S",
+        "OBJECT_ID": 268807061,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268807068,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -90.18620018499996,
+            38.63521500200005
+          ],
+          [
+            -90.18628512499998,
+            38.63493000900007
+          ]
+        ]
+      },
+      "properties": {
+        "DATA_ID": 1023492,
+        "STATIC_DTL_ID": 323067,
+        "TRANSACTION_ID": 68790543,
+        "ACTIVATION_DATE": 1787699433000,
+        "DEACTIVATION_DATE": null,
+        "TRAVELWAY_ID": 901746,
+        "TRAVELWAY_NAME": "IS44W TO LACLEDES LANDING BLVD",
+        "DESIGNATION": "RP",
+        "DIRECTION": "W",
+        "OFFSET": null,
+        "ROUTE": "RP IS44W TO LACLEDES LANDING BLVD W",
+        "COUNTY_NAME": "ST. LOUIS CITY",
+        "DISTRICT_NO": 5,
+        "DISTRICT_ABBR": "SL",
+        "BEGIN_LOG": 0,
+        "END_LOG": 0.0199999996,
+        "PRIMARY_IND": "N",
+        "ENTIRE_IND": "Y",
+        "ORPHANS_IND": null,
+        "OPPOSING_DATA_ID": null,
+        "STATUS_CODE": "ACTIVE",
+        "STATUS_DATE": 1787699433000,
+        "START_DATE": 1787695620000,
+        "END_DATE": null,
+        "ESTIMATED_HOUR_DURATION": 1.5,
+        "RIVER_NAME": null,
+        "DEPTH": 0,
+        "TYPE_CODE": "OTHER",
+        "LEVEL_OF_IMPACT_CODE": "POSSIBLE DELAYS",
+        "EXT_COMMENT": "STALLED VEHICLE I-44 WB TO LACLEDES LANDING BLVD BE PREPARED TO STOP EST. CLEARANCE TIME: 6:37 PM (-90186281,38632816)",
+        "ATMS_ID": 891663,
+        "ATMS_SOURCE": "29002",
+        "LAST_CHANGED_USER": "WILLIKA",
+        "LAST_CHANGED_DATE": 1787699433000,
+        "LOC_LAST_CHANGED_USER": "WILLIKA",
+        "LOC_LAST_CHANGED_DATE": 1787699433000,
+        "BEGIN_DESCRIPTION": "IS 44 W",
+        "END_DESCRIPTION": ".014 mile(s) before CST 4TH ST N",
+        "OBJECT_ID": 268807068,
+        "layerId": 32,
+        "layerName": "Incident Medium Line",
+        "severity": "medium"
       }
     },
     {
@@ -5097,7 +5329,7 @@
     },
     {
       "type": "Feature",
-      "id": 1,
+      "id": 3,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -5548,7 +5780,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553942,
-        "ESRI_OID": 1,
+        "ESRI_OID": 3,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -5556,7 +5788,7 @@
     },
     {
       "type": "Feature",
-      "id": 2,
+      "id": 4,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6015,7 +6247,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "06/29/2026",
         "OPPOSING_TI_WZ_ID": 553943,
-        "ESRI_OID": 2,
+        "ESRI_OID": 4,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6023,7 +6255,7 @@
     },
     {
       "type": "Feature",
-      "id": 3,
+      "id": 5,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6098,7 +6330,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/29/2026",
         "OPPOSING_TI_WZ_ID": 551686,
-        "ESRI_OID": 3,
+        "ESRI_OID": 5,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6106,7 +6338,7 @@
     },
     {
       "type": "Feature",
-      "id": 4,
+      "id": 6,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6361,7 +6593,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 539577,
-        "ESRI_OID": 4,
+        "ESRI_OID": 6,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6369,7 +6601,7 @@
     },
     {
       "type": "Feature",
-      "id": 5,
+      "id": 7,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6632,7 +6864,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/12/2026",
         "OPPOSING_TI_WZ_ID": 539576,
-        "ESRI_OID": 5,
+        "ESRI_OID": 7,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6640,7 +6872,7 @@
     },
     {
       "type": "Feature",
-      "id": 6,
+      "id": 8,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6751,7 +6983,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/21/2026",
         "OPPOSING_TI_WZ_ID": 555038,
-        "ESRI_OID": 6,
+        "ESRI_OID": 8,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6759,7 +6991,7 @@
     },
     {
       "type": "Feature",
-      "id": 7,
+      "id": 9,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -6890,7 +7122,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "07/21/2026",
         "OPPOSING_TI_WZ_ID": 555037,
-        "ESRI_OID": 7,
+        "ESRI_OID": 9,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -6898,7 +7130,7 @@
     },
     {
       "type": "Feature",
-      "id": 8,
+      "id": 1,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -7649,7 +7881,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/24/2026",
         "OPPOSING_TI_WZ_ID": 557093,
-        "ESRI_OID": 8,
+        "ESRI_OID": 1,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
@@ -7657,7 +7889,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 2,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -8460,7 +8692,7 @@
         "DEACTIVATION_DATE": null,
         "LAST_CHANGED_DATE": "08/24/2026",
         "OPPOSING_TI_WZ_ID": 557092,
-        "ESRI_OID": 9,
+        "ESRI_OID": 2,
         "layerId": 34,
         "layerName": "Work Zone Medium Line",
         "severity": "medium"
