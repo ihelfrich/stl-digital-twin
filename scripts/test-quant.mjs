@@ -16,7 +16,11 @@ import {
   bootstrapSlope, compareTailModels, crossValidate, ols, permutationTest, powerLawTail,
   residualAutocorrelation, seededRandom,
 } from "../src/quant/estimate.mjs";
-import { ground, relation } from "../src/quant/relation.mjs";
+import { ground, groundMultiple, multiRelation, relation } from "../src/quant/relation.mjs";
+import {
+  blockBootstrap, blockCrossValidate, designMatrix, fitLinear, randomCrossValidate, spatialBlocks,
+  varianceInflation,
+} from "../src/quant/regression.mjs";
 
 let passed = 0;
 const failures = [];
@@ -292,6 +296,241 @@ section("grounding gate");
     withComparison.comparisons[0].insideInterval);
   check("a wrong reference value lands outside", !withComparison.comparisons[1].insideInterval);
   check("comparisons do not change the verdict", withComparison.verdict === "grounded");
+}
+
+// --- multiple regression ------------------------------------------------
+section("multiple regression");
+{
+  const n = 500;
+  const x1 = Array.from({ length: n }, () => gaussian());
+  const x2 = Array.from({ length: n }, () => gaussian());
+  const y = x1.map((value, index) => 1.5 + 2 * value - 0.7 * x2[index] + 0.5 * gaussian());
+  const fit = fitLinear(designMatrix([x1, x2]), y);
+  close("intercept recovered", fit.beta[0], 1.5, 0.08);
+  close("first coefficient recovered", fit.beta[1], 2, 0.08);
+  close("second coefficient recovered", fit.beta[2], -0.7, 0.08);
+  check("standard errors are positive and small", fit.standardErrors.every((se) => se > 0 && se < 0.1));
+  check("adjusted R2 is below R2", fit.adjustedR2 < fit.r2);
+  throws("refuses more columns than rows",
+    () => fitLinear([[1, 2, 3], [1, 2, 3]], [1, 2]), "more rows");
+
+  check("variance inflation is ~1 for orthogonal predictors",
+    varianceInflation(designMatrix([x1, x2])).every((value) => value < 1.2));
+  const duplicate = x1.map((value) => value + 0.01 * gaussian());
+  check("variance inflation explodes for a near-duplicate predictor",
+    varianceInflation(designMatrix([x1, duplicate])).every((value) => value > 50));
+
+  // A confounder that drives both sides: the bivariate coefficient is
+  // spurious and controlling for the confounder collapses it.
+  const confounder = Array.from({ length: n }, () => gaussian());
+  const proxy = confounder.map((value) => value + 0.3 * gaussian());
+  const outcome = confounder.map((value) => 3 * value + 0.3 * gaussian());
+  const spurious = fitLinear(designMatrix([proxy]), outcome).beta[1];
+  const controlled = fitLinear(designMatrix([proxy, confounder]), outcome).beta[1];
+  check("bivariate picks up a spurious effect", Math.abs(spurious) > 2, `got ${spurious}`);
+  check("controlling for the confounder collapses it", Math.abs(controlled) < 0.3, `got ${controlled}`);
+
+  check("spatial blocks tile the plane",
+    spatialBlocks([0, 100, 600], [0, 100, 0], 500).join(",") === "0:0,0:0,1:0");
+}
+
+// --- dependence ---------------------------------------------------------
+section("spatial dependence");
+{
+  // Clustered data where both x and y carry a block-level component. The
+  // independent-observations bootstrap should badly undercover; resampling by
+  // block should be close to nominal. This is the check that licenses using
+  // block intervals for everything spatial.
+  const TRUTH = 1;
+  const BLOCKS = 20;
+  const PER_BLOCK = 20;
+  let naiveHits = 0;
+  let blockHits = 0;
+  let naiveWidth = 0;
+  let blockWidth = 0;
+  const replications = 30;
+  for (let replication = 0; replication < replications; replication += 1) {
+    const draw = seededRandom(9000 + replication * 31);
+    const normal = () => {
+      let sum = 0;
+      for (let index = 0; index < 12; index += 1) sum += draw();
+      return sum - 6;
+    };
+    const xs = [];
+    const ys = [];
+    const blocks = [];
+    for (let block = 0; block < BLOCKS; block += 1) {
+      const blockX = 1.5 * normal();
+      const blockY = 1.5 * normal();
+      for (let point = 0; point < PER_BLOCK; point += 1) {
+        const x = blockX + 0.6 * normal();
+        xs.push(x);
+        ys.push(TRUTH * x + blockY + 0.6 * normal());
+        blocks.push(`b${block}`);
+      }
+    }
+    const naive = bootstrapSlope(xs, ys, { samples: 120, seed: replication + 1 });
+    if (naive.slopeLow <= TRUTH && TRUTH <= naive.slopeHigh) naiveHits += 1;
+    naiveWidth += naive.slopeHigh - naive.slopeLow;
+    const blocked = blockBootstrap(designMatrix([xs]), ys, blocks, { samples: 120, seed: replication + 1 });
+    if (blocked.ok) {
+      const [low, high] = [blocked.intervals[1].low, blocked.intervals[1].high];
+      if (low <= TRUTH && TRUTH <= high) blockHits += 1;
+      blockWidth += high - low;
+    }
+  }
+  const naiveCoverage = naiveHits / replications;
+  const blockCoverage = blockHits / replications;
+  console.log(`  nominal 95%: naive covers ${(naiveCoverage * 100).toFixed(0)}%, `
+    + `block covers ${(blockCoverage * 100).toFixed(0)}%, `
+    + `block intervals ${(blockWidth / naiveWidth).toFixed(1)}x wider`);
+  check("the naive bootstrap undercovers badly on clustered data",
+    naiveCoverage < 0.7, `covered ${(naiveCoverage * 100).toFixed(0)}%`);
+  check("the block bootstrap is near nominal coverage",
+    blockCoverage >= 0.8, `covered ${(blockCoverage * 100).toFixed(0)}%`);
+  check("block intervals are the wider ones", blockWidth > naiveWidth);
+
+  // Real leakage needs a model that can pick up area-specific structure. Give
+  // it one block indicator per area, which is what a neighbourhood fixed
+  // effect is: splitting at random lets each area's level be learned from its
+  // own other members, so the held-out points look easy. Holding out the whole
+  // area removes every observation that identifies its level, which is the
+  // situation the model would actually face somewhere new.
+  const AREAS = 25;
+  const PER_AREA = 20;
+  const leakX = [];
+  const leakY = [];
+  const leakBlocks = [];
+  const levels = [];
+  for (let area = 0; area < AREAS; area += 1) {
+    const level = 3 * gaussian();
+    for (let point = 0; point < PER_AREA; point += 1) {
+      const x = gaussian();
+      leakX.push(x);
+      leakY.push(level + 0.5 * x + 0.2 * gaussian());
+      leakBlocks.push(`b${area}`);
+      levels.push(area);
+    }
+  }
+  const indicators = Array.from({ length: AREAS - 1 }, (_, area) =>
+    levels.map((value) => (value === area ? 1 : 0)));
+  const leakDesign = designMatrix([leakX, ...indicators]);
+  const leaky = randomCrossValidate(leakDesign, leakY).r2;
+  const honest = blockCrossValidate(leakDesign, leakY, leakBlocks).r2;
+  console.log(`  area-effect model: random split scores ${leaky.toFixed(3)}, `
+    + `held-out areas score ${honest.toFixed(3)}`);
+  check("random k-fold scores the area-effect model highly", leaky > 0.9, `got ${leaky}`);
+  check("holding out whole areas is far more pessimistic", honest < leaky - 0.3,
+    `blocks ${honest.toFixed(3)} vs random ${leaky.toFixed(3)}`);
+  // A held-out area leaves its indicator column empty in training, so the
+  // design is rank deficient. The score has to stay a real number.
+  check("a rank-deficient hold-out still yields a finite score", Number.isFinite(honest)
+    && Math.abs(honest) < 100, `got ${honest}`);
+
+  const deficient = fitLinear(
+    [[1, 1, 0], [1, 2, 0], [1, 3, 0], [1, 4, 0]], [1, 2, 3, 4],
+  );
+  check("an all-zero column is reported as rank deficient", deficient.rankDeficient);
+  check("the unidentified coefficient is zero, not enormous", deficient.beta[2] === 0);
+  check("the identified coefficients are still right", Math.abs(deficient.beta[1] - 1) < 1e-9);
+}
+
+// --- the multivariate gate ----------------------------------------------
+section("multivariate grounding gate");
+{
+  const areas = [];
+  const distances = [];
+  const storeys = [];
+  const blocks = [];
+  for (let block = 0; block < 40; block += 1) {
+    const blockArea = 0.8 * gaussian();
+    const blockLevel = 1.2 * gaussian();
+    for (let point = 0; point < 25; point += 1) {
+      const area = Math.exp(4 + blockArea + 0.5 * gaussian());
+      const distance = Math.abs(2000 + 1500 * blockArea + 300 * gaussian());
+      areas.push(area);
+      distances.push(distance);
+      blocks.push(`b${block}`);
+      storeys.push(Math.exp(0.4 * Math.log(area) - 0.0002 * distance + blockLevel + 0.3 * gaussian()));
+    }
+  }
+  const make = (name, unit, values) =>
+    derived({ name, symbol: name, unit, source: "synthetic", method: "simulated", values });
+  const spec = multiRelation({
+    id: "multi", statement: "synthetic",
+    response: make("storeys", UNITS.one, storeys),
+    responseReference: quantity(1, UNITS.one),
+    terms: [
+      {
+        label: "log area", observable: make("area", UNITS.squareMetre, areas),
+        transform: "log", reference: quantity(1, UNITS.squareMetre),
+      },
+      { label: "distance", observable: make("distance", UNITS.metre, distances), transform: "identity" },
+    ],
+    blocks,
+    blockSizeLabel: "synthetic",
+  });
+  const result = groundMultiple(spec, { bootstrapSamples: 300 });
+  check("planted log-area coefficient is inside its block interval",
+    result.coefficients[0].blockInterval[0] < 0.4 && 0.4 < result.coefficients[0].blockInterval[1],
+    JSON.stringify(result.coefficients[0].blockInterval));
+  check("planted distance coefficient is inside its block interval",
+    result.coefficients[1].blockInterval[0] < -0.0002 && -0.0002 < result.coefficients[1].blockInterval[1],
+    JSON.stringify(result.coefficients[1].blockInterval));
+  check("a logged term against a logged response gives a dimensionless coefficient",
+    result.coefficients[0].unit === "dimensionless");
+  check("an unlogged length term gives an inverse-length coefficient",
+    result.coefficients[1].unit === "length^-1", result.coefficients[1].unit);
+  check("the dependence penalty is reported and exceeds one",
+    result.dependencePenalty.widthRatio > 1, `${result.dependencePenalty.widthRatio}`);
+  check("failing to transfer does not by itself reject the result",
+    result.verdict !== "rejected", `${result.verdict} / ${result.failedChecks}`);
+
+  // A term with no effect must not come back grounded.
+  const noise = make("noise", UNITS.one, areas.map(() => 0.5 + gaussian()));
+  const nullResult = groundMultiple(multiRelation({
+    id: "multi-null", statement: "negative control",
+    response: make("storeys", UNITS.one, storeys),
+    responseReference: quantity(1, UNITS.one),
+    terms: [{ label: "noise", observable: noise, transform: "identity" }],
+    blocks,
+  }), { bootstrapSamples: 300 });
+  check("a null focal term is rejected", nullResult.verdict === "rejected",
+    `${nullResult.verdict} / ${nullResult.failedChecks}`);
+  check("the null term's interval spans zero",
+    nullResult.coefficients[0].blockInterval[0] < 0 && nullResult.coefficients[0].blockInterval[1] > 0);
+
+  // Two copies of the same predictor are not separately identified.
+  const duplicated = groundMultiple(multiRelation({
+    id: "multi-collinear", statement: "collinear",
+    response: make("storeys", UNITS.one, storeys),
+    responseReference: quantity(1, UNITS.one),
+    terms: [
+      { label: "log area", observable: make("area", UNITS.squareMetre, areas), transform: "log", reference: quantity(1, UNITS.squareMetre) },
+      { label: "log area again", observable: make("area2", UNITS.squareMetre, areas.map((a) => a * 1.000001)), transform: "log", reference: quantity(1, UNITS.squareMetre) },
+      // Exactly proportional, so in logs it differs from the first term by a
+      // constant and is absorbed by the intercept: an exact linear dependence.
+    ],
+    blocks,
+  }), { bootstrapSamples: 200 });
+  check("collinear terms are caught", duplicated.failedChecks.includes("collinearity"),
+    JSON.stringify(duplicated.failedChecks));
+  check("collinearity is fatal", duplicated.verdict === "rejected");
+
+  throws("an unpaired term is refused",
+    () => multiRelation({
+      id: "x", statement: "x",
+      response: make("storeys", UNITS.one, storeys),
+      terms: [{ label: "short", observable: make("short", UNITS.one, [1, 2, 3]), transform: "identity" }],
+    }), "not paired");
+  throws("a logged term without a reference scale is refused",
+    () => groundMultiple(multiRelation({
+      id: "x", statement: "x",
+      response: make("storeys", UNITS.one, storeys),
+      responseReference: quantity(1, UNITS.one),
+      terms: [{ label: "log area", observable: make("area", UNITS.squareMetre, areas), transform: "log" }],
+      blocks,
+    })), "reference scale");
 }
 
 console.log(`\n${passed} checks passed, ${failures.length} failed`);

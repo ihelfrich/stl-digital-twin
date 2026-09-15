@@ -189,18 +189,115 @@ when there *is* something; the KS goodness-of-fit p is small when the model is
 
 ---
 
+## Controls, and uncertainty that accounts for clustering
+
+Everything above estimates one predictor at a time and assumes observations are
+independent draws. Both assumptions flatter the result, and the second one is
+plainly false for anything spatial: neighbouring buildings resemble each other,
+so the effective sample size is far below n.
+
+`groundMultiple` fits several terms at once, resamples by spatial block rather
+than by row, and cross-validates by holding out whole blocks.
+
+### How badly the independence assumption bites
+
+A coverage study, run in the test suite on synthetic data where both the
+predictor and the outcome carry a block-level component and the true
+coefficient is known:
+
+| Interval | Coverage of a nominal 95% interval | Relative width |
+| --- | --- | --- |
+| Independent-observations bootstrap | **33%** | 1x |
+| Spatial block bootstrap | **80%** | 4x |
+
+A 95% interval that contains the truth a third of the time is not a 95%
+interval. Every building-level figure reported above this section is narrower
+than it should be by roughly that factor.
+
+The same assumption inflates predictive skill. Give a model one indicator per
+area and split at random, and each held-out point has its own area's level
+learned from its neighbours:
+
+| Split | R² |
+| --- | --- |
+| Random k-fold | 0.994 |
+| Whole areas held out | 0.055 |
+
+Holding out a whole area leaves its indicator column empty in training, so the
+design is rank deficient. `fitLinear` detects that from the QR diagonal and
+zeroes the unidentified direction rather than dividing by a numerically-zero
+pivot — without which this figure came out as -2.2e23 rather than 0.055.
+
+### What controls change on the St. Louis data
+
+**Distance from the centre is not the confounder it looked like.** Adding it to
+the allometry leaves the focal coefficient essentially unmoved, and its own
+interval spans zero:
+
+```
+log footprint area      0.196  [0.148, 0.239]   (bivariate was 0.197 [0.180, 0.214])
+distance from centre   -1.1e-5 [-3.6e-5, 1.2e-5] per metre
+```
+
+So the bivariate estimate was not biased by geography. It was **overconfident**:
+the interval is 2.68x wider once spatial clustering is priced in. That is the
+whole correction — not the point estimate, the uncertainty.
+
+**Holding building type fixed — GROUNDED.** Every check passes, including
+transfer to held-out blocks:
+
+```
+log footprint area              0.234  [0.191, 0.270]
+distance from centre           -2.0e-5 [-4.5e-5, 2.4e-6] per metre
+is a house                      0.355  [0.284, 0.426]
+is apartments                   0.576  [0.448, 0.728]
+is commercial or industrial    -0.109  [-0.203, -0.010]
+```
+
+Block-held-out R² rises from 0.145 to 0.256, because type explains real
+variation that footprint area alone does not.
+
+**These two models answer different questions and should not be read as
+competing estimates of one number.** Distance from the centre is a confounder —
+a building's location is not caused by its footprint — so controlling for it is
+right. Building type is arguably a *mediator*: a larger plot may lead to an
+apartment block, which then has more storeys. Holding type fixed therefore
+estimates the *within-type* relationship, which is a different quantity, and is
+why the coefficient rises rather than falls.
+
+### Verdicts distinguish two claims
+
+Failing to transfer to a held-out block does not reject a result. When each area
+has a level the model does not include, holding out the area removes that level
+too, and held-out R² can go negative while the within-area slope is estimated
+perfectly well. "The coefficient is identified" and "the model predicts a new
+neighbourhood" are separate claims, so failing the second qualifies a result
+rather than voiding it. What is fatal: a block-bootstrap interval spanning the
+null, terms that are not separately identified, or too few rows.
+
+Collinearity is checked by variance inflation, and an *infinite* inflation — a
+term that is an exact linear combination of the others — is treated as the worst
+case rather than filtered out as a missing value. It was the latter until the
+test suite caught it.
+
+---
+
 ## What this does not do
 
-- **Two variables at a time.** No multiple regression, so no controlling for a
-  confounder. The centre-sensitivity table is a stand-in for that and a weak
-  one.
 - **Association, not causation.** Nothing here identifies a causal effect. There
-  is no instrument, no discontinuity, no panel. "Grounded" means the association
-  survives the checks, which is a much smaller claim.
-- **Independence is assumed where it is not true.** Buildings near each other
-  are not independent draws, so the bootstrap intervals on the building-level
-  relations are too narrow. The residual-independence check catches this for
-  ordered data only; there is no spatial block bootstrap.
+  is no instrument, no discontinuity, no panel. Controlling for an observed
+  confounder is not identification, and there is no way here to control for one
+  that was never measured. "Grounded" means the association survives the checks,
+  which is a much smaller claim.
+- **Linear and additive.** Every term enters linearly, after whatever log
+  transform it declares. No interactions, no splines, no thresholds.
+- **Blocks are squares.** Dependence is handled by resampling 500 m grid cells,
+  which is a crude stand-in for the real correlation structure. There is no
+  variogram, and no check that 500 m is the right scale.
+- **The bivariate figures above have not been re-estimated.** Only the allometry
+  was carried through to the controlled version; the storey-height and density
+  gradient results still carry independent-observations intervals and should be
+  read as narrower than the truth.
 - **One city, one snapshot.** Cross-city scaling laws need many cities. The
   transit and incident feeds are single instants, which is why no relation here
   uses them - 83 vehicles at one moment is not a measurement of a transport
@@ -213,7 +310,7 @@ when there *is* something; the KS goodness-of-fit p is small when the model is
 
 ```sh
 npm run relations    # writes public/data/relations-feed.json
-npm run test:quant   # 69 checks
+npm run test:quant   # 101 checks
 npm test             # both suites
 ```
 
@@ -225,7 +322,8 @@ npm test             # both suites
 | `src/quant/quantity.mjs` | Values with units and uncertainty; the log-of-a-ratio gate |
 | `src/quant/observable.mjs` | Measured series that carry provenance and coverage |
 | `src/quant/estimate.mjs` | OLS, bootstrap, cross-validation, permutation, power-law MLE, Vuong |
-| `src/quant/relation.mjs` | Relation specs and the grounding gate |
+| `src/quant/regression.mjs` | Multiple regression by QR, block bootstrap, block cross-validation |
+| `src/quant/relation.mjs` | Relation specs and the grounding gates, bivariate and multivariate |
 | `scripts/build-relations.mjs` | The pipeline over St. Louis buildings |
 | `scripts/test-quant.mjs` | The test suite, including the gate's negative controls |
 

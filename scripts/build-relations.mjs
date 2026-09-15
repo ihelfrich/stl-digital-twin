@@ -15,7 +15,8 @@ import { fileURLToPath } from "node:url";
 import { UNITS } from "../src/quant/dimension.mjs";
 import { quantity } from "../src/quant/quantity.mjs";
 import { derived, extract, measuredOnly, summarize, values } from "../src/quant/observable.mjs";
-import { ground, relation } from "../src/quant/relation.mjs";
+import { ground, groundMultiple, multiRelation, relation } from "../src/quant/relation.mjs";
+import { spatialBlocks } from "../src/quant/regression.mjs";
 import { compareTailModels, powerLawTail, seededRandom } from "../src/quant/estimate.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -198,6 +199,17 @@ function report(result) {
     console.log(`  slope ${slope.toPrecision(4)} [${slopeCI[0].toPrecision(4)}, ${slopeCI[1].toPrecision(4)}] `
       + `${slopeUnit}   n=${n}  out-of-sample R2=${Number.isFinite(outOfSampleR2) ? outOfSampleR2.toFixed(3) : "n/a"}`);
   }
+  for (const coefficient of result.coefficients ?? []) {
+    const interval = coefficient.blockInterval
+      ? `[${coefficient.blockInterval[0].toPrecision(3)}, ${coefficient.blockInterval[1].toPrecision(3)}]`
+      : "(no block interval)";
+    console.log(`  ${coefficient.role === "focal" ? "*" : " "} ${coefficient.label.padEnd(28)}`
+      + `${coefficient.estimate.toPrecision(4).padStart(11)} ${interval} ${coefficient.unit}`);
+  }
+  if (result.dependencePenalty?.widthRatio) {
+    console.log(`  interval is ${result.dependencePenalty.widthRatio.toFixed(2)}x wider than the `
+      + "independent-observations version");
+  }
   for (const check of result.checks ?? []) {
     console.log(`    ${check.passed ? "pass" : "FAIL"}  ${check.name}: ${check.detail}`);
   }
@@ -367,7 +379,100 @@ async function main() {
     responseReference: quantity(1, UNITS.one),
     predictorReference: quantity(1, UNITS.squareMetre),
     nullSlope: 0,
+    note: "Superseded by storey-footprint-controlled below. Buildings near each other are not "
+      + "independent draws, so this interval and this cross-validated R2 are both too flattering; "
+      + "the block-resampled interval is about 2.7 times wider.",
   })));
+
+  // --- 3b. The same question, with controls and honest uncertainty -------
+  //
+  // The bivariate allometry above has two problems it cannot see. Central
+  // buildings are both taller and on different plots, so distance from the
+  // centre confounds the comparison; and neighbouring buildings are not
+  // independent draws, so the interval and the cross-validated R2 are both
+  // flattering. Adding controls fixes the first. Resampling and splitting by
+  // 500 m block fixes the second.
+  const BLOCK_METRES = 500;
+  const centreScaleX = metresPerDegreeLon(centre[1]);
+  const allometryBlocks = spatialBlocks(
+    allometry.map((row) => (row.lon - centre[0]) * centreScaleX),
+    allometry.map((row) => (row.lat - centre[1]) * METRES_PER_DEGREE_LAT),
+    BLOCK_METRES,
+  );
+  const distanceFromCentre = allometry.map((row) => Math.hypot(
+    (row.lon - centre[0]) * centreScaleX,
+    (row.lat - centre[1]) * METRES_PER_DEGREE_LAT,
+  ));
+  const HOUSE_TYPES = new Set(["house", "detached", "terrace", "residential", "semidetached_house", "bungalow"]);
+  const COMMERCIAL_TYPES = new Set(["commercial", "office", "retail", "industrial", "warehouse"]);
+
+  const buildingObservable = (name, field, unit, method, read) => extract({
+    name, symbol: name, unit, source: SOURCE, field, method, records: allometry, read,
+  });
+  const storeyResponse = buildingObservable("storey count", "properties.building:levels",
+    UNITS.one, "tagged storey count", (row) => ({ value: row.levels, measured: true, id: row.id }));
+  const areaTerm = {
+    label: "log footprint area",
+    observable: buildingObservable("footprint area", "geometry.coordinates", UNITS.squareMetre,
+      "shoelace area on a local equirectangular projection",
+      (row) => ({ value: row.area, measured: true, id: row.id })),
+    transform: "log",
+    reference: quantity(1, UNITS.squareMetre),
+  };
+  const distanceTerm = {
+    label: "distance from centre",
+    observable: derived({
+      name: "distance from centre", symbol: "r", unit: UNITS.metre,
+      source: "building centroid against 38.6270 N 90.1928 W", method: "geometric",
+      values: distanceFromCentre,
+    }),
+    transform: "identity",
+  };
+  const indicatorTerm = (label, test) => ({
+    label,
+    observable: buildingObservable(label, "properties.building", UNITS.one,
+      "indicator derived from the building tag",
+      (row) => ({ value: test(row.type) ? 1 : 0, measured: true, id: row.id })),
+    transform: "identity",
+  });
+
+  const controlledGeography = groundMultiple(multiRelation({
+    id: "storey-footprint-controlled",
+    statement: "Storey count against footprint area, controlling for distance from the centre, "
+      + "with uncertainty resampled over 500 m spatial blocks.",
+    response: storeyResponse,
+    responseReference: quantity(1, UNITS.one),
+    responseTransform: "log",
+    terms: [areaTerm, distanceTerm],
+    blocks: allometryBlocks,
+    blockSizeLabel: "500 m",
+    note: "Distance from the centre is a confounder rather than a mediator here - a building's "
+      + "location is not caused by its footprint - so controlling for it is the right move.",
+  }), { bootstrapSamples: 1000 });
+  results.push(controlledGeography);
+
+  const controlledType = groundMultiple(multiRelation({
+    id: "storey-footprint-within-type",
+    statement: "The same, additionally holding building type fixed: the within-type relationship "
+      + "between footprint area and storey count.",
+    response: storeyResponse,
+    responseReference: quantity(1, UNITS.one),
+    responseTransform: "log",
+    terms: [
+      areaTerm,
+      distanceTerm,
+      indicatorTerm("is a house", (type) => HOUSE_TYPES.has(type)),
+      indicatorTerm("is apartments", (type) => type === "apartments"),
+      indicatorTerm("is commercial or industrial", (type) => COMMERCIAL_TYPES.has(type)),
+    ],
+    blocks: allometryBlocks,
+    blockSizeLabel: "500 m",
+    note: "Building type is arguably a mediator, not a confounder: a larger plot may lead to an "
+      + "apartment block, which then has more storeys. Holding it fixed therefore answers a "
+      + "different question from the model above - the relationship within a type - and the two "
+      + "coefficients should not be read as competing estimates of one quantity.",
+  }), { bootstrapSamples: 1000 });
+  results.push(controlledType);
 
   // --- 4. Negative control ----------------------------------------------
   // The same machinery against a predictor that cannot possibly explain

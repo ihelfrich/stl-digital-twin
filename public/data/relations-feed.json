@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:31:06.782Z",
+  "updatedAt": "2026-09-15T16:44:38.228Z",
   "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
   "buildings": 38570,
   "boundingBox": {
@@ -135,7 +135,7 @@
           "measured": 99,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.844Z"
+          "extractedAt": "2026-09-15T16:44:35.279Z"
         },
         "predictor": {
           "name": "storey count",
@@ -148,7 +148,7 @@
           "measured": 99,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.844Z"
+          "extractedAt": "2026-09-15T16:44:35.279Z"
         }
       }
     },
@@ -230,7 +230,7 @@
           "measured": 24,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.903Z"
+          "extractedAt": "2026-09-15T16:44:35.329Z"
         },
         "predictor": {
           "name": "distance from centre",
@@ -243,7 +243,7 @@
           "measured": 24,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.903Z"
+          "extractedAt": "2026-09-15T16:44:35.329Z"
         }
       }
     },
@@ -251,7 +251,7 @@
       "id": "storey-footprint-allometry",
       "statement": "Storey count scales as a power of footprint area: taller buildings sit on larger plots.",
       "form": "log-log",
-      "note": null,
+      "note": "Superseded by storey-footprint-controlled below. Buildings near each other are not independent draws, so this interval and this cross-validated R2 are both too flattering; the block-resampled interval is about 2.7 times wider.",
       "verdict": "qualified",
       "failedChecks": [
         "out-of-sample-skill"
@@ -320,7 +320,7 @@
           "measured": 2971,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.950Z"
+          "extractedAt": "2026-09-15T16:44:35.365Z"
         },
         "predictor": {
           "name": "footprint area",
@@ -333,8 +333,348 @@
           "measured": 2971,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:04.951Z"
+          "extractedAt": "2026-09-15T16:44:35.365Z"
         }
+      }
+    },
+    {
+      "id": "storey-footprint-controlled",
+      "statement": "Storey count against footprint area, controlling for distance from the centre, with uncertainty resampled over 500 m spatial blocks.",
+      "note": "Distance from the centre is a confounder rather than a mediator here - a building's location is not caused by its footprint - so controlling for it is the right move.",
+      "verdict": "qualified",
+      "failedChecks": [
+        "transfers-to-held-out-blocks"
+      ],
+      "coefficients": [
+        {
+          "label": "log footprint area",
+          "role": "focal",
+          "estimate": 0.19621846838191026,
+          "unit": "dimensionless",
+          "classicalStandardError": 0.008044938152628198,
+          "blockInterval": [
+            0.14788466930508742,
+            0.2386925849324664
+          ],
+          "varianceInflation": 1.0026217951159955,
+          "nullValue": 0
+        },
+        {
+          "label": "distance from centre",
+          "role": "control",
+          "estimate": -0.000011045201691224337,
+          "unit": "length^-1",
+          "classicalStandardError": 0.0000037295690713135407,
+          "blockInterval": [
+            -0.000036274015109443324,
+            0.00001169578218470132
+          ],
+          "varianceInflation": 1.0026217951159937,
+          "nullValue": 0
+        }
+      ],
+      "intercept": -0.32118105008382813,
+      "fit": {
+        "n": 2971,
+        "terms": 2,
+        "inSampleR2": 0.17109949845081707,
+        "adjustedR2": 0.17054094016136345,
+        "blockHeldOutR2": 0.14495669928540866,
+        "residualSd": 0.5921803248262671
+      },
+      "dependencePenalty": {
+        "naiveIntervalWidth": 0.03384520171045258,
+        "blockIntervalWidth": 0.09080791562737897,
+        "widthRatio": 2.6830366207962153,
+        "note": "Naive width is the independent-observations bootstrap on the focal term alone; the block width prices in spatial clustering."
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "log footprint area: dimensionless; distance from centre: length^-1"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "2971 rows, 3 columns"
+        },
+        {
+          "name": "collinearity",
+          "passed": true,
+          "detail": "largest variance inflation 1.00 (above 10 the terms are not separately identified)"
+        },
+        {
+          "name": "spatial-dependence-handled",
+          "passed": true,
+          "detail": "resampled and cross-validated over 261 blocks of 500 m"
+        },
+        {
+          "name": "transfers-to-held-out-blocks",
+          "passed": false,
+          "detail": "block-held-out R2 = 0.145 (in-sample 0.171)"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": true,
+          "detail": "block-bootstrap 95% CI [0.1479, 0.2387] vs null 0"
+        }
+      ],
+      "provenance": {
+        "response": {
+          "name": "storey count",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "properties.building:levels",
+          "method": "tagged storey count",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T16:44:35.590Z"
+        },
+        "terms": [
+          {
+            "name": "footprint area",
+            "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+            "field": "geometry.coordinates",
+            "method": "shoelace area on a local equirectangular projection",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:35.590Z"
+          },
+          {
+            "name": "distance from centre",
+            "source": "building centroid against 38.6270 N 90.1928 W",
+            "field": null,
+            "method": "geometric",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:35.590Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "storey-footprint-within-type",
+      "statement": "The same, additionally holding building type fixed: the within-type relationship between footprint area and storey count.",
+      "note": "Building type is arguably a mediator, not a confounder: a larger plot may lead to an apartment block, which then has more storeys. Holding it fixed therefore answers a different question from the model above - the relationship within a type - and the two coefficients should not be read as competing estimates of one quantity.",
+      "verdict": "grounded",
+      "failedChecks": [],
+      "coefficients": [
+        {
+          "label": "log footprint area",
+          "role": "focal",
+          "estimate": 0.23365566317884776,
+          "unit": "dimensionless",
+          "classicalStandardError": 0.008192519476232105,
+          "blockInterval": [
+            0.1909915184221975,
+            0.2698047646449987
+          ],
+          "varianceInflation": 1.2108888129705435,
+          "nullValue": 0
+        },
+        {
+          "label": "distance from centre",
+          "role": "control",
+          "estimate": -0.000020121366544148264,
+          "unit": "length^-1",
+          "classicalStandardError": 0.0000035341751518778283,
+          "blockInterval": [
+            -0.000045054237373167555,
+            0.000002366252696226066
+          ],
+          "varianceInflation": 1.0485123499551756,
+          "nullValue": 0
+        },
+        {
+          "label": "is a house",
+          "role": "control",
+          "estimate": 0.3547258175002314,
+          "unit": "dimensionless",
+          "classicalStandardError": 0.02482081069883311,
+          "blockInterval": [
+            0.28428669138620843,
+            0.4255256308493026
+          ],
+          "varianceInflation": 1.4080865556882889,
+          "nullValue": 0
+        },
+        {
+          "label": "is apartments",
+          "role": "control",
+          "estimate": 0.5756215835073667,
+          "unit": "dimensionless",
+          "classicalStandardError": 0.036304625374330005,
+          "blockInterval": [
+            0.44755447483951477,
+            0.7281277303080892
+          ],
+          "varianceInflation": 1.1665581638997848,
+          "nullValue": 0
+        },
+        {
+          "label": "is commercial or industrial",
+          "role": "control",
+          "estimate": -0.10867916230209354,
+          "unit": "dimensionless",
+          "classicalStandardError": 0.02978887803212376,
+          "blockInterval": [
+            -0.20319180969575695,
+            -0.010426359637105857
+          ],
+          "varianceInflation": 1.307747158721345,
+          "nullValue": 0
+        }
+      ],
+      "intercept": -0.6755255833556095,
+      "fit": {
+        "n": 2971,
+        "terms": 5,
+        "inSampleR2": 0.2889737682751261,
+        "adjustedR2": 0.2877747358438869,
+        "blockHeldOutR2": 0.25614617844919074,
+        "residualSd": 0.5487381866783126
+      },
+      "dependencePenalty": {
+        "naiveIntervalWidth": 0.03384520171045258,
+        "blockIntervalWidth": 0.0788132462228012,
+        "widthRatio": 2.3286386914473884,
+        "note": "Naive width is the independent-observations bootstrap on the focal term alone; the block width prices in spatial clustering."
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "log footprint area: dimensionless; distance from centre: length^-1; is a house: dimensionless; is apartments: dimensionless; is commercial or industrial: dimensionless"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "2971 rows, 6 columns"
+        },
+        {
+          "name": "collinearity",
+          "passed": true,
+          "detail": "largest variance inflation 1.41 (above 10 the terms are not separately identified)"
+        },
+        {
+          "name": "spatial-dependence-handled",
+          "passed": true,
+          "detail": "resampled and cross-validated over 261 blocks of 500 m"
+        },
+        {
+          "name": "transfers-to-held-out-blocks",
+          "passed": true,
+          "detail": "block-held-out R2 = 0.256 (in-sample 0.289)"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": true,
+          "detail": "block-bootstrap 95% CI [0.1910, 0.2698] vs null 0"
+        }
+      ],
+      "provenance": {
+        "response": {
+          "name": "storey count",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "properties.building:levels",
+          "method": "tagged storey count",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T16:44:35.590Z"
+        },
+        "terms": [
+          {
+            "name": "footprint area",
+            "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+            "field": "geometry.coordinates",
+            "method": "shoelace area on a local equirectangular projection",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:35.590Z"
+          },
+          {
+            "name": "distance from centre",
+            "source": "building centroid against 38.6270 N 90.1928 W",
+            "field": null,
+            "method": "geometric",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:35.590Z"
+          },
+          {
+            "name": "is a house",
+            "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+            "field": "properties.building",
+            "method": "indicator derived from the building tag",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:36.140Z"
+          },
+          {
+            "name": "is apartments",
+            "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+            "field": "properties.building",
+            "method": "indicator derived from the building tag",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:36.141Z"
+          },
+          {
+            "name": "is commercial or industrial",
+            "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+            "field": "properties.building",
+            "method": "indicator derived from the building tag",
+            "records": 2971,
+            "used": 2971,
+            "skipped": 0,
+            "measured": 2971,
+            "imputed": 0,
+            "coverage": 1,
+            "extractedAt": "2026-09-15T16:44:36.142Z"
+          }
+        ]
       }
     },
     {
@@ -412,7 +752,7 @@
           "measured": 2971,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:05.204Z"
+          "extractedAt": "2026-09-15T16:44:36.934Z"
         },
         "predictor": {
           "name": "pseudo-random control",
@@ -425,7 +765,7 @@
           "measured": 2971,
           "imputed": 0,
           "coverage": 1,
-          "extractedAt": "2026-09-15T05:31:05.205Z"
+          "extractedAt": "2026-09-15T16:44:36.935Z"
         }
       }
     }

@@ -69,9 +69,10 @@ npm test            # both test suites
 ```
 
 Findings so far: building height rises at 3.85 m/storey (95% CI [3.51, 4.28]),
-which puts the 3.2 hard-coded in this repo outside the interval; and the
-textbook exponential density gradient largely disappears once each ring is
-corrected for the data bounding box. See
+which puts the 3.2 hard-coded in this repo outside the interval; the textbook
+exponential density gradient largely disappears once each ring is corrected for
+the data bounding box; and treating neighbouring buildings as independent draws
+turns a nominal 95% interval into one that covers the truth 33% of the time. See
 [`docs/GROUNDED-QUANTITIES.md`](docs/GROUNDED-QUANTITIES.md).
 
 ## Economic Layer
