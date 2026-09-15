@@ -8,11 +8,16 @@
     "fetch:city": "node scripts/fetch-stl-data.mjs --city",
     "fetch:county": "node scripts/fetch-stl-data.mjs --county",
     "build:render": "node scripts/build-render-dataset.mjs",
+    "econ": "node scripts/build-economic-layer.mjs",
+    "relations": "node scripts/build-relations.mjs",
     "feeds": "node scripts/fetch-live-feeds.mjs",
     "feeds:watch": "node scripts/fetch-live-feeds.mjs --watch",
     "model:aircraft": "node scripts/generate-aircraft-model.mjs",
     "serve": "python3 -m http.server 5173 --bind 127.0.0.1",
-    "simulate": "node scripts/simulate-live-feed.mjs"
+    "simulate": "node scripts/simulate-live-feed.mjs",
+    "test:econ": "node scripts/test-econ.mjs",
+    "test:quant": "node scripts/test-quant.mjs",
+    "test": "node scripts/test-quant.mjs && node scripts/test-econ.mjs"
   },
   "dependencies": {
     "gtfs-realtime-bindings": "^1.1.1"
