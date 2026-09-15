@@ -35,6 +35,12 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(__dirname, "..");
 const dataDir = resolve(projectRoot, "public/data");
 
+// Estimated from the buildings carrying both a height and a storey count:
+// 3.85 m/storey, 95% CI [3.51, 4.28]. See scripts/build-relations.mjs. The
+// value previously used here, 3.2, lies outside that interval.
+const METRES_PER_STOREY = 3.85;
+const DEFAULT_HEIGHT_METRES = 8;
+
 const GRID_COLUMNS = 4;
 const GRID_ROWS = 3;
 const MIN_BUILDINGS = 60;
@@ -49,12 +55,24 @@ function parseLengthMeters(value) {
   return number;
 }
 
+// Heights are tagged on a small minority of buildings. The tally records which
+// branch each building took, because "floor space" computed mostly from the
+// fallback is a restatement of footprint area and the feed has to say so.
+const heightProvenance = { tagged: 0, fromLevels: 0, defaulted: 0 };
+
 function featureHeight(feature) {
   const height = parseLengthMeters(feature.properties?.height);
   const levels = Number.parseFloat(String(feature.properties?.["building:levels"] ?? ""));
-  if (Number.isFinite(height) && height > 0) return height;
-  if (Number.isFinite(levels) && levels > 0) return levels * 3.2;
-  return 8;
+  if (Number.isFinite(height) && height > 0) {
+    heightProvenance.tagged += 1;
+    return height;
+  }
+  if (Number.isFinite(levels) && levels > 0) {
+    heightProvenance.fromLevels += 1;
+    return levels * METRES_PER_STOREY;
+  }
+  heightProvenance.defaulted += 1;
+  return DEFAULT_HEIGHT_METRES;
 }
 
 /** Shoelace area in square metres, with a local equirectangular projection. */
@@ -388,6 +406,26 @@ async function main() {
     updatedAt: new Date().toISOString(),
     source: "derived from stl-buildings.geojson, transit-feed.json, traffic-feed.geojson",
     note: "Demonstration indices, not market prices. See docs/ALGEBRAIC-ECONOMICS.md.",
+    provenance: {
+      warning: "floorSpaceSqm is largely imputed, not measured. Footprint geometry is "
+        + "real for every building, but height is tagged on very few, so for most "
+        + "buildings floor space is footprint area times a default height. Treat it as "
+        + "a rescaled footprint area rather than as a measurement of built volume.",
+      buildingHeights: {
+        ...heightProvenance,
+        total: heightProvenance.tagged + heightProvenance.fromLevels + heightProvenance.defaulted,
+        measuredFraction: (heightProvenance.tagged + heightProvenance.fromLevels)
+          / Math.max(1, heightProvenance.tagged + heightProvenance.fromLevels + heightProvenance.defaulted),
+      },
+      metresPerStorey: {
+        value: METRES_PER_STOREY,
+        interval: [3.51, 4.28],
+        basis: "estimated from buildings tagged with both height and storey count "
+          + "(n = 99); see public/data/relations-feed.json",
+      },
+      accessIndex: "Constructed from a single snapshot of 83 transit vehicles and 83 "
+        + "incidents. It is an index, not a measured quantity.",
+    },
     districts: districts.map((district) => ({
       id: district.id,
       lon: Number(district.lon.toFixed(6)),

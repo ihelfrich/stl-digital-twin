@@ -1,0 +1,632 @@
+{
+  "updatedAt": "2026-09-15T05:31:06.782Z",
+  "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+  "buildings": 38570,
+  "boundingBox": {
+    "south": 38.585,
+    "west": -90.305,
+    "north": 38.675,
+    "east": -90.155
+  },
+  "centre": {
+    "lon": -90.1928,
+    "lat": 38.627,
+    "label": "Old Courthouse, downtown St. Louis"
+  },
+  "fieldCoverage": {
+    "footprintGeometry": 1,
+    "taggedHeight": 0.004277936219859995,
+    "taggedLevels": 0.0772621208192896,
+    "bothHeightAndLevels": 0.002566761731915997
+  },
+  "observables": {
+    "footprintArea": {
+      "n": 38570,
+      "unit": "m^2",
+      "min": 1.771484375,
+      "q25": 86.060546875,
+      "median": 121.490234375,
+      "q75": 192.791015625,
+      "max": 74165.4140625,
+      "mean": 335.02814241962665,
+      "sd": 1203.716884782141,
+      "coverage": 1
+    },
+    "storeyHeight": {
+      "n": 99,
+      "unit": "m",
+      "min": 1,
+      "q25": 4,
+      "median": 15,
+      "q75": 64,
+      "max": 170,
+      "mean": 34.64502626262626,
+      "sd": 36.08286825796065,
+      "coverage": 1
+    },
+    "storeyCount": {
+      "n": 99,
+      "unit": "1",
+      "min": 1,
+      "q25": 1,
+      "median": 3,
+      "q75": 15,
+      "max": 36,
+      "mean": 8.686868686868687,
+      "sd": 8.94615008365697,
+      "coverage": 1
+    }
+  },
+  "relations": [
+    {
+      "id": "storey-height",
+      "statement": "Building height rises linearly with storey count; the slope is metres per storey.",
+      "form": "linear",
+      "note": "Buildings carrying both tags are disproportionately large and notable, so this is a calibration for that subset rather than for the whole stock.",
+      "verdict": "grounded",
+      "failedChecks": [],
+      "estimate": {
+        "slope": 3.846220622651277,
+        "slopeUnit": "length",
+        "slopeStandardError": 0.12328917623052622,
+        "slopeCI": [
+          3.512473250717711,
+          4.284086769362482
+        ],
+        "intercept": 1.2334127729282969,
+        "interceptCI": [
+          -1.1983487248649127,
+          3.393577601235428
+        ],
+        "inSampleR2": 0.9093658450066867,
+        "outOfSampleR2": 0.9065505555946286,
+        "residualSd": 10.918781328592825,
+        "lag1Autocorrelation": 0.14721999870961874,
+        "n": 99
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "slope carries length"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed (threshold 95%)"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "99 pairs used"
+        },
+        {
+          "name": "out-of-sample-skill",
+          "passed": true,
+          "detail": "5-fold R2 = 0.907 (in-sample 0.909)"
+        },
+        {
+          "name": "null-rejected",
+          "passed": true,
+          "detail": "permutation p = 0.000999 over 1000 shuffles"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": true,
+          "detail": "95% CI [3.512, 4.284] vs null 0"
+        }
+      ],
+      "comparisons": [
+        {
+          "label": "the 3.2 m/storey constant hard-coded in this repository",
+          "value": 3.2,
+          "insideInterval": false
+        }
+      ],
+      "provenance": {
+        "response": {
+          "name": "building height",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "properties.height",
+          "method": "tagged height, feet converted to metres",
+          "records": 99,
+          "used": 99,
+          "skipped": 0,
+          "measured": 99,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.844Z"
+        },
+        "predictor": {
+          "name": "storey count",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "properties.building:levels",
+          "method": "tagged storey count",
+          "records": 99,
+          "used": 99,
+          "skipped": 0,
+          "measured": 99,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.844Z"
+        }
+      }
+    },
+    {
+      "id": "clark-density-gradient",
+      "statement": "Built footprint density declines exponentially with distance from the centre (Clark 1951). The slope is the gradient in inverse metres.",
+      "form": "log-linear",
+      "note": "The profile is not actually exponential: density falls sharply inside about 1.5 km and is roughly flat from there out to 6 km. An exponential fitted across the whole range averages two different regimes, which is why it predicts poorly. See profileStructure.",
+      "verdict": "qualified",
+      "failedChecks": [
+        "residual-independence"
+      ],
+      "estimate": {
+        "slope": -0.0001502832022855166,
+        "slopeUnit": "length^-1",
+        "slopeStandardError": 0.00004362760839551506,
+        "slopeCI": [
+          -0.00025570705140284583,
+          -0.000030236507696196003
+        ],
+        "intercept": -1.6941659386778052,
+        "interceptCI": [
+          -2.1964127623599192,
+          -1.3420002619964047
+        ],
+        "inSampleR2": 0.35037762413773776,
+        "outOfSampleR2": 0.2762793968942304,
+        "residualSd": 0.36987104564118684,
+        "lag1Autocorrelation": 0.6931300223939193,
+        "n": 24
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "slope carries length^-1; response logged against 1"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed (threshold 95%)"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "24 pairs used"
+        },
+        {
+          "name": "out-of-sample-skill",
+          "passed": true,
+          "detail": "5-fold R2 = 0.276 (in-sample 0.350)"
+        },
+        {
+          "name": "null-rejected",
+          "passed": true,
+          "detail": "permutation p = 0.00300 over 1000 shuffles"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": true,
+          "detail": "95% CI [-0.0002557, -0.00003024] vs null 0"
+        },
+        {
+          "name": "residual-independence",
+          "passed": false,
+          "detail": "lag-1 residual autocorrelation = 0.693; ordered data, so the interval is optimistic if this is large"
+        }
+      ],
+      "comparisons": [],
+      "provenance": {
+        "response": {
+          "name": "built footprint density",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": null,
+          "method": "footprint area summed over 250 m rings out to 6 km, divided by annulus land area corrected for bounding-box coverage; rings below 35% coverage dropped",
+          "records": 24,
+          "used": 24,
+          "skipped": 0,
+          "measured": 24,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.903Z"
+        },
+        "predictor": {
+          "name": "distance from centre",
+          "source": "ring midpoints, centre at 38.6270 N 90.1928 W",
+          "field": null,
+          "method": "geometric",
+          "records": 24,
+          "used": 24,
+          "skipped": 0,
+          "measured": 24,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.903Z"
+        }
+      }
+    },
+    {
+      "id": "storey-footprint-allometry",
+      "statement": "Storey count scales as a power of footprint area: taller buildings sit on larger plots.",
+      "form": "log-log",
+      "note": null,
+      "verdict": "qualified",
+      "failedChecks": [
+        "out-of-sample-skill"
+      ],
+      "estimate": {
+        "slope": 0.19743680840225764,
+        "slopeUnit": "dimensionless",
+        "slopeStandardError": 0.00804491991598121,
+        "slopeCI": [
+          0.18037710150787867,
+          0.21437232457452035
+        ],
+        "intercept": -0.370404749525172,
+        "interceptCI": [
+          -0.4600451334867938,
+          -0.28052135473796175
+        ],
+        "inSampleR2": 0.16865004890651658,
+        "outOfSampleR2": 0.16647566570607752,
+        "residualSd": 0.5929547602760481,
+        "lag1Autocorrelation": 0.3645369287232643,
+        "n": 2971
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "slope carries dimensionless; response logged against 1; predictor logged against m^2"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed (threshold 95%)"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "2971 pairs used"
+        },
+        {
+          "name": "out-of-sample-skill",
+          "passed": false,
+          "detail": "5-fold R2 = 0.166 (in-sample 0.169) - predicts better than the mean, but weakly"
+        },
+        {
+          "name": "null-rejected",
+          "passed": true,
+          "detail": "permutation p = 0.000999 over 1000 shuffles"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": true,
+          "detail": "95% CI [0.1804, 0.2144] vs null 0"
+        }
+      ],
+      "comparisons": [],
+      "provenance": {
+        "response": {
+          "name": "storey count",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "properties.building:levels",
+          "method": "tagged storey count",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.950Z"
+        },
+        "predictor": {
+          "name": "footprint area",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "geometry.coordinates",
+          "method": "shoelace area on a local equirectangular projection",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:04.951Z"
+        }
+      }
+    },
+    {
+      "id": "negative-control",
+      "statement": "NEGATIVE CONTROL: footprint area against a pseudo-random number. This must be rejected for the other verdicts to carry weight.",
+      "form": "log-log",
+      "note": null,
+      "verdict": "rejected",
+      "failedChecks": [
+        "out-of-sample-skill",
+        "null-rejected",
+        "interval-excludes-null"
+      ],
+      "estimate": {
+        "slope": 0.06727545081000019,
+        "slopeUnit": "dimensionless",
+        "slopeStandardError": 0.0807371593907677,
+        "slopeCI": [
+          -0.08060727340341017,
+          0.23015887334753432
+        ],
+        "intercept": 5.934278565263477,
+        "interceptCI": [
+          5.8841521963618835,
+          5.985819280452352
+        ],
+        "inSampleR2": 0.00023380540817063977,
+        "outOfSampleR2": -0.00039253156233987063,
+        "residualSd": 1.3525208220642042,
+        "lag1Autocorrelation": 0.5911722332407289,
+        "n": 2971
+      },
+      "checks": [
+        {
+          "name": "dimensional-coherence",
+          "passed": true,
+          "detail": "slope carries dimensionless; response logged against m^2; predictor logged against 1"
+        },
+        {
+          "name": "provenance-coverage",
+          "passed": true,
+          "detail": "100.0% of values measured rather than imputed (threshold 95%)"
+        },
+        {
+          "name": "sample-size",
+          "passed": true,
+          "detail": "2971 pairs used"
+        },
+        {
+          "name": "out-of-sample-skill",
+          "passed": false,
+          "detail": "5-fold R2 = -0.000 (in-sample 0.000)"
+        },
+        {
+          "name": "null-rejected",
+          "passed": false,
+          "detail": "permutation p = 0.387 over 1000 shuffles"
+        },
+        {
+          "name": "interval-excludes-null",
+          "passed": false,
+          "detail": "95% CI [-0.08061, 0.2302] vs null 0"
+        }
+      ],
+      "comparisons": [],
+      "provenance": {
+        "response": {
+          "name": "footprint area",
+          "source": "public/data/stl-buildings.geojson (OpenStreetMap via Overpass)",
+          "field": "geometry.coordinates",
+          "method": "shoelace area",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:05.204Z"
+        },
+        "predictor": {
+          "name": "pseudo-random control",
+          "source": "seeded generator, no relation to the city",
+          "field": null,
+          "method": "deterministic PRNG",
+          "records": 2971,
+          "used": 2971,
+          "skipped": 0,
+          "measured": 2971,
+          "imputed": 0,
+          "coverage": 1,
+          "extractedAt": "2026-09-15T05:31:05.205Z"
+        }
+      }
+    }
+  ],
+  "densityProfile": [
+    {
+      "midpointMetres": 125,
+      "coverage": 1,
+      "builtAreaFraction": 0.33472
+    },
+    {
+      "midpointMetres": 375,
+      "coverage": 1,
+      "builtAreaFraction": 0.41652
+    },
+    {
+      "midpointMetres": 625,
+      "coverage": 1,
+      "builtAreaFraction": 0.28627
+    },
+    {
+      "midpointMetres": 875,
+      "coverage": 1,
+      "builtAreaFraction": 0.1491
+    },
+    {
+      "midpointMetres": 1125,
+      "coverage": 1,
+      "builtAreaFraction": 0.11702
+    },
+    {
+      "midpointMetres": 1375,
+      "coverage": 1,
+      "builtAreaFraction": 0.12411
+    },
+    {
+      "midpointMetres": 1625,
+      "coverage": 1,
+      "builtAreaFraction": 0.09316
+    },
+    {
+      "midpointMetres": 1875,
+      "coverage": 1,
+      "builtAreaFraction": 0.11612
+    },
+    {
+      "midpointMetres": 2125,
+      "coverage": 1,
+      "builtAreaFraction": 0.08579
+    },
+    {
+      "midpointMetres": 2375,
+      "coverage": 1,
+      "builtAreaFraction": 0.09303
+    },
+    {
+      "midpointMetres": 2625,
+      "coverage": 1,
+      "builtAreaFraction": 0.1064
+    },
+    {
+      "midpointMetres": 2875,
+      "coverage": 1,
+      "builtAreaFraction": 0.10581
+    },
+    {
+      "midpointMetres": 3125,
+      "coverage": 1,
+      "builtAreaFraction": 0.07829
+    },
+    {
+      "midpointMetres": 3375,
+      "coverage": 0.936,
+      "builtAreaFraction": 0.06994
+    },
+    {
+      "midpointMetres": 3625,
+      "coverage": 0.862,
+      "builtAreaFraction": 0.09224
+    },
+    {
+      "midpointMetres": 3875,
+      "coverage": 0.823,
+      "builtAreaFraction": 0.09768
+    },
+    {
+      "midpointMetres": 4125,
+      "coverage": 0.793,
+      "builtAreaFraction": 0.10222
+    },
+    {
+      "midpointMetres": 4375,
+      "coverage": 0.771,
+      "builtAreaFraction": 0.07715
+    },
+    {
+      "midpointMetres": 4625,
+      "coverage": 0.74,
+      "builtAreaFraction": 0.09525
+    },
+    {
+      "midpointMetres": 4875,
+      "coverage": 0.646,
+      "builtAreaFraction": 0.09485
+    },
+    {
+      "midpointMetres": 5125,
+      "coverage": 0.588,
+      "builtAreaFraction": 0.10205
+    },
+    {
+      "midpointMetres": 5375,
+      "coverage": 0.513,
+      "builtAreaFraction": 0.10366
+    },
+    {
+      "midpointMetres": 5625,
+      "coverage": 0.411,
+      "builtAreaFraction": 0.11216
+    },
+    {
+      "midpointMetres": 5875,
+      "coverage": 0.355,
+      "builtAreaFraction": 0.12527
+    }
+  ],
+  "profileStructure": {
+    "inner": {
+      "range": "0-1.5 km",
+      "gradientPerKm": 1.0767208264080637,
+      "r2": 0.8353012647539437,
+      "rings": 6
+    },
+    "outer": {
+      "range": "1.5-6 km",
+      "gradientPerKm": -0.030311252202398796,
+      "r2": 0.07498542597995117,
+      "rings": 18
+    }
+  },
+  "methodSensitivity": [
+    {
+      "method": "coverage-corrected, full circle (used above)",
+      "gradientPerKm": 0.1502832022855166,
+      "r2": 0.35037762413773776,
+      "rings": 24
+    },
+    {
+      "method": "NOT corrected for bounding-box clipping",
+      "gradientPerKm": 0.32388941267396293,
+      "r2": 0.9018811174565305,
+      "rings": 36,
+      "warning": "Rings past about 2.6 km are clipped by the extract's rectangle, so their land area is overstated and most of the apparent decline is manufactured."
+    },
+    {
+      "method": "coverage-corrected, western half only (avoids the river)",
+      "gradientPerKm": 0.1098957015230801,
+      "r2": 0.5675748070198252,
+      "rings": 28
+    }
+  ],
+  "centreSensitivity": [
+    {
+      "centre": "Old Courthouse",
+      "gradientPerKm": 0.1502832022855166,
+      "r2": 0.35037762413773776,
+      "rings": 24
+    },
+    {
+      "centre": "Gateway Arch",
+      "gradientPerKm": -0.06315658400860467,
+      "r2": 0.05611331394423846,
+      "rings": 24
+    },
+    {
+      "centre": "built-area centroid within 3 km",
+      "gradientPerKm": 0.18810411686546458,
+      "r2": 0.6218050081066321,
+      "rings": 24
+    }
+  ],
+  "footprintAreaTail": {
+    "note": "Maximum likelihood after Clauset, Shalizi & Newman, then a Vuong likelihood-ratio test against an exponential on the same tail.",
+    "ok": true,
+    "alpha": 1.9836313825407057,
+    "xmin": 184.2734375,
+    "tailSize": 10223,
+    "ks": 0.03537152392112908,
+    "standardError": 0.00972843980335122,
+    "gofPValue": 0,
+    "powerLawPlausible": false,
+    "versusExponential": {
+      "ok": true,
+      "alpha": 1.9836313825407057,
+      "lambda": 0.0012513273817529606,
+      "tailSize": 10223,
+      "logLikelihoodRatio": 4436.624430052956,
+      "statistic": 22.151949073693853,
+      "pValue": 0,
+      "favours": "power law",
+      "underpowered": false
+    }
+  }
+}

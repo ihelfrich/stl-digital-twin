@@ -56,6 +56,24 @@ For a local live-feed demo:
 node scripts/simulate-live-feed.mjs
 ```
 
+## Grounded Quantities
+
+Machinery for stating a quantitative relationship between measured things and
+checking whether it survives: dimensional analysis, provenance and imputation
+coverage, out-of-sample skill, a permutation null, bootstrap intervals, and a
+negative control that has to fail.
+
+```sh
+npm run relations   # writes public/data/relations-feed.json
+npm test            # both test suites
+```
+
+Findings so far: building height rises at 3.85 m/storey (95% CI [3.51, 4.28]),
+which puts the 3.2 hard-coded in this repo outside the interval; and the
+textbook exponential density gradient largely disappears once each ring is
+corrected for the data bounding box. See
+[`docs/GROUNDED-QUANTITIES.md`](docs/GROUNDED-QUANTITIES.md).
+
 ## Economic Layer
 
 An economics layer built on algebraic geometry, sheaf cohomology and

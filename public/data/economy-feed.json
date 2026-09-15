@@ -1,15 +1,34 @@
 {
-  "updatedAt": "2026-09-15T05:18:51.256Z",
+  "updatedAt": "2026-09-15T05:33:56.136Z",
   "source": "derived from stl-buildings.geojson, transit-feed.json, traffic-feed.geojson",
   "note": "Demonstration indices, not market prices. See docs/ALGEBRAIC-ECONOMICS.md.",
+  "provenance": {
+    "warning": "floorSpaceSqm is largely imputed, not measured. Footprint geometry is real for every building, but height is tagged on very few, so for most buildings floor space is footprint area times a default height. Treat it as a rescaled footprint area rather than as a measurement of built volume.",
+    "buildingHeights": {
+      "tagged": 165,
+      "fromLevels": 2879,
+      "defaulted": 35526,
+      "total": 38570,
+      "measuredFraction": 0.07892144153487166
+    },
+    "metresPerStorey": {
+      "value": 3.85,
+      "interval": [
+        3.51,
+        4.28
+      ],
+      "basis": "estimated from buildings tagged with both height and storey count (n = 99); see public/data/relations-feed.json"
+    },
+    "accessIndex": "Constructed from a single snapshot of 83 transit vehicles and 83 incidents. It is an index, not a measured quantity."
+  },
   "districts": [
     {
       "id": "d0-0",
       "lon": -90.28625,
       "lat": 38.6,
       "buildings": 1151,
-      "floorSpaceSqm": 1501236,
-      "tallestMeters": 10,
+      "floorSpaceSqm": 1506895,
+      "tallestMeters": 12,
       "vehicles": 4,
       "incidentLoad": 0,
       "access": 5
@@ -19,7 +38,7 @@
       "lon": -90.24875,
       "lat": 38.6,
       "buildings": 5899,
-      "floorSpaceSqm": 2732531,
+      "floorSpaceSqm": 2749878,
       "tallestMeters": 55,
       "vehicles": 5,
       "incidentLoad": 0,
@@ -30,8 +49,8 @@
       "lon": -90.21125,
       "lat": 38.6,
       "buildings": 5317,
-      "floorSpaceSqm": 3836131,
-      "tallestMeters": 29,
+      "floorSpaceSqm": 3949048,
+      "tallestMeters": 35,
       "vehicles": 0,
       "incidentLoad": 0,
       "access": 1
@@ -41,8 +60,8 @@
       "lon": -90.17375,
       "lat": 38.6,
       "buildings": 222,
-      "floorSpaceSqm": 655489,
-      "tallestMeters": 16,
+      "floorSpaceSqm": 677896,
+      "tallestMeters": 19,
       "vehicles": 1,
       "incidentLoad": 0,
       "access": 2
@@ -52,8 +71,8 @@
       "lon": -90.28625,
       "lat": 38.63,
       "buildings": 1110,
-      "floorSpaceSqm": 1829628,
-      "tallestMeters": 18,
+      "floorSpaceSqm": 1853933,
+      "tallestMeters": 19,
       "vehicles": 0,
       "incidentLoad": 0,
       "access": 1
@@ -63,7 +82,7 @@
       "lon": -90.24875,
       "lat": 38.63,
       "buildings": 3549,
-      "floorSpaceSqm": 7129042,
+      "floorSpaceSqm": 7801595,
       "tallestMeters": 87,
       "vehicles": 4,
       "incidentLoad": 2,
@@ -74,7 +93,7 @@
       "lon": -90.21125,
       "lat": 38.63,
       "buildings": 3337,
-      "floorSpaceSqm": 7391046,
+      "floorSpaceSqm": 8312711,
       "tallestMeters": 170,
       "vehicles": 2,
       "incidentLoad": 0,
@@ -85,7 +104,7 @@
       "lon": -90.17375,
       "lat": 38.63,
       "buildings": 710,
-      "floorSpaceSqm": 3818650,
+      "floorSpaceSqm": 4050556,
       "tallestMeters": 140,
       "vehicles": 1,
       "incidentLoad": 3,
@@ -96,8 +115,8 @@
       "lon": -90.28625,
       "lat": 38.66,
       "buildings": 3489,
-      "floorSpaceSqm": 2836884,
-      "tallestMeters": 51,
+      "floorSpaceSqm": 2997328,
+      "tallestMeters": 62,
       "vehicles": 3,
       "incidentLoad": 0,
       "access": 4
@@ -107,8 +126,8 @@
       "lon": -90.24875,
       "lat": 38.66,
       "buildings": 8005,
-      "floorSpaceSqm": 3463370,
-      "tallestMeters": 32,
+      "floorSpaceSqm": 3488970,
+      "tallestMeters": 39,
       "vehicles": 5,
       "incidentLoad": 0,
       "access": 6
@@ -118,7 +137,7 @@
       "lon": -90.21125,
       "lat": 38.66,
       "buildings": 5397,
-      "floorSpaceSqm": 2991839,
+      "floorSpaceSqm": 3021417,
       "tallestMeters": 63,
       "vehicles": 3,
       "incidentLoad": 0,
@@ -129,7 +148,7 @@
       "lon": -90.17375,
       "lat": 38.66,
       "buildings": 384,
-      "floorSpaceSqm": 859839,
+      "floorSpaceSqm": 865024,
       "tallestMeters": 133,
       "vehicles": 0,
       "incidentLoad": 0,
@@ -145,7 +164,7 @@
     "count": 1,
     "prices": [
       [
-        0.995823,
+        0.99647,
         1
       ]
     ],
@@ -169,7 +188,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9999999999999991
+          0.9999999999999998
         ]
       },
       {
@@ -178,7 +197,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9958232642264782
+          0.9964702987805599
         ]
       },
       {
@@ -187,7 +206,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.99493710263714
+          0.995744975532492
         ]
       },
       {
@@ -196,7 +215,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9945965733754965
+          0.9954668763849174
         ]
       },
       {
@@ -205,7 +224,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9944263217792202
+          0.9953274720920429
         ]
       },
       {
@@ -214,7 +233,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9942202243244417
+          0.9951576350926977
         ]
       },
       {
@@ -223,7 +242,7 @@
         "indexSum": 1,
         "complete": true,
         "relativePriceOfSpace": [
-          0.9941649504315812
+          0.9951116588685998
         ]
       }
     ]
@@ -268,14 +287,14 @@
     ]
   },
   "game": {
-    "priceOfSpace": 0.9958232642264782,
+    "priceOfSpace": 0.9964702987805599,
     "payoffs": {
       "Build,Upzone": [
-        0.9916465284529563,
+        0.9929405975611199,
         2
       ],
       "Build,Hold": [
-        -1.0041767357735218,
+        -1.0035297012194402,
         1
       ],
       "Wait,Upzone": [
