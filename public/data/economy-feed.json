@@ -1,0 +1,315 @@
+{
+  "updatedAt": "2026-09-15T05:18:51.256Z",
+  "source": "derived from stl-buildings.geojson, transit-feed.json, traffic-feed.geojson",
+  "note": "Demonstration indices, not market prices. See docs/ALGEBRAIC-ECONOMICS.md.",
+  "districts": [
+    {
+      "id": "d0-0",
+      "lon": -90.28625,
+      "lat": 38.6,
+      "buildings": 1151,
+      "floorSpaceSqm": 1501236,
+      "tallestMeters": 10,
+      "vehicles": 4,
+      "incidentLoad": 0,
+      "access": 5
+    },
+    {
+      "id": "d1-0",
+      "lon": -90.24875,
+      "lat": 38.6,
+      "buildings": 5899,
+      "floorSpaceSqm": 2732531,
+      "tallestMeters": 55,
+      "vehicles": 5,
+      "incidentLoad": 0,
+      "access": 6
+    },
+    {
+      "id": "d2-0",
+      "lon": -90.21125,
+      "lat": 38.6,
+      "buildings": 5317,
+      "floorSpaceSqm": 3836131,
+      "tallestMeters": 29,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    },
+    {
+      "id": "d3-0",
+      "lon": -90.17375,
+      "lat": 38.6,
+      "buildings": 222,
+      "floorSpaceSqm": 655489,
+      "tallestMeters": 16,
+      "vehicles": 1,
+      "incidentLoad": 0,
+      "access": 2
+    },
+    {
+      "id": "d0-1",
+      "lon": -90.28625,
+      "lat": 38.63,
+      "buildings": 1110,
+      "floorSpaceSqm": 1829628,
+      "tallestMeters": 18,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    },
+    {
+      "id": "d1-1",
+      "lon": -90.24875,
+      "lat": 38.63,
+      "buildings": 3549,
+      "floorSpaceSqm": 7129042,
+      "tallestMeters": 87,
+      "vehicles": 4,
+      "incidentLoad": 2,
+      "access": 2.9412
+    },
+    {
+      "id": "d2-1",
+      "lon": -90.21125,
+      "lat": 38.63,
+      "buildings": 3337,
+      "floorSpaceSqm": 7391046,
+      "tallestMeters": 170,
+      "vehicles": 2,
+      "incidentLoad": 0,
+      "access": 3
+    },
+    {
+      "id": "d3-1",
+      "lon": -90.17375,
+      "lat": 38.63,
+      "buildings": 710,
+      "floorSpaceSqm": 3818650,
+      "tallestMeters": 140,
+      "vehicles": 1,
+      "incidentLoad": 3,
+      "access": 0.9756
+    },
+    {
+      "id": "d0-2",
+      "lon": -90.28625,
+      "lat": 38.66,
+      "buildings": 3489,
+      "floorSpaceSqm": 2836884,
+      "tallestMeters": 51,
+      "vehicles": 3,
+      "incidentLoad": 0,
+      "access": 4
+    },
+    {
+      "id": "d1-2",
+      "lon": -90.24875,
+      "lat": 38.66,
+      "buildings": 8005,
+      "floorSpaceSqm": 3463370,
+      "tallestMeters": 32,
+      "vehicles": 5,
+      "incidentLoad": 0,
+      "access": 6
+    },
+    {
+      "id": "d2-2",
+      "lon": -90.21125,
+      "lat": 38.66,
+      "buildings": 5397,
+      "floorSpaceSqm": 2991839,
+      "tallestMeters": 63,
+      "vehicles": 3,
+      "incidentLoad": 0,
+      "access": 4
+    },
+    {
+      "id": "d3-2",
+      "lon": -90.17375,
+      "lat": 38.66,
+      "buildings": 384,
+      "floorSpaceSqm": 859839,
+      "tallestMeters": 133,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    }
+  ],
+  "equilibrium": {
+    "goods": [
+      "built space",
+      "access (numeraire)"
+    ],
+    "elasticity": 0.5,
+    "count": 1,
+    "prices": [
+      [
+        0.995823,
+        1
+      ]
+    ],
+    "indices": [
+      1
+    ],
+    "indexSum": 1,
+    "indexTheoremHolds": true,
+    "diagnostics": {
+      "paths": 12,
+      "diverged": 0,
+      "failed": 0,
+      "rounds": 1,
+      "complete": true,
+      "q": 2
+    },
+    "sweep": [
+      {
+        "elasticity": 1,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9999999999999991
+        ]
+      },
+      {
+        "elasticity": 0.5,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9958232642264782
+        ]
+      },
+      {
+        "elasticity": 0.3333333333333333,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.99493710263714
+        ]
+      },
+      {
+        "elasticity": 0.25,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9945965733754965
+        ]
+      },
+      {
+        "elasticity": 0.2,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9944263217792202
+        ]
+      },
+      {
+        "elasticity": 0.125,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9942202243244417
+        ]
+      },
+      {
+        "elasticity": 0.1,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9941649504315812
+        ]
+      }
+    ]
+  },
+  "sheaf": {
+    "districts": 12,
+    "links": 17,
+    "dimC0": 24,
+    "dimC1": 34,
+    "h0": 2,
+    "h1": 12,
+    "spectralGap": 0.351604,
+    "obstructionNorm": 1.781907,
+    "inconsistency": 0.390589,
+    "consistent": false,
+    "mostObstructedLinks": [
+      {
+        "source": "d2-1",
+        "target": "d3-1",
+        "magnitude": 0.918564
+      },
+      {
+        "source": "d3-1",
+        "target": "d3-2",
+        "magnitude": 0.798755
+      },
+      {
+        "source": "d2-2",
+        "target": "d3-2",
+        "magnitude": 0.798755
+      },
+      {
+        "source": "d2-1",
+        "target": "d2-2",
+        "magnitude": 0.509041
+      },
+      {
+        "source": "d1-1",
+        "target": "d1-2",
+        "magnitude": 0.473903
+      }
+    ]
+  },
+  "game": {
+    "priceOfSpace": 0.9958232642264782,
+    "payoffs": {
+      "Build,Upzone": [
+        0.9916465284529563,
+        2
+      ],
+      "Build,Hold": [
+        -1.0041767357735218,
+        1
+      ],
+      "Wait,Upzone": [
+        0,
+        -1
+      ],
+      "Wait,Hold": [
+        0,
+        0
+      ]
+    },
+    "nash": [
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Upzone"
+      },
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Hold"
+      },
+      {
+        "developer": "Wait",
+        "cityIfBuild": "Hold",
+        "cityIfWait": "Hold"
+      }
+    ],
+    "subgamePerfect": [
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Hold"
+      }
+    ]
+  }
+}
