@@ -1,0 +1,334 @@
+{
+  "updatedAt": "2026-09-15T05:33:56.136Z",
+  "source": "derived from stl-buildings.geojson, transit-feed.json, traffic-feed.geojson",
+  "note": "Demonstration indices, not market prices. See docs/ALGEBRAIC-ECONOMICS.md.",
+  "provenance": {
+    "warning": "floorSpaceSqm is largely imputed, not measured. Footprint geometry is real for every building, but height is tagged on very few, so for most buildings floor space is footprint area times a default height. Treat it as a rescaled footprint area rather than as a measurement of built volume.",
+    "buildingHeights": {
+      "tagged": 165,
+      "fromLevels": 2879,
+      "defaulted": 35526,
+      "total": 38570,
+      "measuredFraction": 0.07892144153487166
+    },
+    "metresPerStorey": {
+      "value": 3.85,
+      "interval": [
+        3.51,
+        4.28
+      ],
+      "basis": "estimated from buildings tagged with both height and storey count (n = 99); see public/data/relations-feed.json"
+    },
+    "accessIndex": "Constructed from a single snapshot of 83 transit vehicles and 83 incidents. It is an index, not a measured quantity."
+  },
+  "districts": [
+    {
+      "id": "d0-0",
+      "lon": -90.28625,
+      "lat": 38.6,
+      "buildings": 1151,
+      "floorSpaceSqm": 1506895,
+      "tallestMeters": 12,
+      "vehicles": 4,
+      "incidentLoad": 0,
+      "access": 5
+    },
+    {
+      "id": "d1-0",
+      "lon": -90.24875,
+      "lat": 38.6,
+      "buildings": 5899,
+      "floorSpaceSqm": 2749878,
+      "tallestMeters": 55,
+      "vehicles": 5,
+      "incidentLoad": 0,
+      "access": 6
+    },
+    {
+      "id": "d2-0",
+      "lon": -90.21125,
+      "lat": 38.6,
+      "buildings": 5317,
+      "floorSpaceSqm": 3949048,
+      "tallestMeters": 35,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    },
+    {
+      "id": "d3-0",
+      "lon": -90.17375,
+      "lat": 38.6,
+      "buildings": 222,
+      "floorSpaceSqm": 677896,
+      "tallestMeters": 19,
+      "vehicles": 1,
+      "incidentLoad": 0,
+      "access": 2
+    },
+    {
+      "id": "d0-1",
+      "lon": -90.28625,
+      "lat": 38.63,
+      "buildings": 1110,
+      "floorSpaceSqm": 1853933,
+      "tallestMeters": 19,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    },
+    {
+      "id": "d1-1",
+      "lon": -90.24875,
+      "lat": 38.63,
+      "buildings": 3549,
+      "floorSpaceSqm": 7801595,
+      "tallestMeters": 87,
+      "vehicles": 4,
+      "incidentLoad": 2,
+      "access": 2.9412
+    },
+    {
+      "id": "d2-1",
+      "lon": -90.21125,
+      "lat": 38.63,
+      "buildings": 3337,
+      "floorSpaceSqm": 8312711,
+      "tallestMeters": 170,
+      "vehicles": 2,
+      "incidentLoad": 0,
+      "access": 3
+    },
+    {
+      "id": "d3-1",
+      "lon": -90.17375,
+      "lat": 38.63,
+      "buildings": 710,
+      "floorSpaceSqm": 4050556,
+      "tallestMeters": 140,
+      "vehicles": 1,
+      "incidentLoad": 3,
+      "access": 0.9756
+    },
+    {
+      "id": "d0-2",
+      "lon": -90.28625,
+      "lat": 38.66,
+      "buildings": 3489,
+      "floorSpaceSqm": 2997328,
+      "tallestMeters": 62,
+      "vehicles": 3,
+      "incidentLoad": 0,
+      "access": 4
+    },
+    {
+      "id": "d1-2",
+      "lon": -90.24875,
+      "lat": 38.66,
+      "buildings": 8005,
+      "floorSpaceSqm": 3488970,
+      "tallestMeters": 39,
+      "vehicles": 5,
+      "incidentLoad": 0,
+      "access": 6
+    },
+    {
+      "id": "d2-2",
+      "lon": -90.21125,
+      "lat": 38.66,
+      "buildings": 5397,
+      "floorSpaceSqm": 3021417,
+      "tallestMeters": 63,
+      "vehicles": 3,
+      "incidentLoad": 0,
+      "access": 4
+    },
+    {
+      "id": "d3-2",
+      "lon": -90.17375,
+      "lat": 38.66,
+      "buildings": 384,
+      "floorSpaceSqm": 865024,
+      "tallestMeters": 133,
+      "vehicles": 0,
+      "incidentLoad": 0,
+      "access": 1
+    }
+  ],
+  "equilibrium": {
+    "goods": [
+      "built space",
+      "access (numeraire)"
+    ],
+    "elasticity": 0.5,
+    "count": 1,
+    "prices": [
+      [
+        0.99647,
+        1
+      ]
+    ],
+    "indices": [
+      1
+    ],
+    "indexSum": 1,
+    "indexTheoremHolds": true,
+    "diagnostics": {
+      "paths": 12,
+      "diverged": 0,
+      "failed": 0,
+      "rounds": 1,
+      "complete": true,
+      "q": 2
+    },
+    "sweep": [
+      {
+        "elasticity": 1,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9999999999999998
+        ]
+      },
+      {
+        "elasticity": 0.5,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9964702987805599
+        ]
+      },
+      {
+        "elasticity": 0.3333333333333333,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.995744975532492
+        ]
+      },
+      {
+        "elasticity": 0.25,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9954668763849174
+        ]
+      },
+      {
+        "elasticity": 0.2,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9953274720920429
+        ]
+      },
+      {
+        "elasticity": 0.125,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9951576350926977
+        ]
+      },
+      {
+        "elasticity": 0.1,
+        "equilibria": 1,
+        "indexSum": 1,
+        "complete": true,
+        "relativePriceOfSpace": [
+          0.9951116588685998
+        ]
+      }
+    ]
+  },
+  "sheaf": {
+    "districts": 12,
+    "links": 17,
+    "dimC0": 24,
+    "dimC1": 34,
+    "h0": 2,
+    "h1": 12,
+    "spectralGap": 0.351604,
+    "obstructionNorm": 1.781907,
+    "inconsistency": 0.390589,
+    "consistent": false,
+    "mostObstructedLinks": [
+      {
+        "source": "d2-1",
+        "target": "d3-1",
+        "magnitude": 0.918564
+      },
+      {
+        "source": "d3-1",
+        "target": "d3-2",
+        "magnitude": 0.798755
+      },
+      {
+        "source": "d2-2",
+        "target": "d3-2",
+        "magnitude": 0.798755
+      },
+      {
+        "source": "d2-1",
+        "target": "d2-2",
+        "magnitude": 0.509041
+      },
+      {
+        "source": "d1-1",
+        "target": "d1-2",
+        "magnitude": 0.473903
+      }
+    ]
+  },
+  "game": {
+    "priceOfSpace": 0.9964702987805599,
+    "payoffs": {
+      "Build,Upzone": [
+        0.9929405975611199,
+        2
+      ],
+      "Build,Hold": [
+        -1.0035297012194402,
+        1
+      ],
+      "Wait,Upzone": [
+        0,
+        -1
+      ],
+      "Wait,Hold": [
+        0,
+        0
+      ]
+    },
+    "nash": [
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Upzone"
+      },
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Hold"
+      },
+      {
+        "developer": "Wait",
+        "cityIfBuild": "Hold",
+        "cityIfWait": "Hold"
+      }
+    ],
+    "subgamePerfect": [
+      {
+        "developer": "Build",
+        "cityIfBuild": "Upzone",
+        "cityIfWait": "Hold"
+      }
+    ]
+  }
+}
