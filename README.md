@@ -56,6 +56,42 @@ For a local live-feed demo:
 node scripts/simulate-live-feed.mjs
 ```
 
+## Grounded Quantities
+
+Machinery for stating a quantitative relationship between measured things and
+checking whether it survives: dimensional analysis, provenance and imputation
+coverage, out-of-sample skill, a permutation null, bootstrap intervals, and a
+negative control that has to fail.
+
+```sh
+npm run relations   # writes public/data/relations-feed.json
+npm test            # both test suites
+```
+
+Findings so far: building height rises at 3.85 m/storey (95% CI [3.51, 4.28]),
+which puts the 3.2 hard-coded in this repo outside the interval; the textbook
+exponential density gradient largely disappears once each ring is corrected for
+the data bounding box; and treating neighbouring buildings as independent draws
+turns a nominal 95% interval into one that covers the truth 33% of the time. See
+[`docs/GROUNDED-QUANTITIES.md`](docs/GROUNDED-QUANTITIES.md).
+
+## Economic Layer
+
+An economics layer built on algebraic geometry, sheaf cohomology and
+compositional game theory, derived from the building stock and live feeds:
+
+```sh
+npm run econ        # writes public/data/economy-feed.json
+npm run test:econ   # checks closed forms, theorems and category laws
+```
+
+It computes *every* competitive equilibrium of a district-level exchange
+economy (not just one), measures how much observed cross-boundary data no
+district-level price system can explain, and builds a development game whose
+equilibria compose from its parts. See
+[`docs/ALGEBRAIC-ECONOMICS.md`](docs/ALGEBRAIC-ECONOMICS.md) for what is
+computed, what the numbers came out as, and where the approach stops working.
+
 ## Photorealistic 3D Tiles
 
 Paste a Google Photorealistic 3D Tiles API key into the app, or open:
